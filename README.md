@@ -59,8 +59,9 @@ positive metric" — instead of eyeballing files. Everything searchable lives in
   </tr>
 </table>
 
-> A 6-GIF sample. The library currently holds **77 GIFs — 32 published** across all 14
-> subcategories, with 45 still `review_pending` (excluded from consumers until confirmed).
+> A 6-GIF sample. The library currently holds **145 GIFs — 74 published** across all 14
+> subcategories (5–7 each), with 71 still `review_pending` (excluded from consumers until
+> confirmed).
 
 ---
 
