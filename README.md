@@ -10,7 +10,11 @@ independent axes and downloaded from GIPHY according to a brand's tone.
 `index.json` is the single source of truth for search. Consuming agents read it and never
 crawl the folders directly.
 
-Remote: <https://github.com/aaronamortegui-glitch/GIFs> (private)
+Remote: <https://github.com/aaronamortegui-glitch/GIFs>
+
+> **Powered by GIPHY.** All GIFs in this repository were sourced via the
+> [GIPHY API](https://developers.giphy.com/). GIPHY and the underlying creators
+> retain their rights; see the License note below before redistributing.
 
 ---
 
@@ -191,6 +195,9 @@ treat the GIF as a static first-frame image.
 ---
 
 ## 8. License & usage note
+
+**Attribution: Powered by GIPHY.** Every GIF here was retrieved through the GIPHY API;
+GIPHY and the original creators hold the rights to the content.
 
 Before automating bulk downloads or redistributing outside internal use, review GIPHY's
 API & Terms of Use (<https://developers.giphy.com/docs/api>) regarding rate limits (free
