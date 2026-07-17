@@ -62,6 +62,24 @@ When choosing a GIF for a slide:
 This exists because the library mixes confirmed and unconfirmed assets; shipping a
 `review_pending` GIF, or jamming an off-tone GIF onto a slide, is worse than no GIF.
 
+## Response style — deliver first, don't over-explain
+
+Lead with the pick: the GIF and its media URL, plus a one-line "when to show it." Keep it
+tight. The user asked for a GIF, not a report.
+
+- Add a caveat **only when it materially affects the choice** — most importantly when the
+  user asked for a specific `tone`/`tag` that no confirmed GIF actually has. Then say so in
+  **one short sentence** (e.g. "closest confirmed match — none are tagged `professional`").
+  This honesty is the whole point: never silently pass off an off-tone GIF as an exact
+  match. But one line is enough; don't offer to "leave the slide empty" unless the mismatch
+  is severe.
+- Do **not** surface incidental metadata (`brand_compatible`, `content_rating`, `id`,
+  emotion) unless the user asks. Fields like `brand_compatible` may hold test values and
+  are just noise in a normal answer.
+- Don't interrogate. Assume the user wants the GIF. Offer at most **one** alternative in a
+  single line. Mention the PowerPoint-animation caveat briefly and at most once (per deck,
+  not per GIF) — or skip it if the target is already known.
+
 ## Workflow A — resolve GIFs for a whole deck
 
 Given several slides, decide the GIF per slide by applying the read contract to
