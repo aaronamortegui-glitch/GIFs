@@ -47,11 +47,14 @@ positive metric" — instead of eyeballing files. Everything searchable lives in
       <img src="gifs/collaboration/team/81c7b4293e.gif" width="220" alt="agreement"><br>
       <sub><b>collaboration / team</b><br>tone: professional · tags: teamwork, agreement</sub>
     </td>
-    <td align="center" width="33%"></td>
+    <td align="center" width="33%">
+      <img src="gifs/reactions/approval/1c0008ba9a.gif" width="220" alt="approval"><br>
+      <sub><b>reactions / approval</b><br>tone: professional · tags: approval, agreement</sub>
+    </td>
   </tr>
 </table>
 
-> These 5 are the currently published GIFs (out of 27 downloaded; 22 are still
+> These 6 are the currently published GIFs (out of 27 downloaded; 21 are still
 > `review_pending` and therefore excluded from consumers). Images render on GitHub via
 > Git LFS — run `git lfs pull` after cloning to fetch them locally.
 

@@ -1,18 +1,21 @@
 {
   "id": "1c0008ba9a",
-  "filename": "reactions/celebration/1c0008ba9a.gif",
+  "filename": "reactions/approval/1c0008ba9a.gif",
   "source": "giphy",
   "source_id": "3o7aDdGDfuzMN1nFf2",
   "source_url": "https://giphy.com/gifs/adidas-football-yes-3o7aDdGDfuzMN1nFf2",
   "category": "reactions",
-  "subcategory": "celebration",
-  "tags": [],
+  "subcategory": "approval",
+  "tags": [
+    "approval",
+    "agreement",
+    "confidence"
+  ],
   "tone": [
-    "energetic",
     "professional"
   ],
-  "primary_emotion": "",
-  "recommended_use": "",
+  "primary_emotion": "confidence",
+  "recommended_use": "when a stakeholder agrees or approves a point",
   "avoid_if": null,
   "content_rating": "g",
   "duration_seconds": null,
@@ -27,5 +30,5 @@
   "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
   "date_added": "2026-07-16T23:49:14.445109+00:00",
   "added_by": "automatic-script",
-  "review_pending": true
+  "review_pending": false
 }
