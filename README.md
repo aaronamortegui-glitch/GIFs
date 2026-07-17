@@ -21,6 +21,40 @@ can pick the right GIF for a slide by **intent** — "celebratory, professional,
 positive metric" — instead of eyeballing files. Everything searchable lives in
 `index.json`; the GIFs themselves are stored with **Git LFS** (they're binary).
 
+### Preview — sample published GIFs
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="gifs/reactions/celebration/88e1bb887d.gif" width="220" alt="celebration"><br>
+      <sub><b>reactions / celebration</b><br>tone: energetic · tags: celebration, success</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="gifs/reactions/celebration/bd0fa66719.gif" width="220" alt="applause"><br>
+      <sub><b>reactions / celebration</b><br>tone: energetic, playful · tags: celebration, applause</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="gifs/transitions/intro/9712072c40.gif" width="220" alt="welcome"><br>
+      <sub><b>transitions / intro</b><br>tone: casual, professional · tags: welcome, intro</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <img src="gifs/collaboration/team/523cc419f6.gif" width="220" alt="handshake"><br>
+      <sub><b>collaboration / team</b><br>tone: professional · tags: teamwork, handshake</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="gifs/collaboration/team/81c7b4293e.gif" width="220" alt="agreement"><br>
+      <sub><b>collaboration / team</b><br>tone: professional · tags: teamwork, agreement</sub>
+    </td>
+    <td align="center" width="33%"></td>
+  </tr>
+</table>
+
+> These 5 are the currently published GIFs (out of 27 downloaded; 22 are still
+> `review_pending` and therefore excluded from consumers). Images render on GitHub via
+> Git LFS — run `git lfs pull` after cloning to fetch them locally.
+
 ---
 
 ## 2. Setup (cloning the repo)
