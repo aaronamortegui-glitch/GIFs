@@ -1,0 +1,31 @@
+{
+  "id": "cdf326ea1f",
+  "filename": "reactions/celebration/cdf326ea1f.gif",
+  "source": "giphy",
+  "source_id": "1PMVNNKVIL8Ig",
+  "source_url": "https://giphy.com/gifs/80s-vintage-excited-1PMVNNKVIL8Ig",
+  "category": "reactions",
+  "subcategory": "celebration",
+  "tags": [],
+  "tone": [
+    "energetic",
+    "professional"
+  ],
+  "primary_emotion": "",
+  "recommended_use": "",
+  "avoid_if": null,
+  "content_rating": "g",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 500.0,
+    "height": 375.0
+  },
+  "weight_kb": 816.9,
+  "brand_compatible": [
+    "Acme Corp"
+  ],
+  "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+  "date_added": "2026-07-16T23:48:40.922103+00:00",
+  "added_by": "automatic-script",
+  "review_pending": true
+}

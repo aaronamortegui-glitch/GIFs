@@ -1,0 +1,852 @@
+{
+  "version": 1,
+  "last_updated": "2026-07-16T23:56:29.676917+00:00",
+  "count_total": 27,
+  "count_published": 0,
+  "count_review_pending": 27,
+  "searchable_fields": [
+    "tags",
+    "category",
+    "tone",
+    "primary_emotion"
+  ],
+  "gifs": [
+    {
+      "id": "0125a744ae",
+      "filename": "reactions/celebration/0125a744ae.gif",
+      "source": "giphy",
+      "source_id": "Ky02qTzOjbIogW89zi",
+      "source_url": "https://giphy.com/gifs/kimsconvenience-Ky02qTzOjbIogW89zi",
+      "category": "reactions",
+      "subcategory": "celebration",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 270.0
+      },
+      "weight_kb": 878.1,
+      "brand_compatible": [
+        "Acme Corp"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-16T23:49:12.386785+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "0910916f2f",
+      "filename": "reactions/celebration/0910916f2f.gif",
+      "source": "giphy",
+      "source_id": "Us9Ibqg4H0mTC",
+      "source_url": "https://giphy.com/gifs/happy-Us9Ibqg4H0mTC",
+      "category": "reactions",
+      "subcategory": "celebration",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 500.0,
+        "height": 264.0
+      },
+      "weight_kb": 668.5,
+      "brand_compatible": [
+        "Acme Corp"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-16T23:48:55.863670+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "135083982a",
+      "filename": "reactions/celebration/135083982a.gif",
+      "source": "giphy",
+      "source_id": "kbtjEbTtOBYHzDPzA8",
+      "source_url": "https://giphy.com/gifs/uefa-champions-league-cl-ucl-kbtjEbTtOBYHzDPzA8",
+      "category": "reactions",
+      "subcategory": "celebration",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 528.0,
+        "height": 332.0
+      },
+      "weight_kb": 741.3,
+      "brand_compatible": [
+        "Acme Corp"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-16T23:48:43.230498+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "15f80397f0",
+      "filename": "reactions/celebration/15f80397f0.gif",
+      "source": "giphy",
+      "source_id": "t3sZxY5zS5B0z5zMIz",
+      "source_url": "https://giphy.com/gifs/nhl-sports-hockey-fan-t3sZxY5zS5B0z5zMIz",
+      "category": "reactions",
+      "subcategory": "celebration",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 500.0,
+        "height": 281.0
+      },
+      "weight_kb": 9399.6,
+      "brand_compatible": [
+        "Acme Corp"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-16T23:48:37.868210+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "1a21e3530e",
+      "filename": "reactions/celebration/1a21e3530e.gif",
+      "source": "giphy",
+      "source_id": "gidMR0Kv3ljSivshKJ",
+      "source_url": "https://giphy.com/gifs/dreamworks-shrek-confident-franchise-gidMR0Kv3ljSivshKJ",
+      "category": "reactions",
+      "subcategory": "celebration",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 480.0
+      },
+      "weight_kb": 1896.1,
+      "brand_compatible": [
+        "Acme Corp"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-16T23:49:17.140501+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "1c0008ba9a",
+      "filename": "reactions/celebration/1c0008ba9a.gif",
+      "source": "giphy",
+      "source_id": "3o7aDdGDfuzMN1nFf2",
+      "source_url": "https://giphy.com/gifs/adidas-football-yes-3o7aDdGDfuzMN1nFf2",
+      "category": "reactions",
+      "subcategory": "celebration",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 480.0
+      },
+      "weight_kb": 7249.7,
+      "brand_compatible": [
+        "Acme Corp"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-16T23:49:14.445109+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "1e8ef62c98",
+      "filename": "reactions/celebration/1e8ef62c98.gif",
+      "source": "giphy",
+      "source_id": "bF9WlmV4Nb4JmjNVVm",
+      "source_url": "https://giphy.com/gifs/92DegreesUK-happy-waving-smile-and-wave-boys-bF9WlmV4Nb4JmjNVVm",
+      "category": "reactions",
+      "subcategory": "celebration",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 480.0
+      },
+      "weight_kb": 1616.7,
+      "brand_compatible": [
+        "Acme Corp"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-16T23:49:01.365841+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "4cd000db45",
+      "filename": "reactions/celebration/4cd000db45.gif",
+      "source": "giphy",
+      "source_id": "K0yB2ISvOIXaG1nthA",
+      "source_url": "https://giphy.com/gifs/Smileyworld-smile-grin-bigsmile-K0yB2ISvOIXaG1nthA",
+      "category": "reactions",
+      "subcategory": "celebration",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 480.0
+      },
+      "weight_kb": 773.5,
+      "brand_compatible": [
+        "Acme Corp"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-16T23:48:57.364784+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "523cc419f6",
+      "filename": "reactions/celebration/523cc419f6.gif",
+      "source": "giphy",
+      "source_id": "3oKIPrePtiSL5s92CI",
+      "source_url": "https://giphy.com/gifs/tech-business-chill-3oKIPrePtiSL5s92CI",
+      "category": "reactions",
+      "subcategory": "celebration",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 270.0
+      },
+      "weight_kb": 960.0,
+      "brand_compatible": [
+        "Acme Corp"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-16T23:49:09.921063+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "5eab1fdbd5",
+      "filename": "reactions/celebration/5eab1fdbd5.gif",
+      "source": "giphy",
+      "source_id": "FQyQEYd0KlYQ",
+      "source_url": "https://giphy.com/gifs/ifc-ifc-FQyQEYd0KlYQ",
+      "category": "reactions",
+      "subcategory": "celebration",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 500.0,
+        "height": 277.0
+      },
+      "weight_kb": 505.5,
+      "brand_compatible": [
+        "Acme Corp"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-16T23:49:06.188635+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "7e173ec7a3",
+      "filename": "reactions/celebration/7e173ec7a3.gif",
+      "source": "giphy",
+      "source_id": "FZwLlKknecpYa5yOhy",
+      "source_url": "https://giphy.com/gifs/sendwishonline-office-presentation-you-killed-that-FZwLlKknecpYa5yOhy",
+      "category": "reactions",
+      "subcategory": "celebration",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 500.0,
+        "height": 500.0
+      },
+      "weight_kb": 247.3,
+      "brand_compatible": [
+        "Acme Corp"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-16T23:49:19.889203+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "7e803a84e7",
+      "filename": "reactions/celebration/7e803a84e7.gif",
+      "source": "giphy",
+      "source_id": "ZGBQhaRTHyWtRVn1Xx",
+      "source_url": "https://giphy.com/gifs/Friends-season-9-friends-tv-the-one-with-soap-opera-party-ZGBQhaRTHyWtRVn1Xx",
+      "category": "reactions",
+      "subcategory": "celebration",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 400.0
+      },
+      "weight_kb": 2096.9,
+      "brand_compatible": [
+        "Acme Corp"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-16T23:48:44.867992+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "81c7b4293e",
+      "filename": "reactions/celebration/81c7b4293e.gif",
+      "source": "giphy",
+      "source_id": "j9UyuqYatYLohfHeMO",
+      "source_url": "https://giphy.com/gifs/usfigureskating-figure-skating-team-usa-usfs-j9UyuqYatYLohfHeMO",
+      "category": "reactions",
+      "subcategory": "celebration",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 270.0
+      },
+      "weight_kb": 995.3,
+      "brand_compatible": [
+        "Acme Corp"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-16T23:49:11.122944+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "88e1bb887d",
+      "filename": "reactions/celebration/88e1bb887d.gif",
+      "source": "giphy",
+      "source_id": "s2qXK8wAvkHTO",
+      "source_url": "https://giphy.com/gifs/party-birthday-celebration-s2qXK8wAvkHTO",
+      "category": "reactions",
+      "subcategory": "celebration",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 252.0,
+        "height": 166.0
+      },
+      "weight_kb": 447.6,
+      "brand_compatible": [
+        "Acme Corp"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-16T23:48:48.491914+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "8f5c6f3f8a",
+      "filename": "reactions/celebration/8f5c6f3f8a.gif",
+      "source": "giphy",
+      "source_id": "Ae7SI3LoPYj8Q",
+      "source_url": "https://giphy.com/gifs/nhl-minnesota-wild-welcome-home-Ae7SI3LoPYj8Q",
+      "category": "reactions",
+      "subcategory": "celebration",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 530.0,
+        "height": 320.0
+      },
+      "weight_kb": 1386.5,
+      "brand_compatible": [
+        "Acme Corp"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-16T23:49:07.990893+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "96d58c2c5e",
+      "filename": "reactions/celebration/96d58c2c5e.gif",
+      "source": "giphy",
+      "source_id": "l0MYt5jPR6QX5pnqM",
+      "source_url": "https://giphy.com/gifs/party-the-office-hard-l0MYt5jPR6QX5pnqM",
+      "category": "reactions",
+      "subcategory": "celebration",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 370.0,
+        "height": 208.0
+      },
+      "weight_kb": 4626.3,
+      "brand_compatible": [
+        "Acme Corp"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-16T23:48:39.392153+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "9712072c40",
+      "filename": "reactions/celebration/9712072c40.gif",
+      "source": "giphy",
+      "source_id": "l0MYC0LajbaPoEADu",
+      "source_url": "https://giphy.com/gifs/welcome-austin-powers-dr-evil-l0MYC0LajbaPoEADu",
+      "category": "reactions",
+      "subcategory": "celebration",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 277.0
+      },
+      "weight_kb": 644.2,
+      "brand_compatible": [
+        "Acme Corp"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-16T23:49:04.570680+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "9e1033afe1",
+      "filename": "reactions/celebration/9e1033afe1.gif",
+      "source": "giphy",
+      "source_id": "azfRPSYO29nLOy1wvl",
+      "source_url": "https://giphy.com/gifs/SentiTV-cute-penguin-baby-roami-azfRPSYO29nLOy1wvl",
+      "category": "reactions",
+      "subcategory": "celebration",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 480.0
+      },
+      "weight_kb": 2085.7,
+      "brand_compatible": [
+        "Acme Corp"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-16T23:48:59.876335+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "b1e0b3d7a0",
+      "filename": "reactions/celebration/b1e0b3d7a0.gif",
+      "source": "giphy",
+      "source_id": "94iS62lx8CRQA",
+      "source_url": "https://giphy.com/gifs/office-gif-us-powerpoint-gifs-94iS62lx8CRQA",
+      "category": "reactions",
+      "subcategory": "celebration",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 500.0,
+        "height": 282.0
+      },
+      "weight_kb": 652.2,
+      "brand_compatible": [
+        "Acme Corp"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-16T23:49:18.856130+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "b8982eb08b",
+      "filename": "reactions/celebration/b8982eb08b.gif",
+      "source": "giphy",
+      "source_id": "PMV7yRpwGO5y9p3DBx",
+      "source_url": "https://giphy.com/gifs/trippy-abstract-pi-slices-PMV7yRpwGO5y9p3DBx",
+      "category": "reactions",
+      "subcategory": "celebration",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 500.0,
+        "height": 500.0
+      },
+      "weight_kb": 1159.7,
+      "brand_compatible": [
+        "Acme Corp"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-16T23:48:51.976967+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "bcf76b07da",
+      "filename": "reactions/celebration/bcf76b07da.gif",
+      "source": "giphy",
+      "source_id": "LthO3z5kntXX2",
+      "source_url": "https://giphy.com/gifs/michael-j-fox-excitement-family-ties-LthO3z5kntXX2",
+      "category": "reactions",
+      "subcategory": "celebration",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 350.0,
+        "height": 263.0
+      },
+      "weight_kb": 1030.4,
+      "brand_compatible": [
+        "Acme Corp"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-16T23:48:46.479908+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "bd0fa66719",
+      "filename": "reactions/celebration/bd0fa66719.gif",
+      "source": "giphy",
+      "source_id": "5jT0jaNDsM6Ik7X9yq",
+      "source_url": "https://giphy.com/gifs/justin-background-confetti-5jT0jaNDsM6Ik7X9yq",
+      "category": "reactions",
+      "subcategory": "celebration",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 480.0
+      },
+      "weight_kb": 2945.6,
+      "brand_compatible": [
+        "Acme Corp"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-16T23:48:50.242489+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "c72551fc9e",
+      "filename": "reactions/celebration/c72551fc9e.gif",
+      "source": "giphy",
+      "source_id": "Ch9p05CKBhFw6ps7al",
+      "source_url": "https://giphy.com/gifs/laguarimba-work-office-guarimba-Ch9p05CKBhFw6ps7al",
+      "category": "reactions",
+      "subcategory": "celebration",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 480.0
+      },
+      "weight_kb": 1856.0,
+      "brand_compatible": [
+        "Acme Corp"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-16T23:49:21.169062+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "cdf326ea1f",
+      "filename": "reactions/celebration/cdf326ea1f.gif",
+      "source": "giphy",
+      "source_id": "1PMVNNKVIL8Ig",
+      "source_url": "https://giphy.com/gifs/80s-vintage-excited-1PMVNNKVIL8Ig",
+      "category": "reactions",
+      "subcategory": "celebration",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 500.0,
+        "height": 375.0
+      },
+      "weight_kb": 816.9,
+      "brand_compatible": [
+        "Acme Corp"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-16T23:48:40.922103+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "ce72b428e5",
+      "filename": "reactions/celebration/ce72b428e5.gif",
+      "source": "giphy",
+      "source_id": "v3hV4yPNYwoYvCSLMY",
+      "source_url": "https://giphy.com/gifs/abcnetwork-jeopardy-celebrity-celebrityjeopardy-v3hV4yPNYwoYvCSLMY",
+      "category": "reactions",
+      "subcategory": "celebration",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 480.0
+      },
+      "weight_kb": 6502.2,
+      "brand_compatible": [
+        "Acme Corp"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-16T23:49:15.869387+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "d7b2226dd2",
+      "filename": "reactions/celebration/d7b2226dd2.gif",
+      "source": "giphy",
+      "source_id": "N9F3sKI3vZsmdmBYvm",
+      "source_url": "https://giphy.com/gifs/calmlings-happy-smile-waving-N9F3sKI3vZsmdmBYvm",
+      "category": "reactions",
+      "subcategory": "celebration",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 480.0
+      },
+      "weight_kb": 740.0,
+      "brand_compatible": [
+        "Acme Corp"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-16T23:49:02.881006+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "feb28cfb31",
+      "filename": "reactions/celebration/feb28cfb31.gif",
+      "source": "giphy",
+      "source_id": "13aSSyJaI5NkTm",
+      "source_url": "https://giphy.com/gifs/smile-awkward-13aSSyJaI5NkTm",
+      "category": "reactions",
+      "subcategory": "celebration",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 260.0,
+        "height": 229.0
+      },
+      "weight_kb": 1785.1,
+      "brand_compatible": [
+        "Acme Corp"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-16T23:48:54.348051+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "brand": "Acme Corp",
+  "tones": ["energetic", "friendly", "professional"],
+  "content_rating": "g",
+  "target_category": "reactions",
+  "target_subcategory": "celebration",
+  "per_query_limit": 5,
+  "selection": "trending",
+  "added_by": "automatic-script",
+  "brand_compatible": ["Acme Corp"]
+}

@@ -1,0 +1,136 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://gif-library.local/schema/gif-metadata.schema.json",
+  "title": "GIF Metadata",
+  "description": "Metadata contract for a single cataloged GIF. One file per GIF lives in metadata/{id}.json and mirrors an entry in index.json.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "filename",
+    "source",
+    "category",
+    "subcategory",
+    "tags",
+    "tone",
+    "primary_emotion",
+    "recommended_use",
+    "content_rating",
+    "dimensions",
+    "date_added",
+    "added_by",
+    "review_pending"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Short unique hash, e.g. 'a1b2c3d4'. Also the GIF filename stem.",
+      "pattern": "^[a-f0-9]{8,16}$"
+    },
+    "filename": {
+      "type": "string",
+      "description": "Path relative to gifs/, e.g. 'reactions/celebration/a1b2c3d4.gif'."
+    },
+    "source": {
+      "type": "string",
+      "enum": ["giphy", "manual-upload"],
+      "description": "Where the asset came from."
+    },
+    "source_id": {
+      "type": ["string", "null"],
+      "description": "Original GIPHY id, if applicable. Used for idempotency (never download the same source_id twice)."
+    },
+    "source_url": {
+      "type": ["string", "null"],
+      "description": "Original public URL.",
+      "format": "uri"
+    },
+    "category": {
+      "type": "string",
+      "description": "One of the level-1 folders (structural taxonomy).",
+      "enum": ["reactions", "transitions", "emphasis", "collaboration", "closing"]
+    },
+    "subcategory": {
+      "type": "string",
+      "description": "The level-2 folder within the category."
+    },
+    "tags": {
+      "type": "array",
+      "description": "Meaning / keyword list. Must come from schema/tags-controlled.json to avoid variants.",
+      "items": { "type": "string" }
+    },
+    "tone": {
+      "type": "array",
+      "description": "One or more tone descriptors.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "professional",
+          "casual",
+          "energetic",
+          "calm",
+          "playful",
+          "formal",
+          "minimalist"
+        ]
+      },
+      "minItems": 1
+    },
+    "primary_emotion": {
+      "type": "string",
+      "description": "The single dominant emotion the GIF conveys."
+    },
+    "recommended_use": {
+      "type": "string",
+      "description": "Short phrase: when to use it in a presentation (e.g. 'after showing a positive metric')."
+    },
+    "avoid_if": {
+      "type": ["string", "null"],
+      "description": "Optional context where this GIF would be inappropriate."
+    },
+    "content_rating": {
+      "type": "string",
+      "enum": ["g", "pg", "pg-13", "r"],
+      "description": "GIPHY content rating filter, to keep assets corporate-safe."
+    },
+    "duration_seconds": {
+      "type": ["number", "null"],
+      "description": "Playback duration in seconds (may be null when unknown)."
+    },
+    "dimensions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["width", "height"],
+      "properties": {
+        "width": { "type": ["number", "null"] },
+        "height": { "type": ["number", "null"] }
+      }
+    },
+    "weight_kb": {
+      "type": ["number", "null"],
+      "description": "File size in kilobytes."
+    },
+    "brand_compatible": {
+      "type": "array",
+      "description": "Optional list of brands/clients this GIF was validated against.",
+      "items": { "type": "string" }
+    },
+    "license_note": {
+      "type": "string",
+      "description": "Note about GIPHY usage terms for this asset (see README section 5)."
+    },
+    "date_added": {
+      "type": "string",
+      "description": "ISO date the asset was added.",
+      "format": "date-time"
+    },
+    "added_by": {
+      "type": "string",
+      "description": "'automatic-script' or a person's name."
+    },
+    "review_pending": {
+      "type": "boolean",
+      "description": "True until a human confirms category, tags and tone. GIFs with true MUST be excluded by consuming agents."
+    }
+  }
+}

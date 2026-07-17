@@ -1,0 +1,31 @@
+{
+  "id": "15f80397f0",
+  "filename": "reactions/celebration/15f80397f0.gif",
+  "source": "giphy",
+  "source_id": "t3sZxY5zS5B0z5zMIz",
+  "source_url": "https://giphy.com/gifs/nhl-sports-hockey-fan-t3sZxY5zS5B0z5zMIz",
+  "category": "reactions",
+  "subcategory": "celebration",
+  "tags": [],
+  "tone": [
+    "energetic",
+    "professional"
+  ],
+  "primary_emotion": "",
+  "recommended_use": "",
+  "avoid_if": null,
+  "content_rating": "g",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 500.0,
+    "height": 281.0
+  },
+  "weight_kb": 9399.6,
+  "brand_compatible": [
+    "Acme Corp"
+  ],
+  "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+  "date_added": "2026-07-16T23:48:37.868210+00:00",
+  "added_by": "automatic-script",
+  "review_pending": true
+}

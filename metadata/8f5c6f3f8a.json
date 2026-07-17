@@ -1,0 +1,31 @@
+{
+  "id": "8f5c6f3f8a",
+  "filename": "reactions/celebration/8f5c6f3f8a.gif",
+  "source": "giphy",
+  "source_id": "Ae7SI3LoPYj8Q",
+  "source_url": "https://giphy.com/gifs/nhl-minnesota-wild-welcome-home-Ae7SI3LoPYj8Q",
+  "category": "reactions",
+  "subcategory": "celebration",
+  "tags": [],
+  "tone": [
+    "energetic",
+    "professional"
+  ],
+  "primary_emotion": "",
+  "recommended_use": "",
+  "avoid_if": null,
+  "content_rating": "g",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 530.0,
+    "height": 320.0
+  },
+  "weight_kb": 1386.5,
+  "brand_compatible": [
+    "Acme Corp"
+  ],
+  "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+  "date_added": "2026-07-16T23:49:07.990893+00:00",
+  "added_by": "automatic-script",
+  "review_pending": true
+}

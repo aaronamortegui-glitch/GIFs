@@ -1,0 +1,31 @@
+{
+  "id": "feb28cfb31",
+  "filename": "reactions/celebration/feb28cfb31.gif",
+  "source": "giphy",
+  "source_id": "13aSSyJaI5NkTm",
+  "source_url": "https://giphy.com/gifs/smile-awkward-13aSSyJaI5NkTm",
+  "category": "reactions",
+  "subcategory": "celebration",
+  "tags": [],
+  "tone": [
+    "energetic",
+    "professional"
+  ],
+  "primary_emotion": "",
+  "recommended_use": "",
+  "avoid_if": null,
+  "content_rating": "g",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 260.0,
+    "height": 229.0
+  },
+  "weight_kb": 1785.1,
+  "brand_compatible": [
+    "Acme Corp"
+  ],
+  "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+  "date_added": "2026-07-16T23:48:54.348051+00:00",
+  "added_by": "automatic-script",
+  "review_pending": true
+}

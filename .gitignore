@@ -1,0 +1,10 @@
+# Never commit credentials
+brand_tone.json
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

@@ -1,0 +1,31 @@
+{
+  "id": "b8982eb08b",
+  "filename": "reactions/celebration/b8982eb08b.gif",
+  "source": "giphy",
+  "source_id": "PMV7yRpwGO5y9p3DBx",
+  "source_url": "https://giphy.com/gifs/trippy-abstract-pi-slices-PMV7yRpwGO5y9p3DBx",
+  "category": "reactions",
+  "subcategory": "celebration",
+  "tags": [],
+  "tone": [
+    "energetic",
+    "professional"
+  ],
+  "primary_emotion": "",
+  "recommended_use": "",
+  "avoid_if": null,
+  "content_rating": "g",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 500.0,
+    "height": 500.0
+  },
+  "weight_kb": 1159.7,
+  "brand_compatible": [
+    "Acme Corp"
+  ],
+  "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+  "date_added": "2026-07-16T23:48:51.976967+00:00",
+  "added_by": "automatic-script",
+  "review_pending": true
+}

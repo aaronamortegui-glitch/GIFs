@@ -1,0 +1,26 @@
+{
+  "description": "Editable mapping from a brand tone adjective to 2-3 English search terms for GIPHY (GIPHY indexes best in English). Extend freely; keep queries short and high-signal.",
+  "version": 1,
+  "map": {
+    "professional": ["business handshake", "confident nod", "office presentation"],
+    "casual": ["thumbs up", "relaxed wave", "cool nod"],
+    "energetic": ["celebration", "excited jump", "confetti"],
+    "calm": ["gentle nod", "peaceful", "slow smile"],
+    "playful": ["funny reaction", "silly dance", "wink"],
+    "formal": ["applause", "polite nod", "elegant"],
+    "minimalist": ["simple checkmark", "clean loading", "subtle arrow"],
+    "friendly": ["warm smile", "friendly wave", "welcome"],
+    "bold": ["mic drop", "power move", "boss"],
+    "inspiring": ["standing ovation", "reach the top", "you can do it"],
+    "urgent": ["fast typing", "clock ticking", "hurry up"],
+    "optimistic": ["sunrise smile", "high five", "good vibes"],
+    "confident": ["boss nod", "sunglasses cool", "deal with it"],
+    "warm": ["heart hands", "hug", "grateful"],
+    "modern": ["neon glow", "tech loading", "futuristic"],
+    "fun": ["party", "dancing", "happy dance"],
+    "serious": ["focused work", "determined stare", "thinking hard"],
+    "celebratory": ["fireworks", "champagne toast", "trophy"],
+    "surprised": ["mind blown", "shocked face", "jaw drop"],
+    "supportive": ["clapping", "you got this", "encouragement"]
+  }
+}

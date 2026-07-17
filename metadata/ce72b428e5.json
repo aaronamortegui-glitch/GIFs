@@ -1,0 +1,31 @@
+{
+  "id": "ce72b428e5",
+  "filename": "reactions/celebration/ce72b428e5.gif",
+  "source": "giphy",
+  "source_id": "v3hV4yPNYwoYvCSLMY",
+  "source_url": "https://giphy.com/gifs/abcnetwork-jeopardy-celebrity-celebrityjeopardy-v3hV4yPNYwoYvCSLMY",
+  "category": "reactions",
+  "subcategory": "celebration",
+  "tags": [],
+  "tone": [
+    "energetic",
+    "professional"
+  ],
+  "primary_emotion": "",
+  "recommended_use": "",
+  "avoid_if": null,
+  "content_rating": "g",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 480.0,
+    "height": 480.0
+  },
+  "weight_kb": 6502.2,
+  "brand_compatible": [
+    "Acme Corp"
+  ],
+  "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+  "date_added": "2026-07-16T23:49:15.869387+00:00",
+  "added_by": "automatic-script",
+  "review_pending": true
+}
