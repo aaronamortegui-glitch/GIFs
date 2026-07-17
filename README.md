@@ -54,9 +54,10 @@ positive metric" — instead of eyeballing files. Everything searchable lives in
   </tr>
 </table>
 
-> These 6 are the currently published GIFs (out of 27 downloaded; 21 are still
-> `review_pending` and therefore excluded from consumers). Images render on GitHub via
-> Git LFS — run `git lfs pull` after cloning to fetch them locally.
+> A 6-GIF sample. The library currently holds **77 GIFs — 32 published** across all 14
+> subcategories, with 45 still `review_pending` (excluded from consumers until confirmed).
+> Images render on GitHub via Git LFS — run `git lfs pull` after cloning to fetch them
+> locally.
 
 ---
 

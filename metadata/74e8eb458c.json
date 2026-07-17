@@ -1,0 +1,30 @@
+{
+  "id": "74e8eb458c",
+  "filename": "transitions/outro/74e8eb458c.gif",
+  "source": "giphy",
+  "source_id": "UQaRUOLveyjNC",
+  "source_url": "https://giphy.com/gifs/mrw-reddit-profile-UQaRUOLveyjNC",
+  "category": "transitions",
+  "subcategory": "outro",
+  "tags": [],
+  "tone": [
+    "casual"
+  ],
+  "primary_emotion": "",
+  "recommended_use": "",
+  "avoid_if": null,
+  "content_rating": "g",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 480.0,
+    "height": 200.0
+  },
+  "weight_kb": 1842.5,
+  "brand_compatible": [
+    "Library"
+  ],
+  "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+  "date_added": "2026-07-17T01:02:14.556373+00:00",
+  "added_by": "automatic-script",
+  "review_pending": true
+}

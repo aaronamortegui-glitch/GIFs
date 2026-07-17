@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "last_updated": "2026-07-17T00:50:35.043862+00:00",
-  "count_total": 27,
-  "count_published": 6,
-  "count_review_pending": 21,
+  "last_updated": "2026-07-17T01:03:12.570117+00:00",
+  "count_total": 77,
+  "count_published": 32,
+  "count_review_pending": 45,
   "searchable_fields": [
     "tags",
     "category",
@@ -11,6 +11,106 @@
     "primary_emotion"
   ],
   "gifs": [
+    {
+      "id": "003bb81b39",
+      "filename": "reactions/approval/003bb81b39.gif",
+      "source": "giphy",
+      "source_id": "10Jpr9KSaXLchW",
+      "source_url": "https://giphy.com/gifs/people-hd-gifsremastered-10Jpr9KSaXLchW",
+      "category": "reactions",
+      "subcategory": "approval",
+      "tags": [
+        "approval",
+        "agreement"
+      ],
+      "tone": [
+        "professional",
+        "casual"
+      ],
+      "primary_emotion": "approval",
+      "recommended_use": "when a point is approved or agreed on",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 366.0
+      },
+      "weight_kb": 4864.9,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:01:39.615905+00:00",
+      "added_by": "automatic-script",
+      "review_pending": false
+    },
+    {
+      "id": "00882b06ec",
+      "filename": "transitions/topic-change/00882b06ec.gif",
+      "source": "giphy",
+      "source_id": "xXflsa7VrvT7gGzNFN",
+      "source_url": "https://giphy.com/gifs/fallontonight-jimmy-fallon-mono-monologue-xXflsa7VrvT7gGzNFN",
+      "category": "transitions",
+      "subcategory": "topic-change",
+      "tags": [
+        "transition"
+      ],
+      "tone": [
+        "professional",
+        "minimalist"
+      ],
+      "primary_emotion": "momentum",
+      "recommended_use": "to signal a change of topic",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 342.0
+      },
+      "weight_kb": 1493.6,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:20.547067+00:00",
+      "added_by": "automatic-script",
+      "review_pending": false
+    },
+    {
+      "id": "00c1f55642",
+      "filename": "closing/call-to-action/00c1f55642.gif",
+      "source": "giphy",
+      "source_id": "3aGZA6WLI9Jde",
+      "source_url": "https://giphy.com/gifs/fox-debate-jv-3aGZA6WLI9Jde",
+      "category": "closing",
+      "subcategory": "call-to-action",
+      "tags": [
+        "call-to-action",
+        "motivation"
+      ],
+      "tone": [
+        "energetic"
+      ],
+      "primary_emotion": "motivation",
+      "recommended_use": "final call-to-action slide",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 280.0,
+        "height": 196.0
+      },
+      "weight_kb": 818.2,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:03:08.395123+00:00",
+      "added_by": "automatic-script",
+      "review_pending": false
+    },
     {
       "id": "0125a744ae",
       "filename": "reactions/celebration/0125a744ae.gif",
@@ -72,6 +172,207 @@
       "date_added": "2026-07-16T23:48:55.863670+00:00",
       "added_by": "automatic-script",
       "review_pending": true
+    },
+    {
+      "id": "09540fec22",
+      "filename": "emphasis/key-point/09540fec22.gif",
+      "source": "giphy",
+      "source_id": "24akSucLOFwwoZamdr",
+      "source_url": "https://giphy.com/gifs/nrdc-24akSucLOFwwoZamdr",
+      "category": "emphasis",
+      "subcategory": "key-point",
+      "tags": [
+        "key-point",
+        "important"
+      ],
+      "tone": [
+        "professional"
+      ],
+      "primary_emotion": "focus",
+      "recommended_use": "to underline a key point",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 270.0
+      },
+      "weight_kb": 2349.2,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:28.169008+00:00",
+      "added_by": "automatic-script",
+      "review_pending": false
+    },
+    {
+      "id": "0a0c4097da",
+      "filename": "transitions/outro/0a0c4097da.gif",
+      "source": "giphy",
+      "source_id": "7yojoQtevjOCI",
+      "source_url": "https://giphy.com/gifs/profile-notoverthehill-tomdds-7yojoQtevjOCI",
+      "category": "transitions",
+      "subcategory": "outro",
+      "tags": [
+        "outro",
+        "transition"
+      ],
+      "tone": [
+        "casual"
+      ],
+      "primary_emotion": "closure",
+      "recommended_use": "wrap-up / end of a section",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 342.0
+      },
+      "weight_kb": 1747.9,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:16.700559+00:00",
+      "added_by": "automatic-script",
+      "review_pending": false
+    },
+    {
+      "id": "0a14718941",
+      "filename": "transitions/outro/0a14718941.gif",
+      "source": "giphy",
+      "source_id": "kaBU6pgv0OsPHz2yxy",
+      "source_url": "https://giphy.com/gifs/jake-gyllenhaal-bye-kaBU6pgv0OsPHz2yxy",
+      "category": "transitions",
+      "subcategory": "outro",
+      "tags": [
+        "outro",
+        "transition"
+      ],
+      "tone": [
+        "casual"
+      ],
+      "primary_emotion": "closure",
+      "recommended_use": "wrap-up / end of a section",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 480.0
+      },
+      "weight_kb": 2592.5,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:13.193498+00:00",
+      "added_by": "automatic-script",
+      "review_pending": false
+    },
+    {
+      "id": "0b7c5edfe4",
+      "filename": "reactions/approval/0b7c5edfe4.gif",
+      "source": "giphy",
+      "source_id": "111ebonMs90YLu",
+      "source_url": "https://giphy.com/gifs/thumbs-up-111ebonMs90YLu",
+      "category": "reactions",
+      "subcategory": "approval",
+      "tags": [
+        "approval",
+        "agreement"
+      ],
+      "tone": [
+        "professional",
+        "casual"
+      ],
+      "primary_emotion": "approval",
+      "recommended_use": "when a point is approved or agreed on",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 260.0,
+        "height": 195.0
+      },
+      "weight_kb": 974.7,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:01:35.847726+00:00",
+      "added_by": "automatic-script",
+      "review_pending": false
+    },
+    {
+      "id": "0d48a468a4",
+      "filename": "transitions/intro/0d48a468a4.gif",
+      "source": "giphy",
+      "source_id": "5YhsREVV1OuO5PpMcR",
+      "source_url": "https://giphy.com/gifs/rebeckaquestelles-welcome-well-rebecka-5YhsREVV1OuO5PpMcR",
+      "category": "transitions",
+      "subcategory": "intro",
+      "tags": [
+        "welcome",
+        "intro"
+      ],
+      "tone": [
+        "casual",
+        "professional"
+      ],
+      "primary_emotion": "warmth",
+      "recommended_use": "opening slide / welcoming the audience",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 480.0
+      },
+      "weight_kb": 625.2,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:08.999093+00:00",
+      "added_by": "automatic-script",
+      "review_pending": false
+    },
+    {
+      "id": "0ed581f930",
+      "filename": "reactions/waiting-loading/0ed581f930.gif",
+      "source": "giphy",
+      "source_id": "2WjpfxAI5MvC9Nl8U7",
+      "source_url": "https://giphy.com/gifs/future-circle-loading-2WjpfxAI5MvC9Nl8U7",
+      "category": "reactions",
+      "subcategory": "waiting-loading",
+      "tags": [
+        "waiting",
+        "loading"
+      ],
+      "tone": [
+        "minimalist",
+        "calm"
+      ],
+      "primary_emotion": "patience",
+      "recommended_use": "while something loads or during a pause",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 272.0
+      },
+      "weight_kb": 1725.1,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:00.031802+00:00",
+      "added_by": "automatic-script",
+      "review_pending": false
     },
     {
       "id": "135083982a",
@@ -167,6 +468,39 @@
       "review_pending": true
     },
     {
+      "id": "1b51cbd79c",
+      "filename": "transitions/topic-change/1b51cbd79c.gif",
+      "source": "giphy",
+      "source_id": "1gUWdf8Z8HCxpM8cUR",
+      "source_url": "https://giphy.com/gifs/ariana-grande-thank-u-next-you-1gUWdf8Z8HCxpM8cUR",
+      "category": "transitions",
+      "subcategory": "topic-change",
+      "tags": [
+        "transition"
+      ],
+      "tone": [
+        "professional",
+        "minimalist"
+      ],
+      "primary_emotion": "momentum",
+      "recommended_use": "to signal a change of topic",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 338.0,
+        "height": 249.0
+      },
+      "weight_kb": 584.3,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:23.894774+00:00",
+      "added_by": "automatic-script",
+      "review_pending": false
+    },
+    {
       "id": "1c0008ba9a",
       "filename": "reactions/approval/1c0008ba9a.gif",
       "source": "giphy",
@@ -232,6 +566,341 @@
       "review_pending": true
     },
     {
+      "id": "2abc7277ea",
+      "filename": "reactions/surprise/2abc7277ea.gif",
+      "source": "giphy",
+      "source_id": "3OSo3PPaXdw0U",
+      "source_url": "https://giphy.com/gifs/mind-blown-3OSo3PPaXdw0U",
+      "category": "reactions",
+      "subcategory": "surprise",
+      "tags": [
+        "surprise",
+        "shock"
+      ],
+      "tone": [
+        "energetic",
+        "playful"
+      ],
+      "primary_emotion": "surprise",
+      "recommended_use": "to react to an unexpected result",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 281.0
+      },
+      "weight_kb": 873.1,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:01:45.090350+00:00",
+      "added_by": "automatic-script",
+      "review_pending": false
+    },
+    {
+      "id": "2b86838da3",
+      "filename": "reactions/waiting-loading/2b86838da3.gif",
+      "source": "giphy",
+      "source_id": "RhBexYjdW27t9vKG5M",
+      "source_url": "https://giphy.com/gifs/waiting-dave-personalization-RhBexYjdW27t9vKG5M",
+      "category": "reactions",
+      "subcategory": "waiting-loading",
+      "tags": [
+        "waiting",
+        "loading"
+      ],
+      "tone": [
+        "minimalist",
+        "calm"
+      ],
+      "primary_emotion": "patience",
+      "recommended_use": "while something loads or during a pause",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 500.0,
+        "height": 275.0
+      },
+      "weight_kb": 140.4,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:03.122727+00:00",
+      "added_by": "automatic-script",
+      "review_pending": false
+    },
+    {
+      "id": "31d874d721",
+      "filename": "collaboration/brainstorm-ideas/31d874d721.gif",
+      "source": "giphy",
+      "source_id": "SOb4AcaDitenU4XKdC",
+      "source_url": "https://giphy.com/gifs/pbs-kids-city-island-cityisland-SOb4AcaDitenU4XKdC",
+      "category": "collaboration",
+      "subcategory": "brainstorm-ideas",
+      "tags": [
+        "idea",
+        "brainstorm",
+        "lightbulb"
+      ],
+      "tone": [
+        "energetic",
+        "playful"
+      ],
+      "primary_emotion": "inspiration",
+      "recommended_use": "during ideation / brainstorming",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 420.0,
+        "height": 420.0
+      },
+      "weight_kb": 233.0,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:43.399812+00:00",
+      "added_by": "automatic-script",
+      "review_pending": false
+    },
+    {
+      "id": "3d2df79103",
+      "filename": "reactions/waiting-loading/3d2df79103.gif",
+      "source": "giphy",
+      "source_id": "oxxedLbarZmFiTAD6d",
+      "source_url": "https://giphy.com/gifs/alienzalive-waiting-patience-patiently-oxxedLbarZmFiTAD6d",
+      "category": "reactions",
+      "subcategory": "waiting-loading",
+      "tags": [],
+      "tone": [
+        "minimalist",
+        "calm"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 360.0
+      },
+      "weight_kb": 2048.6,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:02.108711+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "3d5c3bbc0e",
+      "filename": "closing/thank-you/3d5c3bbc0e.gif",
+      "source": "giphy",
+      "source_id": "a3IWyhkEC0p32",
+      "source_url": "https://giphy.com/gifs/thank-you-cute-a3IWyhkEC0p32",
+      "category": "closing",
+      "subcategory": "thank-you",
+      "tags": [
+        "thank-you",
+        "applause"
+      ],
+      "tone": [
+        "formal",
+        "calm"
+      ],
+      "primary_emotion": "gratitude",
+      "recommended_use": "closing / thanking the audience",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 500.0,
+        "height": 313.0
+      },
+      "weight_kb": 975.0,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:59.866382+00:00",
+      "added_by": "automatic-script",
+      "review_pending": false
+    },
+    {
+      "id": "3d902cc040",
+      "filename": "emphasis/key-point/3d902cc040.gif",
+      "source": "giphy",
+      "source_id": "UipxfcxQmadkA",
+      "source_url": "https://giphy.com/gifs/UipxfcxQmadkA",
+      "category": "emphasis",
+      "subcategory": "key-point",
+      "tags": [
+        "key-point",
+        "important"
+      ],
+      "tone": [
+        "professional"
+      ],
+      "primary_emotion": "focus",
+      "recommended_use": "to underline a key point",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 200.0,
+        "height": 200.0
+      },
+      "weight_kb": 869.4,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:31.710907+00:00",
+      "added_by": "automatic-script",
+      "review_pending": false
+    },
+    {
+      "id": "431816b956",
+      "filename": "collaboration/team/431816b956.gif",
+      "source": "giphy",
+      "source_id": "XeiE8N8otAHlqWXxAF",
+      "source_url": "https://giphy.com/gifs/statefarm-XeiE8N8otAHlqWXxAF",
+      "category": "collaboration",
+      "subcategory": "team",
+      "tags": [
+        "teamwork",
+        "high-five"
+      ],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "unity",
+      "recommended_use": "to celebrate teamwork",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 480.0
+      },
+      "weight_kb": 2515.3,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:52.618220+00:00",
+      "added_by": "automatic-script",
+      "review_pending": false
+    },
+    {
+      "id": "44e404bbef",
+      "filename": "closing/thank-you/44e404bbef.gif",
+      "source": "giphy",
+      "source_id": "xThtar0e9kO3WkwQ1O",
+      "source_url": "https://giphy.com/gifs/xThtar0e9kO3WkwQ1O",
+      "category": "closing",
+      "subcategory": "thank-you",
+      "tags": [
+        "thank-you",
+        "applause"
+      ],
+      "tone": [
+        "formal",
+        "calm"
+      ],
+      "primary_emotion": "gratitude",
+      "recommended_use": "closing / thanking the audience",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 280.0,
+        "height": 297.0
+      },
+      "weight_kb": 1381.0,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:03:03.349908+00:00",
+      "added_by": "automatic-script",
+      "review_pending": false
+    },
+    {
+      "id": "4abb436a10",
+      "filename": "reactions/approval/4abb436a10.gif",
+      "source": "giphy",
+      "source_id": "gVoBC0SuaHStq",
+      "source_url": "https://giphy.com/gifs/republican-bill-oreilly-ron-paul-gVoBC0SuaHStq",
+      "category": "reactions",
+      "subcategory": "approval",
+      "tags": [],
+      "tone": [
+        "professional",
+        "casual"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 235.0,
+        "height": 240.0
+      },
+      "weight_kb": 1841.2,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:01:41.235292+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "4cc5716319",
+      "filename": "emphasis/important-data/4cc5716319.gif",
+      "source": "giphy",
+      "source_id": "Xf1ghvcjLrMn3O6Qe4",
+      "source_url": "https://giphy.com/gifs/meme-profit-stonks-Xf1ghvcjLrMn3O6Qe4",
+      "category": "emphasis",
+      "subcategory": "important-data",
+      "tags": [
+        "data",
+        "trending-up",
+        "metric"
+      ],
+      "tone": [
+        "professional",
+        "energetic"
+      ],
+      "primary_emotion": "confidence",
+      "recommended_use": "next to a positive metric or chart",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 270.0
+      },
+      "weight_kb": 1635.0,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:40.823873+00:00",
+      "added_by": "automatic-script",
+      "review_pending": false
+    },
+    {
       "id": "4cd000db45",
       "filename": "reactions/celebration/4cd000db45.gif",
       "source": "giphy",
@@ -259,6 +928,36 @@
       ],
       "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
       "date_added": "2026-07-16T23:48:57.364784+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "4da6d473bc",
+      "filename": "transitions/outro/4da6d473bc.gif",
+      "source": "giphy",
+      "source_id": "lD76yTC5zxZPG",
+      "source_url": "https://giphy.com/gifs/the-end-thats-all-folks-lD76yTC5zxZPG",
+      "category": "transitions",
+      "subcategory": "outro",
+      "tags": [],
+      "tone": [
+        "casual"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 499.0,
+        "height": 366.0
+      },
+      "weight_kb": 240.7,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:17.825493+00:00",
       "added_by": "automatic-script",
       "review_pending": true
     },
@@ -296,6 +995,41 @@
       "review_pending": false
     },
     {
+      "id": "5c5e52b3ad",
+      "filename": "collaboration/brainstorm-ideas/5c5e52b3ad.gif",
+      "source": "giphy",
+      "source_id": "2uIlejpr8ZxenICZSN",
+      "source_url": "https://giphy.com/gifs/JoyPixels-light-emoji-lightbulb-2uIlejpr8ZxenICZSN",
+      "category": "collaboration",
+      "subcategory": "brainstorm-ideas",
+      "tags": [
+        "idea",
+        "brainstorm",
+        "lightbulb"
+      ],
+      "tone": [
+        "energetic",
+        "playful"
+      ],
+      "primary_emotion": "inspiration",
+      "recommended_use": "during ideation / brainstorming",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 480.0
+      },
+      "weight_kb": 369.1,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:44.982014+00:00",
+      "added_by": "automatic-script",
+      "review_pending": false
+    },
+    {
       "id": "5eab1fdbd5",
       "filename": "reactions/celebration/5eab1fdbd5.gif",
       "source": "giphy",
@@ -323,6 +1057,132 @@
       ],
       "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
       "date_added": "2026-07-16T23:49:06.188635+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "619da2cb9f",
+      "filename": "closing/thank-you/619da2cb9f.gif",
+      "source": "giphy",
+      "source_id": "xT77XWum9yH7zNkFW0",
+      "source_url": "https://giphy.com/gifs/9jumpin-wow-nice-well-done-xT77XWum9yH7zNkFW0",
+      "category": "closing",
+      "subcategory": "thank-you",
+      "tags": [],
+      "tone": [
+        "formal",
+        "calm"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 500.0,
+        "height": 281.0
+      },
+      "weight_kb": 6159.9,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:03:05.408505+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "68b5710198",
+      "filename": "reactions/approval/68b5710198.gif",
+      "source": "giphy",
+      "source_id": "JwjBy94VzDd6",
+      "source_url": "https://giphy.com/gifs/vevo-vevo-JwjBy94VzDd6",
+      "category": "reactions",
+      "subcategory": "approval",
+      "tags": [],
+      "tone": [
+        "professional",
+        "casual"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 141.0,
+        "height": 141.0
+      },
+      "weight_kb": 375.5,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:01:37.145406+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "731dbf6f53",
+      "filename": "transitions/intro/731dbf6f53.gif",
+      "source": "giphy",
+      "source_id": "brsEO1JayBVja",
+      "source_url": "https://giphy.com/gifs/hello-waving-blue-bird-brsEO1JayBVja",
+      "category": "transitions",
+      "subcategory": "intro",
+      "tags": [
+        "welcome",
+        "intro"
+      ],
+      "tone": [
+        "casual",
+        "professional"
+      ],
+      "primary_emotion": "warmth",
+      "recommended_use": "opening slide / welcoming the audience",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 500.0,
+        "height": 278.0
+      },
+      "weight_kb": 349.7,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:06.946139+00:00",
+      "added_by": "automatic-script",
+      "review_pending": false
+    },
+    {
+      "id": "74e8eb458c",
+      "filename": "transitions/outro/74e8eb458c.gif",
+      "source": "giphy",
+      "source_id": "UQaRUOLveyjNC",
+      "source_url": "https://giphy.com/gifs/mrw-reddit-profile-UQaRUOLveyjNC",
+      "category": "transitions",
+      "subcategory": "outro",
+      "tags": [],
+      "tone": [
+        "casual"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 200.0
+      },
+      "weight_kb": 1842.5,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:14.556373+00:00",
       "added_by": "automatic-script",
       "review_pending": true
     },
@@ -422,6 +1282,133 @@
       "review_pending": false
     },
     {
+      "id": "82685ef700",
+      "filename": "emphasis/important-data/82685ef700.gif",
+      "source": "giphy",
+      "source_id": "cNrZyXIZHSLYTqtWJI",
+      "source_url": "https://giphy.com/gifs/cNrZyXIZHSLYTqtWJI",
+      "category": "emphasis",
+      "subcategory": "important-data",
+      "tags": [
+        "data",
+        "trending-up",
+        "metric"
+      ],
+      "tone": [
+        "professional",
+        "energetic"
+      ],
+      "primary_emotion": "confidence",
+      "recommended_use": "next to a positive metric or chart",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 300.0,
+        "height": 300.0
+      },
+      "weight_kb": 179.9,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:36.080182+00:00",
+      "added_by": "automatic-script",
+      "review_pending": false
+    },
+    {
+      "id": "86edf97e9a",
+      "filename": "transitions/topic-change/86edf97e9a.gif",
+      "source": "giphy",
+      "source_id": "m93v8Rl9GBaW61AmOK",
+      "source_url": "https://giphy.com/gifs/farmersinsurance-jk-simmons-farmers-insurance-professor-burke-m93v8Rl9GBaW61AmOK",
+      "category": "transitions",
+      "subcategory": "topic-change",
+      "tags": [],
+      "tone": [
+        "professional",
+        "minimalist"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 440.0
+      },
+      "weight_kb": 1305.1,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:21.909872+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "871ba4ae9e",
+      "filename": "emphasis/key-point/871ba4ae9e.gif",
+      "source": "giphy",
+      "source_id": "cYaBD8kxE4PZudHBRA",
+      "source_url": "https://giphy.com/gifs/cbbc-tracy-beaker-cbbc-star-cYaBD8kxE4PZudHBRA",
+      "category": "emphasis",
+      "subcategory": "key-point",
+      "tags": [],
+      "tone": [
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 268.0
+      },
+      "weight_kb": 1327.4,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:33.320921+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "87c77900bc",
+      "filename": "transitions/intro/87c77900bc.gif",
+      "source": "giphy",
+      "source_id": "mCbUi0FyYhHHhutEV8",
+      "source_url": "https://giphy.com/gifs/moodman-welcome-to-the-team-mCbUi0FyYhHHhutEV8",
+      "category": "transitions",
+      "subcategory": "intro",
+      "tags": [],
+      "tone": [
+        "casual",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 360.0
+      },
+      "weight_kb": 4460.9,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:10.515096+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
       "id": "88e1bb887d",
       "filename": "reactions/celebration/88e1bb887d.gif",
       "source": "giphy",
@@ -484,6 +1471,40 @@
       "date_added": "2026-07-16T23:49:07.990893+00:00",
       "added_by": "automatic-script",
       "review_pending": true
+    },
+    {
+      "id": "94aacf165c",
+      "filename": "reactions/error-frustration/94aacf165c.gif",
+      "source": "giphy",
+      "source_id": "BsQAVgY6ksvIY",
+      "source_url": "https://giphy.com/gifs/post-upvote-accidently-BsQAVgY6ksvIY",
+      "category": "reactions",
+      "subcategory": "error-frustration",
+      "tags": [
+        "frustration",
+        "error"
+      ],
+      "tone": [
+        "casual",
+        "playful"
+      ],
+      "primary_emotion": "frustration",
+      "recommended_use": "to acknowledge a mistake or problem lightly",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 350.0,
+        "height": 196.0
+      },
+      "weight_kb": 669.1,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:01:54.562022+00:00",
+      "added_by": "automatic-script",
+      "review_pending": false
     },
     {
       "id": "96d58c2c5e",
@@ -551,6 +1572,40 @@
       "review_pending": false
     },
     {
+      "id": "9cc835969f",
+      "filename": "reactions/surprise/9cc835969f.gif",
+      "source": "giphy",
+      "source_id": "5aLrlDiJPMPFS",
+      "source_url": "https://giphy.com/gifs/jon-stewart-the-daily-show-5aLrlDiJPMPFS",
+      "category": "reactions",
+      "subcategory": "surprise",
+      "tags": [
+        "surprise",
+        "shock"
+      ],
+      "tone": [
+        "energetic",
+        "playful"
+      ],
+      "primary_emotion": "surprise",
+      "recommended_use": "to react to an unexpected result",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 347.0,
+        "height": 404.0
+      },
+      "weight_kb": 428.8,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:01:43.747127+00:00",
+      "added_by": "automatic-script",
+      "review_pending": false
+    },
+    {
       "id": "9e1033afe1",
       "filename": "reactions/celebration/9e1033afe1.gif",
       "source": "giphy",
@@ -578,6 +1633,68 @@
       ],
       "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
       "date_added": "2026-07-16T23:48:59.876335+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "a13afd0699",
+      "filename": "reactions/surprise/a13afd0699.gif",
+      "source": "giphy",
+      "source_id": "giVqxWGI5xQB0TumVy",
+      "source_url": "https://giphy.com/gifs/toptalent-agt-americas-got-talent-giVqxWGI5xQB0TumVy",
+      "category": "reactions",
+      "subcategory": "surprise",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "playful"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 480.0
+      },
+      "weight_kb": 974.2,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:01:48.610580+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "ac2a08e8a9",
+      "filename": "emphasis/important-data/ac2a08e8a9.gif",
+      "source": "giphy",
+      "source_id": "Z14C8gvy87nEQEsXZH",
+      "source_url": "https://giphy.com/gifs/increase-nickjboni-thedigitalchamps-Z14C8gvy87nEQEsXZH",
+      "category": "emphasis",
+      "subcategory": "important-data",
+      "tags": [],
+      "tone": [
+        "professional",
+        "energetic"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 270.0
+      },
+      "weight_kb": 799.4,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:37.339044+00:00",
       "added_by": "automatic-script",
       "review_pending": true
     },
@@ -642,6 +1759,105 @@
       "date_added": "2026-07-16T23:48:51.976967+00:00",
       "added_by": "automatic-script",
       "review_pending": true
+    },
+    {
+      "id": "b90fec2c54",
+      "filename": "closing/thank-you/b90fec2c54.gif",
+      "source": "giphy",
+      "source_id": "IcGkqdUmYLFGE",
+      "source_url": "https://giphy.com/gifs/IcGkqdUmYLFGE",
+      "category": "closing",
+      "subcategory": "thank-you",
+      "tags": [],
+      "tone": [
+        "formal",
+        "calm"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 400.0,
+        "height": 225.0
+      },
+      "weight_kb": 1486.9,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:03:01.334378+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "b9242d57cc",
+      "filename": "collaboration/team/b9242d57cc.gif",
+      "source": "giphy",
+      "source_id": "ag3PWAeHrCdWV0tlkD",
+      "source_url": "https://giphy.com/gifs/reaction-mood-ag3PWAeHrCdWV0tlkD",
+      "category": "collaboration",
+      "subcategory": "team",
+      "tags": [
+        "teamwork",
+        "high-five"
+      ],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "unity",
+      "recommended_use": "to celebrate teamwork",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 280.0,
+        "height": 217.0
+      },
+      "weight_kb": 475.4,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:55.945002+00:00",
+      "added_by": "automatic-script",
+      "review_pending": false
+    },
+    {
+      "id": "bb90196439",
+      "filename": "reactions/error-frustration/bb90196439.gif",
+      "source": "giphy",
+      "source_id": "AjYsTtVxEEBPO",
+      "source_url": "https://giphy.com/gifs/idiots-AjYsTtVxEEBPO",
+      "category": "reactions",
+      "subcategory": "error-frustration",
+      "tags": [
+        "frustration",
+        "error"
+      ],
+      "tone": [
+        "casual",
+        "playful"
+      ],
+      "primary_emotion": "frustration",
+      "recommended_use": "to acknowledge a mistake or problem lightly",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 260.0,
+        "height": 195.0
+      },
+      "weight_kb": 350.0,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:01:52.598864+00:00",
+      "added_by": "automatic-script",
+      "review_pending": false
     },
     {
       "id": "bcf76b07da",
@@ -709,6 +1925,99 @@
       "review_pending": false
     },
     {
+      "id": "bede347125",
+      "filename": "transitions/topic-change/bede347125.gif",
+      "source": "giphy",
+      "source_id": "3o7TKBcOTDTFR6gn6M",
+      "source_url": "https://giphy.com/gifs/vh1-reality-tv-3o7TKBcOTDTFR6gn6M",
+      "category": "transitions",
+      "subcategory": "topic-change",
+      "tags": [],
+      "tone": [
+        "professional",
+        "minimalist"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 500.0,
+        "height": 250.0
+      },
+      "weight_kb": 1068.0,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:25.320647+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "c4e55d80b4",
+      "filename": "reactions/error-frustration/c4e55d80b4.gif",
+      "source": "giphy",
+      "source_id": "1Y7ChRtbWnYONjDidg",
+      "source_url": "https://giphy.com/gifs/foxhomeent-alvin-and-the-chipmunks-1Y7ChRtbWnYONjDidg",
+      "category": "reactions",
+      "subcategory": "error-frustration",
+      "tags": [],
+      "tone": [
+        "casual",
+        "playful"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 189.0,
+        "height": 177.0
+      },
+      "weight_kb": 388.2,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:01:55.853482+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "c4f3478d05",
+      "filename": "collaboration/team/c4f3478d05.gif",
+      "source": "giphy",
+      "source_id": "ziUZnB4EZgNMC3gJnv",
+      "source_url": "https://giphy.com/gifs/kronesag-krones-ziUZnB4EZgNMC3gJnv",
+      "category": "collaboration",
+      "subcategory": "team",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 270.0
+      },
+      "weight_kb": 572.3,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:53.948480+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
       "id": "c72551fc9e",
       "filename": "reactions/celebration/c72551fc9e.gif",
       "source": "giphy",
@@ -736,6 +2045,37 @@
       ],
       "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
       "date_added": "2026-07-16T23:49:21.169062+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "cb7289c309",
+      "filename": "collaboration/team/cb7289c309.gif",
+      "source": "giphy",
+      "source_id": "wrzf9P70YWLJK",
+      "source_url": "https://giphy.com/gifs/tom-cruise-top-gun-maverick-wrzf9P70YWLJK",
+      "category": "collaboration",
+      "subcategory": "team",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 380.0,
+        "height": 214.0
+      },
+      "weight_kb": 613.8,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:57.216927+00:00",
       "added_by": "automatic-script",
       "review_pending": true
     },
@@ -802,6 +2142,67 @@
       "review_pending": true
     },
     {
+      "id": "d0a027349e",
+      "filename": "reactions/waiting-loading/d0a027349e.gif",
+      "source": "giphy",
+      "source_id": "llwf790LJlOThd1Q3g",
+      "source_url": "https://giphy.com/gifs/VeeFriends-robot-veefriends-rare-llwf790LJlOThd1Q3g",
+      "category": "reactions",
+      "subcategory": "waiting-loading",
+      "tags": [],
+      "tone": [
+        "minimalist",
+        "calm"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 480.0
+      },
+      "weight_kb": 3049.0,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:01:58.780946+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "d2fdd2dd7b",
+      "filename": "emphasis/key-point/d2fdd2dd7b.gif",
+      "source": "giphy",
+      "source_id": "H3fCEHvlv6dPHQeMdG",
+      "source_url": "https://giphy.com/gifs/patriotact-netflix-hasan-minhaj-patriot-act-H3fCEHvlv6dPHQeMdG",
+      "category": "emphasis",
+      "subcategory": "key-point",
+      "tags": [],
+      "tone": [
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 480.0
+      },
+      "weight_kb": 3114.7,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:29.643845+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
       "id": "d7b2226dd2",
       "filename": "reactions/celebration/d7b2226dd2.gif",
       "source": "giphy",
@@ -829,6 +2230,224 @@
       ],
       "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
       "date_added": "2026-07-16T23:49:02.881006+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "da0c4e0bf1",
+      "filename": "transitions/intro/da0c4e0bf1.gif",
+      "source": "giphy",
+      "source_id": "Y8ocCgwtdj29O",
+      "source_url": "https://giphy.com/gifs/marty-culp-Y8ocCgwtdj29O",
+      "category": "transitions",
+      "subcategory": "intro",
+      "tags": [],
+      "tone": [
+        "casual",
+        "professional"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 444.0,
+        "height": 404.0
+      },
+      "weight_kb": 373.5,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:05.774917+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "db84878c11",
+      "filename": "reactions/surprise/db84878c11.gif",
+      "source": "giphy",
+      "source_id": "b8RfbQFaOs1rO10ren",
+      "source_url": "https://giphy.com/gifs/theoffice-b8RfbQFaOs1rO10ren",
+      "category": "reactions",
+      "subcategory": "surprise",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "playful"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 400.0
+      },
+      "weight_kb": 1322.2,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:01:47.261292+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "df9892f5a6",
+      "filename": "reactions/error-frustration/df9892f5a6.gif",
+      "source": "giphy",
+      "source_id": "vwI4mYEHP8k0w",
+      "source_url": "https://giphy.com/gifs/muppets-annoyed-vwI4mYEHP8k0w",
+      "category": "reactions",
+      "subcategory": "error-frustration",
+      "tags": [],
+      "tone": [
+        "casual",
+        "playful"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 176.0,
+        "height": 134.0
+      },
+      "weight_kb": 213.5,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:01:51.208119+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "e2b46c7ded",
+      "filename": "emphasis/important-data/e2b46c7ded.gif",
+      "source": "giphy",
+      "source_id": "YnkMcHgNIMW4Yfmjxr",
+      "source_url": "https://giphy.com/gifs/stonks-stonk-YnkMcHgNIMW4Yfmjxr",
+      "category": "emphasis",
+      "subcategory": "important-data",
+      "tags": [],
+      "tone": [
+        "professional",
+        "energetic"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 360.0,
+        "height": 270.0
+      },
+      "weight_kb": 510.4,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:39.356877+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "ee8597ce25",
+      "filename": "closing/call-to-action/ee8597ce25.gif",
+      "source": "giphy",
+      "source_id": "oWjyixDbWuAk8",
+      "source_url": "https://giphy.com/gifs/oWjyixDbWuAk8",
+      "category": "closing",
+      "subcategory": "call-to-action",
+      "tags": [
+        "call-to-action",
+        "motivation"
+      ],
+      "tone": [
+        "energetic"
+      ],
+      "primary_emotion": "motivation",
+      "recommended_use": "final call-to-action slide",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 500.0,
+        "height": 385.0
+      },
+      "weight_kb": 265.2,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:03:11.796614+00:00",
+      "added_by": "automatic-script",
+      "review_pending": false
+    },
+    {
+      "id": "fa2e6b40bc",
+      "filename": "closing/call-to-action/fa2e6b40bc.gif",
+      "source": "giphy",
+      "source_id": "kHs1lBhZWaK5rj7lt3",
+      "source_url": "https://giphy.com/gifs/welcome-cult-one-of-us-kHs1lBhZWaK5rj7lt3",
+      "category": "closing",
+      "subcategory": "call-to-action",
+      "tags": [],
+      "tone": [
+        "energetic"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 457.0,
+        "height": 350.0
+      },
+      "weight_kb": 720.9,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:03:10.610302+00:00",
+      "added_by": "automatic-script",
+      "review_pending": true
+    },
+    {
+      "id": "fcfb9ef589",
+      "filename": "collaboration/brainstorm-ideas/fcfb9ef589.gif",
+      "source": "giphy",
+      "source_id": "25MfbJ5VsSgBq",
+      "source_url": "https://giphy.com/gifs/youthgovhk-25MfbJ5VsSgBq",
+      "category": "collaboration",
+      "subcategory": "brainstorm-ideas",
+      "tags": [],
+      "tone": [
+        "energetic",
+        "playful"
+      ],
+      "primary_emotion": "",
+      "recommended_use": "",
+      "avoid_if": null,
+      "content_rating": "g",
+      "duration_seconds": null,
+      "dimensions": {
+        "width": 480.0,
+        "height": 360.0
+      },
+      "weight_kb": 223.0,
+      "brand_compatible": [
+        "Library"
+      ],
+      "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+      "date_added": "2026-07-17T01:02:49.875044+00:00",
       "added_by": "automatic-script",
       "review_pending": true
     },

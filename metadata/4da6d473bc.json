@@ -1,0 +1,30 @@
+{
+  "id": "4da6d473bc",
+  "filename": "transitions/outro/4da6d473bc.gif",
+  "source": "giphy",
+  "source_id": "lD76yTC5zxZPG",
+  "source_url": "https://giphy.com/gifs/the-end-thats-all-folks-lD76yTC5zxZPG",
+  "category": "transitions",
+  "subcategory": "outro",
+  "tags": [],
+  "tone": [
+    "casual"
+  ],
+  "primary_emotion": "",
+  "recommended_use": "",
+  "avoid_if": null,
+  "content_rating": "g",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 499.0,
+    "height": 366.0
+  },
+  "weight_kb": 240.7,
+  "brand_compatible": [
+    "Library"
+  ],
+  "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+  "date_added": "2026-07-17T01:02:17.825493+00:00",
+  "added_by": "automatic-script",
+  "review_pending": true
+}

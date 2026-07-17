@@ -1,0 +1,35 @@
+{
+  "id": "82685ef700",
+  "filename": "emphasis/important-data/82685ef700.gif",
+  "source": "giphy",
+  "source_id": "cNrZyXIZHSLYTqtWJI",
+  "source_url": "https://giphy.com/gifs/cNrZyXIZHSLYTqtWJI",
+  "category": "emphasis",
+  "subcategory": "important-data",
+  "tags": [
+    "data",
+    "trending-up",
+    "metric"
+  ],
+  "tone": [
+    "professional",
+    "energetic"
+  ],
+  "primary_emotion": "confidence",
+  "recommended_use": "next to a positive metric or chart",
+  "avoid_if": null,
+  "content_rating": "g",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 300.0,
+    "height": 300.0
+  },
+  "weight_kb": 179.9,
+  "brand_compatible": [
+    "Library"
+  ],
+  "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+  "date_added": "2026-07-17T01:02:36.080182+00:00",
+  "added_by": "automatic-script",
+  "review_pending": false
+}

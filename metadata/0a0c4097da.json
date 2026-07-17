@@ -1,0 +1,33 @@
+{
+  "id": "0a0c4097da",
+  "filename": "transitions/outro/0a0c4097da.gif",
+  "source": "giphy",
+  "source_id": "7yojoQtevjOCI",
+  "source_url": "https://giphy.com/gifs/profile-notoverthehill-tomdds-7yojoQtevjOCI",
+  "category": "transitions",
+  "subcategory": "outro",
+  "tags": [
+    "outro",
+    "transition"
+  ],
+  "tone": [
+    "casual"
+  ],
+  "primary_emotion": "closure",
+  "recommended_use": "wrap-up / end of a section",
+  "avoid_if": null,
+  "content_rating": "g",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 480.0,
+    "height": 342.0
+  },
+  "weight_kb": 1747.9,
+  "brand_compatible": [
+    "Library"
+  ],
+  "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+  "date_added": "2026-07-17T01:02:16.700559+00:00",
+  "added_by": "automatic-script",
+  "review_pending": false
+}

@@ -88,6 +88,8 @@ def load_config(args: argparse.Namespace) -> dict:
         config["brand"] = args.brand
     if args.tones:
         config["tones"] = args.tones
+    if args.queries:
+        config["queries"] = args.queries
     if args.category:
         config["target_category"] = args.category
     if args.subcategory:
@@ -104,12 +106,18 @@ def load_config(args: argparse.Namespace) -> dict:
     config.setdefault("brand_compatible", [config["brand"]] if config.get("brand") else [])
 
     # Validation
-    missing = [k for k in ("brand", "tones", "target_category", "target_subcategory") if not config.get(k)]
+    missing = [k for k in ("brand", "target_category", "target_subcategory") if not config.get(k)]
     if missing:
         raise SystemExit(
             "Missing required config: " + ", ".join(missing) +
             "\nProvide them in the --config file or as CLI flags."
         )
+    if not config.get("tones") and not config.get("queries"):
+        raise SystemExit(
+            "Provide either 'tones' (expanded via tone_to_query_map.json) or explicit "
+            "'queries'. Give at least one via --tones / --queries or the config file."
+        )
+    config.setdefault("tones", [])
     if config["target_category"] not in VALID_CATEGORIES:
         raise SystemExit(
             f"target_category '{config['target_category']}' is not valid. "
@@ -238,6 +246,10 @@ def main() -> int:
     parser.add_argument("--config", help="Path to a brand_tone.json config file.")
     parser.add_argument("--brand", help="Brand name.")
     parser.add_argument("--tones", nargs="+", help="Tone adjectives, e.g. energetic friendly.")
+    parser.add_argument("--queries", nargs="+",
+                        help="Explicit GIPHY search terms (overrides tone expansion). "
+                             "Use to populate a subcategory by meaning, e.g. --queries "
+                             "\"thank you\" applause.")
     parser.add_argument("--category", help="Target level-1 category.")
     parser.add_argument("--subcategory", help="Target level-2 subcategory.")
     parser.add_argument("--rating", choices=["g", "pg", "pg-13", "r"], help="Content rating filter.")
@@ -259,8 +271,24 @@ def main() -> int:
     tone_map = load_tone_map()
     seen_ids = known_source_ids()
 
+    # Build the (label, query) plan. Explicit --queries win; otherwise expand tones.
+    query_plan: list[tuple[str, str]] = []
+    unknown_tones = []
+    if config.get("queries"):
+        query_plan = [("query", q) for q in config["queries"]]
+    else:
+        for tone in config["tones"]:
+            mapped = tone_map.get(tone)
+            if not mapped:
+                unknown_tones.append(tone)
+                print(f"  ! no query mapping for tone '{tone}' — add it to tone_to_query_map.json")
+                continue
+            query_plan += [(tone, q) for q in mapped]
+
     print(f"Brand: {config['brand']}")
-    print(f"Tones: {', '.join(config['tones'])}")
+    print(f"Tones: {', '.join(config['tones']) or '(none)'}")
+    if config.get("queries"):
+        print(f"Explicit queries: {', '.join(config['queries'])}")
     print(f"Target: {config['target_category']}/{config['target_subcategory']}")
     print(f"Rating: {config['content_rating']}  |  per-query limit: {config['per_query_limit']}")
     print(f"Already cataloged (source_ids): {len(seen_ids)}")
@@ -268,59 +296,51 @@ def main() -> int:
 
     downloaded = 0
     skipped_dupes = 0
-    unknown_tones = []
 
-    for tone in config["tones"]:
-        queries = tone_map.get(tone)
-        if not queries:
-            unknown_tones.append(tone)
-            print(f"  ! no query mapping for tone '{tone}' — add it to tone_to_query_map.json")
+    for label, query in query_plan:
+        print(f"[{label}] query: '{query}'")
+        if args.dry_run and not api_key:
+            print("    (dry-run without API key: skipping network call)")
             continue
 
-        for query in queries:
-            print(f"[{tone}] query: '{query}'")
-            if args.dry_run and not api_key:
-                print("    (dry-run without API key: skipping network call)")
+        results = search_giphy(api_key, query, config["content_rating"], config["per_query_limit"] * 2)
+        picked = select_best(results, config["selection"], config["per_query_limit"])
+
+        for item in picked:
+            source_id = str(item.get("id", ""))
+            if not source_id:
+                continue
+            if source_id in seen_ids:
+                skipped_dupes += 1
+                print(f"    - skip (already have): {source_id}")
                 continue
 
-            results = search_giphy(api_key, query, config["content_rating"], config["per_query_limit"] * 2)
-            picked = select_best(results, config["selection"], config["per_query_limit"])
+            gif_id = short_id(source_id)
+            rel_filename = f"{config['target_category']}/{config['target_subcategory']}/{gif_id}.gif"
+            dest = GIFS_DIR / rel_filename
+            gif_url = item.get("images", {}).get("original", {}).get("url")
 
-            for item in picked:
-                source_id = str(item.get("id", ""))
-                if not source_id:
-                    continue
-                if source_id in seen_ids:
-                    skipped_dupes += 1
-                    print(f"    - skip (already have): {source_id}")
-                    continue
-
-                gif_id = short_id(source_id)
-                rel_filename = f"{config['target_category']}/{config['target_subcategory']}/{gif_id}.gif"
-                dest = GIFS_DIR / rel_filename
-                gif_url = item.get("images", {}).get("original", {}).get("url")
-
-                if args.dry_run:
-                    print(f"    - would download: {source_id} -> gifs/{rel_filename}")
-                    seen_ids.add(source_id)
-                    continue
-
-                if not gif_url:
-                    print(f"    - skip (no original url): {source_id}")
-                    continue
-
-                size_bytes = download_gif(gif_url, dest)
-                weight_kb = size_bytes / 1024 if size_bytes else None
-
-                metadata = build_metadata(item, config, gif_id, rel_filename, weight_kb)
-                METADATA_DIR.mkdir(parents=True, exist_ok=True)
-                with (METADATA_DIR / f"{gif_id}.json").open("w", encoding="utf-8") as fh:
-                    json.dump(metadata, fh, indent=2, ensure_ascii=False)
-                    fh.write("\n")
-
+            if args.dry_run:
+                print(f"    - would download: {source_id} -> gifs/{rel_filename}")
                 seen_ids.add(source_id)
-                downloaded += 1
-                print(f"    + downloaded: {source_id} -> gifs/{rel_filename} ({metadata['weight_kb']} KB)")
+                continue
+
+            if not gif_url:
+                print(f"    - skip (no original url): {source_id}")
+                continue
+
+            size_bytes = download_gif(gif_url, dest)
+            weight_kb = size_bytes / 1024 if size_bytes else None
+
+            metadata = build_metadata(item, config, gif_id, rel_filename, weight_kb)
+            METADATA_DIR.mkdir(parents=True, exist_ok=True)
+            with (METADATA_DIR / f"{gif_id}.json").open("w", encoding="utf-8") as fh:
+                json.dump(metadata, fh, indent=2, ensure_ascii=False)
+                fh.write("\n")
+
+            seen_ids.add(source_id)
+            downloaded += 1
+            print(f"    + downloaded: {source_id} -> gifs/{rel_filename} ({metadata['weight_kb']} KB)")
 
     print("-" * 60)
     print(f"Downloaded: {downloaded}   Skipped duplicates: {skipped_dupes}")

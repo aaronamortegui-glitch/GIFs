@@ -1,0 +1,34 @@
+{
+  "id": "bb90196439",
+  "filename": "reactions/error-frustration/bb90196439.gif",
+  "source": "giphy",
+  "source_id": "AjYsTtVxEEBPO",
+  "source_url": "https://giphy.com/gifs/idiots-AjYsTtVxEEBPO",
+  "category": "reactions",
+  "subcategory": "error-frustration",
+  "tags": [
+    "frustration",
+    "error"
+  ],
+  "tone": [
+    "casual",
+    "playful"
+  ],
+  "primary_emotion": "frustration",
+  "recommended_use": "to acknowledge a mistake or problem lightly",
+  "avoid_if": null,
+  "content_rating": "g",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 260.0,
+    "height": 195.0
+  },
+  "weight_kb": 350.0,
+  "brand_compatible": [
+    "Library"
+  ],
+  "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+  "date_added": "2026-07-17T01:01:52.598864+00:00",
+  "added_by": "automatic-script",
+  "review_pending": false
+}

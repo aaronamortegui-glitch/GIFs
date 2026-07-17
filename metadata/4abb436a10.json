@@ -1,0 +1,31 @@
+{
+  "id": "4abb436a10",
+  "filename": "reactions/approval/4abb436a10.gif",
+  "source": "giphy",
+  "source_id": "gVoBC0SuaHStq",
+  "source_url": "https://giphy.com/gifs/republican-bill-oreilly-ron-paul-gVoBC0SuaHStq",
+  "category": "reactions",
+  "subcategory": "approval",
+  "tags": [],
+  "tone": [
+    "professional",
+    "casual"
+  ],
+  "primary_emotion": "",
+  "recommended_use": "",
+  "avoid_if": null,
+  "content_rating": "g",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 235.0,
+    "height": 240.0
+  },
+  "weight_kb": 1841.2,
+  "brand_compatible": [
+    "Library"
+  ],
+  "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+  "date_added": "2026-07-17T01:01:41.235292+00:00",
+  "added_by": "automatic-script",
+  "review_pending": true
+}

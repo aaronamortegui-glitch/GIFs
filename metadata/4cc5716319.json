@@ -1,0 +1,35 @@
+{
+  "id": "4cc5716319",
+  "filename": "emphasis/important-data/4cc5716319.gif",
+  "source": "giphy",
+  "source_id": "Xf1ghvcjLrMn3O6Qe4",
+  "source_url": "https://giphy.com/gifs/meme-profit-stonks-Xf1ghvcjLrMn3O6Qe4",
+  "category": "emphasis",
+  "subcategory": "important-data",
+  "tags": [
+    "data",
+    "trending-up",
+    "metric"
+  ],
+  "tone": [
+    "professional",
+    "energetic"
+  ],
+  "primary_emotion": "confidence",
+  "recommended_use": "next to a positive metric or chart",
+  "avoid_if": null,
+  "content_rating": "g",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 480.0,
+    "height": 270.0
+  },
+  "weight_kb": 1635.0,
+  "brand_compatible": [
+    "Library"
+  ],
+  "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+  "date_added": "2026-07-17T01:02:40.823873+00:00",
+  "added_by": "automatic-script",
+  "review_pending": false
+}
