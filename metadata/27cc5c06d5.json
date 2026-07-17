@@ -1,0 +1,34 @@
+{
+  "id": "27cc5c06d5",
+  "filename": "reactions/error-frustration/27cc5c06d5.gif",
+  "source": "giphy",
+  "source_id": "hgQ9LQX4iLfAjBZJBr",
+  "source_url": "https://giphy.com/gifs/hyperrpg-twitch-hyper-rpg-kollok-hgQ9LQX4iLfAjBZJBr",
+  "category": "reactions",
+  "subcategory": "error-frustration",
+  "tags": [
+    "frustration",
+    "error"
+  ],
+  "tone": [
+    "casual",
+    "playful"
+  ],
+  "primary_emotion": "frustration",
+  "recommended_use": "acknowledging a problem lightly",
+  "avoid_if": null,
+  "content_rating": "g",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 401.0,
+    "height": 298.0
+  },
+  "weight_kb": 1065.2,
+  "brand_compatible": [
+    "Library"
+  ],
+  "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+  "date_added": "2026-07-17T20:13:38.370823+00:00",
+  "added_by": "automatic-script",
+  "review_pending": false
+}

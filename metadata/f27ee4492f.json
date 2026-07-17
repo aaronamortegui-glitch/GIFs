@@ -1,0 +1,30 @@
+{
+  "id": "f27ee4492f",
+  "filename": "reactions/celebration/f27ee4492f.gif",
+  "source": "giphy",
+  "source_id": "wx6X4UNAZydl9hyTZy",
+  "source_url": "https://giphy.com/gifs/kloecknermetals-cheers-kloeckner-metals-wx6X4UNAZydl9hyTZy",
+  "category": "reactions",
+  "subcategory": "celebration",
+  "tags": [],
+  "tone": [
+    "energetic"
+  ],
+  "primary_emotion": "",
+  "recommended_use": "",
+  "avoid_if": null,
+  "content_rating": "g",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 480.0,
+    "height": 480.0
+  },
+  "weight_kb": 120.4,
+  "brand_compatible": [
+    "Library"
+  ],
+  "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+  "date_added": "2026-07-17T20:13:29.939528+00:00",
+  "added_by": "automatic-script",
+  "review_pending": true
+}

@@ -1,0 +1,30 @@
+{
+  "id": "28c422703b",
+  "filename": "reactions/celebration/28c422703b.gif",
+  "source": "giphy",
+  "source_id": "26tOZ42Mg6pbTUPHW",
+  "source_url": "https://giphy.com/gifs/26tOZ42Mg6pbTUPHW",
+  "category": "reactions",
+  "subcategory": "celebration",
+  "tags": [],
+  "tone": [
+    "energetic"
+  ],
+  "primary_emotion": "",
+  "recommended_use": "",
+  "avoid_if": null,
+  "content_rating": "g",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 480.0,
+    "height": 320.0
+  },
+  "weight_kb": 1528.6,
+  "brand_compatible": [
+    "Library"
+  ],
+  "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+  "date_added": "2026-07-17T20:13:27.957564+00:00",
+  "added_by": "automatic-script",
+  "review_pending": true
+}

@@ -6,13 +6,16 @@
   "source_url": "https://giphy.com/gifs/happy-Us9Ibqg4H0mTC",
   "category": "reactions",
   "subcategory": "celebration",
-  "tags": [],
+  "tags": [
+    "celebration",
+    "victory"
+  ],
   "tone": [
     "energetic",
     "professional"
   ],
-  "primary_emotion": "",
-  "recommended_use": "",
+  "primary_emotion": "joy",
+  "recommended_use": "celebrating a win or milestone",
   "avoid_if": null,
   "content_rating": "g",
   "duration_seconds": null,
@@ -27,5 +30,5 @@
   "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
   "date_added": "2026-07-16T23:48:55.863670+00:00",
   "added_by": "automatic-script",
-  "review_pending": true
+  "review_pending": false
 }

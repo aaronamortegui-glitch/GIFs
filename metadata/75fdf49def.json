@@ -1,0 +1,31 @@
+{
+  "id": "75fdf49def",
+  "filename": "closing/thank-you/75fdf49def.gif",
+  "source": "giphy",
+  "source_id": "iQG16wOnCpgDm",
+  "source_url": "https://giphy.com/gifs/royce-da-59-iQG16wOnCpgDm",
+  "category": "closing",
+  "subcategory": "thank-you",
+  "tags": [],
+  "tone": [
+    "formal",
+    "calm"
+  ],
+  "primary_emotion": "",
+  "recommended_use": "",
+  "avoid_if": null,
+  "content_rating": "g",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 480.0,
+    "height": 262.0
+  },
+  "weight_kb": 707.1,
+  "brand_compatible": [
+    "Library"
+  ],
+  "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+  "date_added": "2026-07-17T20:13:59.493473+00:00",
+  "added_by": "automatic-script",
+  "review_pending": true
+}

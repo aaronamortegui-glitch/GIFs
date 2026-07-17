@@ -1,0 +1,30 @@
+{
+  "id": "4eb719d161",
+  "filename": "transitions/outro/4eb719d161.gif",
+  "source": "giphy",
+  "source_id": "vzTVFTWOuxrCH1ewh6",
+  "source_url": "https://giphy.com/gifs/greetpool-goodbye-farewell-coworker-vzTVFTWOuxrCH1ewh6",
+  "category": "transitions",
+  "subcategory": "outro",
+  "tags": [],
+  "tone": [
+    "casual"
+  ],
+  "primary_emotion": "",
+  "recommended_use": "",
+  "avoid_if": null,
+  "content_rating": "g",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 800.0,
+    "height": 600.0
+  },
+  "weight_kb": 1695.8,
+  "brand_compatible": [
+    "Library"
+  ],
+  "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+  "date_added": "2026-07-17T20:13:45.347428+00:00",
+  "added_by": "automatic-script",
+  "review_pending": true
+}

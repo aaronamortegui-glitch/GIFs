@@ -1,0 +1,33 @@
+{
+  "id": "478305e7fe",
+  "filename": "transitions/outro/478305e7fe.gif",
+  "source": "giphy",
+  "source_id": "s9L8zvrTGLaptTnofC",
+  "source_url": "https://giphy.com/gifs/pinguinalectora-s9L8zvrTGLaptTnofC",
+  "category": "transitions",
+  "subcategory": "outro",
+  "tags": [
+    "outro",
+    "transition"
+  ],
+  "tone": [
+    "casual"
+  ],
+  "primary_emotion": "closure",
+  "recommended_use": "end of a section",
+  "avoid_if": null,
+  "content_rating": "g",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 600.0,
+    "height": 600.0
+  },
+  "weight_kb": 2021.2,
+  "brand_compatible": [
+    "Library"
+  ],
+  "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+  "date_added": "2026-07-17T20:13:44.851896+00:00",
+  "added_by": "automatic-script",
+  "review_pending": false
+}
