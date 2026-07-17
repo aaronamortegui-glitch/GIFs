@@ -23,7 +23,8 @@ Remote: <https://github.com/aaronamortegui-glitch/GIFs>
 A curated set of GIFs, each described by tone/meaning metadata, so an agent (or a person)
 can pick the right GIF for a slide by **intent** — "celebratory, professional, for a
 positive metric" — instead of eyeballing files. Everything searchable lives in
-`index.json`; the GIFs themselves are stored with **Git LFS** (they're binary).
+`index.json`; the GIFs are plain files in the repo, served directly by
+`raw.githubusercontent.com` (so they work behind restrictive network allowlists).
 
 ### Preview — sample published GIFs
 
@@ -60,8 +61,6 @@ positive metric" — instead of eyeballing files. Everything searchable lives in
 
 > A 6-GIF sample. The library currently holds **77 GIFs — 32 published** across all 14
 > subcategories, with 45 still `review_pending` (excluded from consumers until confirmed).
-> Images render on GitHub via Git LFS — run `git lfs pull` after cloning to fetch them
-> locally.
 
 ---
 
@@ -70,7 +69,6 @@ positive metric" — instead of eyeballing files. Everything searchable lives in
 ```bash
 git clone https://github.com/aaronamortegui-glitch/GIFs.git
 cd GIFs
-git lfs pull          # pull the actual GIF binaries (LFS)
 copy .env.example .env    # Windows  (macOS/Linux: cp .env.example .env)
 pip install -r requirements.txt
 ```

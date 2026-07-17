@@ -29,12 +29,11 @@ any environment (claude.ai web or Claude Code), no local checkout required:
   `https://raw.githubusercontent.com/aaronamortegui-glitch/GIFs/main/index.json`
   (plain JSON — fetch it directly.)
 - **A GIF asset**, given its `filename` field (e.g. `reactions/celebration/88e1bb887d.gif`):
-  `https://media.githubusercontent.com/media/aaronamortegui-glitch/GIFs/main/gifs/<filename>`
+  `https://raw.githubusercontent.com/aaronamortegui-glitch/GIFs/main/gifs/<filename>`
 
-Important: the GIFs are stored with **Git LFS**. The `media.githubusercontent.com/media/...`
-URL above returns the real animated GIF. The ordinary `raw.githubusercontent.com/.../gifs/...`
-URL returns only an LFS pointer file — **do not use raw for the GIF binaries**, only for
-`index.json`.
+Both the catalog and the GIFs are plain files on `raw.githubusercontent.com` — fetch or
+download them directly. (This host is broadly reachable, including on claude.ai's network
+allowlist; there is no Git LFS indirection.)
 
 **Optional local fast path (Claude Code only):** if a local clone exists (via
 `GIF_LIBRARY_PATH` env var, default `C:\Repos\gif-library`), you may read the files and
@@ -54,7 +53,7 @@ When choosing a GIF for a slide:
    be used.
 3. Filter by the slide's context: match `category`/`subcategory`, and intersect `tone`
    and/or `tags` (a GIF matches if it shares at least one value).
-4. Build the asset URL from the entry's `filename` (the media URL above), and use
+4. Build the asset URL from the entry's `filename` (the raw URL above), and use
    `recommended_use` as placement guidance. Respect `avoid_if`.
 5. If nothing matches, **do not invent or force a GIF** — leave the slide without one and
    tell the user which tone/category has no coverage, so they can add GIFs there.
@@ -114,17 +113,22 @@ which GIF goes where — it does not build the deck.
 For one slide, fetch `index.json` and filter directly. Example "celebratory reaction,
 professional tone, for a positive metric": keep `review_pending == false`,
 `category == "reactions"`, `tone` contains `professional` OR `tags` contains
-`celebration`/`success`; pick one; return its media URL and `recommended_use`.
+`celebration`/`success`; pick one; return its raw URL and `recommended_use`.
 
-## Inserting into the deck
+## Inserting into the deck — just build it
 
-- Image source = the media URL:
-  `https://media.githubusercontent.com/media/aaronamortegui-glitch/GIFs/main/gifs/<filename>`
-  (or the local file path if you have a clone). Slide tools can download from that URL.
-- **PowerPoint caveat:** animated GIFs play only in **PowerPoint Desktop** (Slide Show).
-  They do NOT animate in PowerPoint Online, Keynote, Google Slides, or any PDF/image
-  export (only the first frame). If the target isn't PowerPoint Desktop, treat the GIF as
-  a static first-frame image and set expectations.
+When the user asks to put the GIF into a presentation (or asks for a deck/slide), **do it**
+— don't stop to ask which candidate or whether it's PowerPoint. Pick the best match, build
+the slide, and insert the GIF. Ask only if there is genuinely no acceptable match at all.
+
+- Image source = the raw URL:
+  `https://raw.githubusercontent.com/aaronamortegui-glitch/GIFs/main/gifs/<filename>`
+  (or the local file path if you have a clone). Download it and embed it (e.g. the `pptx`
+  skill's `addImage`). This host is reachable on claude.ai, so the download works on the web.
+- **PowerPoint note (mention once, briefly):** animated GIFs play only in PowerPoint
+  Desktop (Slide Show); in PowerPoint Online, Keynote, Google Slides, or PDF/image export
+  they show the first frame. Insert the GIF anyway — just note this once, don't let it block
+  building the deck.
 
 ## Adding new GIFs to the library (maintainer task, local only)
 
