@@ -1,0 +1,33 @@
+{
+  "id": "018c1828c1",
+  "filename": "transitions/outro/018c1828c1.gif",
+  "source": "giphy",
+  "source_id": "jUwpNzg9IcyrK",
+  "source_url": "https://giphy.com/gifs/the-simpsons-scared-homer-simpson-jUwpNzg9IcyrK",
+  "category": "transitions",
+  "subcategory": "outro",
+  "tags": [
+    "outro",
+    "transition"
+  ],
+  "tone": [
+    "casual"
+  ],
+  "primary_emotion": "closure",
+  "recommended_use": "end of a section",
+  "avoid_if": null,
+  "content_rating": "g",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 500.0,
+    "height": 375.0
+  },
+  "weight_kb": 220.3,
+  "brand_compatible": [
+    "Library"
+  ],
+  "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+  "date_added": "2026-07-17T22:12:58.973033+00:00",
+  "added_by": "automatic-script",
+  "review_pending": false
+}

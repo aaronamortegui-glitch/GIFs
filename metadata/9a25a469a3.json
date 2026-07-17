@@ -1,0 +1,31 @@
+{
+  "id": "9a25a469a3",
+  "filename": "closing/thank-you/9a25a469a3.gif",
+  "source": "giphy",
+  "source_id": "3osxYdXvsGw6wT5lIY",
+  "source_url": "https://giphy.com/gifs/thanks-3osxYdXvsGw6wT5lIY",
+  "category": "closing",
+  "subcategory": "thank-you",
+  "tags": [],
+  "tone": [
+    "formal",
+    "calm"
+  ],
+  "primary_emotion": "",
+  "recommended_use": "",
+  "avoid_if": null,
+  "content_rating": "g",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 480.0,
+    "height": 360.0
+  },
+  "weight_kb": 637.6,
+  "brand_compatible": [
+    "Library"
+  ],
+  "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+  "date_added": "2026-07-17T22:13:21.049170+00:00",
+  "added_by": "automatic-script",
+  "review_pending": true
+}

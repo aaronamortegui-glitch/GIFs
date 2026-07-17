@@ -1,0 +1,33 @@
+{
+  "id": "21770b66ef",
+  "filename": "transitions/outro/21770b66ef.gif",
+  "source": "giphy",
+  "source_id": "qTHchSwgqNCuVuTfIY",
+  "source_url": "https://giphy.com/gifs/evangelion-the-end-of-asuka-qTHchSwgqNCuVuTfIY",
+  "category": "transitions",
+  "subcategory": "outro",
+  "tags": [
+    "outro",
+    "transition"
+  ],
+  "tone": [
+    "casual"
+  ],
+  "primary_emotion": "closure",
+  "recommended_use": "end of a section",
+  "avoid_if": null,
+  "content_rating": "g",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 480.0,
+    "height": 378.0
+  },
+  "weight_kb": 1833.5,
+  "brand_compatible": [
+    "Library"
+  ],
+  "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+  "date_added": "2026-07-17T22:13:01.068316+00:00",
+  "added_by": "automatic-script",
+  "review_pending": false
+}

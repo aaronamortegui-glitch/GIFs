@@ -1,0 +1,30 @@
+{
+  "id": "5be360bc0f",
+  "filename": "transitions/outro/5be360bc0f.gif",
+  "source": "giphy",
+  "source_id": "l0IycQmt79g9XzOWQ",
+  "source_url": "https://giphy.com/gifs/mattcutshall-matt-cutshall-l0IycQmt79g9XzOWQ",
+  "category": "transitions",
+  "subcategory": "outro",
+  "tags": [],
+  "tone": [
+    "casual"
+  ],
+  "primary_emotion": "",
+  "recommended_use": "",
+  "avoid_if": null,
+  "content_rating": "g",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 480.0,
+    "height": 270.0
+  },
+  "weight_kb": 1466.3,
+  "brand_compatible": [
+    "Library"
+  ],
+  "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+  "date_added": "2026-07-17T22:12:59.625153+00:00",
+  "added_by": "automatic-script",
+  "review_pending": true
+}

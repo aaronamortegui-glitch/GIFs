@@ -1,0 +1,35 @@
+{
+  "id": "40e408a232",
+  "filename": "emphasis/important-data/40e408a232.gif",
+  "source": "giphy",
+  "source_id": "7LToDnKJsmJR4Atwoe",
+  "source_url": "https://giphy.com/gifs/InvestEurope-europe-invest-7LToDnKJsmJR4Atwoe",
+  "category": "emphasis",
+  "subcategory": "important-data",
+  "tags": [
+    "data",
+    "trending-up",
+    "metric"
+  ],
+  "tone": [
+    "professional",
+    "energetic"
+  ],
+  "primary_emotion": "confidence",
+  "recommended_use": "next to a metric or chart",
+  "avoid_if": null,
+  "content_rating": "g",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 480.0,
+    "height": 480.0
+  },
+  "weight_kb": 19313.8,
+  "brand_compatible": [
+    "Library"
+  ],
+  "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+  "date_added": "2026-07-17T22:13:11.654105+00:00",
+  "added_by": "automatic-script",
+  "review_pending": false
+}

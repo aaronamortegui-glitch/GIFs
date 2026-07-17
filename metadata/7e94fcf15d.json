@@ -1,0 +1,30 @@
+{
+  "id": "7e94fcf15d",
+  "filename": "reactions/celebration/7e94fcf15d.gif",
+  "source": "giphy",
+  "source_id": "3o7buiQeyYFamzRoR2",
+  "source_url": "https://giphy.com/gifs/filmeditor-movie-comedy-3o7buiQeyYFamzRoR2",
+  "category": "reactions",
+  "subcategory": "celebration",
+  "tags": [],
+  "tone": [
+    "energetic"
+  ],
+  "primary_emotion": "",
+  "recommended_use": "",
+  "avoid_if": null,
+  "content_rating": "g",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 396.0,
+    "height": 294.0
+  },
+  "weight_kb": 1505.4,
+  "brand_compatible": [
+    "Library"
+  ],
+  "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
+  "date_added": "2026-07-17T22:12:39.796423+00:00",
+  "added_by": "automatic-script",
+  "review_pending": true
+}
