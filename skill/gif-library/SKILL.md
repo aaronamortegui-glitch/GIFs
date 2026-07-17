@@ -2,141 +2,135 @@
 name: gif-library
 description: >-
   Pick and insert cataloged GIFs into presentations, slide decks, or any
-  fixed-canvas design using the local GIF library (index.json). Use this
-  whenever the user is building or editing a deck/presentation/slides and wants
-  to add a GIF, reaction, or animation — or asks to "find a GIF for this slide",
-  "add a celebration GIF", "put something animated here", or mentions the gif
-  library / gif catalog. Also use to add new GIFs to the library from GIPHY by
-  tone or search term. Trigger even when the user doesn't say "gif-library"
-  explicitly but clearly wants a GIF that fits a slide's tone/meaning.
+  fixed-canvas design using the shared GIF library (a public GitHub repo with an
+  index.json catalog). Use this whenever the user is building or editing a
+  deck/presentation/slides and wants to add a GIF, reaction, or animation — or
+  asks to "find a GIF for this slide", "add a celebration GIF", "put something
+  animated here", or mentions the gif library / gif catalog. Also use to add new
+  GIFs to the library from GIPHY by tone or search term. Trigger even when the
+  user doesn't say "gif-library" explicitly but clearly wants a GIF that fits a
+  slide's tone/meaning.
 ---
 
 # GIF Library
 
-A local, metadata-cataloged repository of GIFs for presentations. Each GIF is
-classified by **function** (folder: `reactions`/`transitions`/`emphasis`/
-`collaboration`/`closing`) and by **meaning** (`tags`, `tone`, `primary_emotion`).
-You pick GIFs by intent — "celebratory, professional, for a positive metric" —
-instead of eyeballing files.
+A shared, metadata-cataloged repository of GIFs for presentations. Each GIF is
+classified by **function** (`reactions`/`transitions`/`emphasis`/`collaboration`/
+`closing`) and by **meaning** (`tags`, `tone`, `primary_emotion`). You pick GIFs by
+intent — "celebratory, professional, for a positive metric" — instead of eyeballing
+files.
 
-## Locate the library
+## The library lives in a public GitHub repo
 
-The library is a git repo (GitHub: `aaronamortegui-glitch/GIFs`, stored with Git
-LFS). Resolve its root in this order:
+Repo: **`aaronamortegui-glitch/GIFs`** (public). Reference it by URL — this works in
+any environment (claude.ai web or Claude Code), no local checkout required:
 
-1. `GIF_LIBRARY_PATH` environment variable, if set.
-2. Default: `C:\Repos\gif-library` (Windows) or a `gif-library` / `GIFs`
-   checkout in the current workspace.
+- **Catalog (search index):**
+  `https://raw.githubusercontent.com/aaronamortegui-glitch/GIFs/main/index.json`
+  (plain JSON — fetch it directly.)
+- **A GIF asset**, given its `filename` field (e.g. `reactions/celebration/88e1bb887d.gif`):
+  `https://media.githubusercontent.com/media/aaronamortegui-glitch/GIFs/main/gifs/<filename>`
 
-If none exists, tell the user to clone it and run `git lfs pull`, then set
-`GIF_LIBRARY_PATH`. All paths below are relative to this root; call it `<LIB>`.
+Important: the GIFs are stored with **Git LFS**. The `media.githubusercontent.com/media/...`
+URL above returns the real animated GIF. The ordinary `raw.githubusercontent.com/.../gifs/...`
+URL returns only an LFS pointer file — **do not use raw for the GIF binaries**, only for
+`index.json`.
 
-`<LIB>/index.json` is the **single source of truth for search** — always read it;
-never crawl the `gifs/` folders by hand.
+**Optional local fast path (Claude Code only):** if a local clone exists (via
+`GIF_LIBRARY_PATH` env var, default `C:\Repos\gif-library`), you may read the files and
+run the bundled scripts locally instead of fetching over the network. If neither the
+network nor a clone is available, tell the user.
+
+`index.json` is the **single source of truth for search** — always use it; never try to
+list the repo folders.
 
 ## The read contract (non-negotiable)
 
 When choosing a GIF for a slide:
 
-1. Read `<LIB>/index.json` (it has a `gifs` array).
-2. **Exclude any GIF with `review_pending: true`** — those are unconfirmed and
-   must not be used.
-3. Filter by the slide's context: match `category`/`subcategory`, and intersect
-   `tone` and/or `tags` (a GIF matches if it shares at least one value).
-4. Use `filename` (relative to `<LIB>/gifs/`) as the asset path, and
+1. Get the catalog: fetch `index.json` from the URL above (or read the local clone). It
+   has a `gifs` array.
+2. **Exclude any GIF with `review_pending: true`** — those are unconfirmed and must not
+   be used.
+3. Filter by the slide's context: match `category`/`subcategory`, and intersect `tone`
+   and/or `tags` (a GIF matches if it shares at least one value).
+4. Build the asset URL from the entry's `filename` (the media URL above), and use
    `recommended_use` as placement guidance. Respect `avoid_if`.
-5. If nothing matches, **do not invent or force a GIF** — leave the slide without
-   one and tell the user which tone/category has no coverage, so they can add
-   GIFs there.
+5. If nothing matches, **do not invent or force a GIF** — leave the slide without one and
+   tell the user which tone/category has no coverage, so they can add GIFs there.
 
-This exists because the library mixes confirmed and unconfirmed assets; shipping
-a `review_pending` GIF, or jamming an off-tone GIF onto a slide, is worse than no
-GIF at all.
+This exists because the library mixes confirmed and unconfirmed assets; shipping a
+`review_pending` GIF, or jamming an off-tone GIF onto a slide, is worse than no GIF.
 
-## Workflow A — resolve GIFs for a whole deck (preferred)
+## Workflow A — resolve GIFs for a whole deck
 
-When you have several slides, write a brief and let the resolver do the matching.
-It implements the read contract and reports coverage gaps.
+Given several slides, decide the GIF per slide by applying the read contract to
+`index.json`.
 
-1. Build a brief JSON (one entry per slide that wants a GIF):
+1. Fetch `index.json` and keep only `review_pending == false` entries.
+2. For each slide, from its title/context derive a desired `category`/`subcategory` and/or
+   `tone`/`tags`, then filter (intersection). Pick one (most recent by `date_added`, or any
+   strong fit). If none, record it as a gap.
+3. Produce a mapping: `slide -> {filename, asset_url, recommended_use}` (or `null` + the
+   gap reason). Report "N of M slides without a GIF" at the end.
+
+**Local shortcut (Claude Code with a clone):** the repo bundles a resolver that already
+implements this. Write a brief JSON and run it:
 
 ```json
-{
-  "slides": [
-    {"title": "Q2 Results", "desired_tone": ["professional", "energetic"], "desired_category": "emphasis/important-data"},
-    {"title": "Thank you",  "desired_tone": ["calm"], "desired_category": "closing/thank-you"}
-  ]
-}
+{"slides": [
+  {"title": "Q2 Results", "desired_tone": ["professional","energetic"], "desired_category": "emphasis/important-data"},
+  {"title": "Thank you", "desired_category": "closing/thank-you"}
+]}
 ```
-
-`desired_category` may be `"category/subcategory"` or just `"category"`.
-`desired_tone` / `desired_tags` are optional lists.
-
-2. Run the resolver:
 
 ```bash
 python <LIB>/scripts/build_deck_with_gifs.py --brief brief.json --out mapping.json
 ```
 
-3. Read `mapping.json`. Each entry is `{slide, gif, gif_id, candidates}` (or
-   `gif: null` for a gap). Use `gif` (relative to `<LIB>/gifs/`) as the image.
-
-This does **not** build the deck — it only decides which GIF goes where. Assemble
-the actual slides with your normal tool (e.g. the `pptx` skill / pptxgenjs
-`addImage`) using `<LIB>/gifs/<gif>` as the image path.
+`desired_category` may be `"category/subcategory"` or just `"category"`. This only decides
+which GIF goes where — it does not build the deck.
 
 ## Workflow B — single ad-hoc lookup
 
-For one slide, read `index.json` and filter directly. Example intent
-"celebratory reaction, professional tone, for a positive metric":
-
-- keep `review_pending == false`
-- `category == "reactions"`, `tone` contains `professional` OR `tags` contains
-  `celebration`/`success`
-- pick one (most recent by `date_added`, or any good fit)
-
-Return `<LIB>/gifs/<filename>` and mention `recommended_use`.
+For one slide, fetch `index.json` and filter directly. Example "celebratory reaction,
+professional tone, for a positive metric": keep `review_pending == false`,
+`category == "reactions"`, `tone` contains `professional` OR `tags` contains
+`celebration`/`success`; pick one; return its media URL and `recommended_use`.
 
 ## Inserting into the deck
 
-- The asset path is `<LIB>/gifs/<filename>` (absolute path recommended for
-  slide tools).
-- **PowerPoint caveat:** animated GIFs play only in **PowerPoint Desktop**
-  (Slide Show). They do NOT animate in PowerPoint Online, Keynote, Google Slides,
-  or any PDF/image export (only the first frame). If the target isn't PowerPoint
-  Desktop, treat the GIF as a static first-frame image and set expectations.
+- Image source = the media URL:
+  `https://media.githubusercontent.com/media/aaronamortegui-glitch/GIFs/main/gifs/<filename>`
+  (or the local file path if you have a clone). Slide tools can download from that URL.
+- **PowerPoint caveat:** animated GIFs play only in **PowerPoint Desktop** (Slide Show).
+  They do NOT animate in PowerPoint Online, Keynote, Google Slides, or any PDF/image
+  export (only the first frame). If the target isn't PowerPoint Desktop, treat the GIF as
+  a static first-frame image and set expectations.
 
-## Adding new GIFs to the library
+## Adding new GIFs to the library (maintainer task, local only)
 
-When the user wants more coverage (a tone/category with no matches, or a new
-brand):
+Adding GIFs requires a local clone of the repo and a GIPHY API key, so it runs in Claude
+Code, not on the web:
 
 ```bash
-# by tone (expanded to English queries via tone_to_query_map.json)
-python <LIB>/scripts/fetch_by_brand_tone.py --brand "Acme" --tones energetic professional \
-    --category reactions --subcategory celebration --rating g --limit 5
-
-# by explicit search terms (best for meaning-specific subcategories)
+# by explicit search terms (best for a specific subcategory's meaning)
 python <LIB>/scripts/fetch_by_brand_tone.py --brand "Acme" --queries "thank you" applause \
     --category closing --subcategory thank-you --tones calm formal --rating g --limit 4
+# or by tone (expanded via tone_to_query_map.json)
+python <LIB>/scripts/fetch_by_brand_tone.py --brand "Acme" --tones energetic professional \
+    --category reactions --subcategory celebration --rating g --limit 5
 ```
 
-Requires `GIPHY_API_KEY` in `<LIB>/.env` (the script auto-loads it). New GIFs land
-as `review_pending: true`. Then:
+Requires `GIPHY_API_KEY` in `<LIB>/.env` (auto-loaded). New GIFs land as
+`review_pending: true`. Then a human fills `tags`/`primary_emotion`/`recommended_use` and
+sets `review_pending: false`; run `python <LIB>/scripts/build_index.py` to regenerate
+`index.json`; then commit + push so the public catalog updates. Only after that are the
+GIFs usable by Workflows A/B.
 
-```bash
-python <LIB>/scripts/validate_metadata.py   # lists what needs review
-# a human fills tags/primary_emotion/recommended_use and sets review_pending=false
-python <LIB>/scripts/build_index.py          # regenerate index.json
-```
+## Metadata fields (reference)
 
-Only after `build_index.py` (and `review_pending: false`) are new GIFs usable by
-Workflows A/B.
-
-## Metadata fields (for reference)
-
-`id`, `filename`, `category`, `subcategory`, `tags` (controlled vocabulary in
-`schema/tags-controlled.json`), `tone` (one of: professional, casual, energetic,
-calm, playful, formal, minimalist), `primary_emotion`, `recommended_use`,
-`avoid_if`, `content_rating`, `review_pending`, `date_added`. Full JSON Schema:
-`<LIB>/schema/gif-metadata.schema.json`.
+`id`, `filename`, `category`, `subcategory`, `tags` (controlled vocabulary), `tone` (one
+of: professional, casual, energetic, calm, playful, formal, minimalist),
+`primary_emotion`, `recommended_use`, `avoid_if`, `content_rating`, `review_pending`,
+`date_added`.
