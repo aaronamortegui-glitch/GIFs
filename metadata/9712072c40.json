@@ -1,18 +1,21 @@
 {
   "id": "9712072c40",
-  "filename": "reactions/celebration/9712072c40.gif",
+  "filename": "transitions/intro/9712072c40.gif",
   "source": "giphy",
   "source_id": "l0MYC0LajbaPoEADu",
   "source_url": "https://giphy.com/gifs/welcome-austin-powers-dr-evil-l0MYC0LajbaPoEADu",
-  "category": "reactions",
-  "subcategory": "celebration",
-  "tags": [],
+  "category": "transitions",
+  "subcategory": "intro",
+  "tags": [
+    "welcome",
+    "intro"
+  ],
   "tone": [
-    "energetic",
+    "casual",
     "professional"
   ],
-  "primary_emotion": "",
-  "recommended_use": "",
+  "primary_emotion": "warmth",
+  "recommended_use": "opening slide / welcoming the audience",
   "avoid_if": null,
   "content_rating": "g",
   "duration_seconds": null,
@@ -27,5 +30,5 @@
   "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
   "date_added": "2026-07-16T23:49:04.570680+00:00",
   "added_by": "automatic-script",
-  "review_pending": true
+  "review_pending": false
 }

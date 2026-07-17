@@ -10,18 +10,53 @@ independent axes and downloaded from GIPHY according to a brand's tone.
 `index.json` is the single source of truth for search. Consuming agents read it and never
 crawl the folders directly.
 
+Remote: <https://github.com/aaronamortegui-glitch/GIFs> (private)
+
 ---
 
-## Repository layout
+## 1. What this is
+
+A curated set of GIFs, each described by tone/meaning metadata, so an agent (or a person)
+can pick the right GIF for a slide by **intent** — "celebratory, professional, for a
+positive metric" — instead of eyeballing files. Everything searchable lives in
+`index.json`; the GIFs themselves are stored with **Git LFS** (they're binary).
+
+---
+
+## 2. Setup (cloning the repo)
+
+```bash
+git clone https://github.com/aaronamortegui-glitch/GIFs.git
+cd GIFs
+git lfs pull          # pull the actual GIF binaries (LFS)
+copy .env.example .env    # Windows  (macOS/Linux: cp .env.example .env)
+pip install -r requirements.txt
+```
+
+Then get a **free GIPHY API key** at <https://developers.giphy.com/> (choose **API**, not
+SDK) and paste it into `.env`:
 
 ```
-gif-library/
+GIPHY_API_KEY=your_key_here
+```
+
+`.env` is git-ignored — your key never leaves your machine. The scripts read `.env`
+automatically, so you don't need to export anything.
+
+---
+
+## 3. Repository layout
+
+```
+GIFs/
 ├── README.md
 ├── index.json                  # Master manifest — GENERATED, do not edit by hand
 ├── requirements.txt
+├── .env.example                # Copy to .env and add your key
+├── .gitattributes              # Git LFS tracking for gifs/**/*.gif
 ├── schema/
 │   ├── gif-metadata.schema.json   # JSON Schema for one GIF's metadata
-│   └── tags-controlled.json       # Controlled tag vocabulary (no spelling/language variants)
+│   └── tags-controlled.json       # Controlled tag vocabulary
 ├── gifs/
 │   ├── reactions/        (celebration, approval, surprise, error-frustration, waiting-loading)
 │   ├── transitions/      (intro, outro, topic-change)
@@ -34,157 +69,94 @@ gif-library/
     ├── fetch_by_brand_tone.py     # Search + download from GIPHY by brand tone
     ├── build_index.py             # Regenerate index.json from metadata/
     ├── validate_metadata.py       # Validate + list GIFs awaiting review
+    ├── build_deck_with_gifs.py    # Resolve which GIF goes on each slide of a brief
     ├── tone_to_query_map.json     # Editable tone -> English query mapping
-    └── brand_tone.example.json    # Example run config (copy to brand_tone.json)
+    └── brand_tone.example.json    # Example run config
 ```
 
 **Rules**
 - Each GIF lives in **exactly one** category subfolder (the most specific one). "Belongs to
   several" is expressed via `tags`, not by duplicating files.
 - A GIF's filename is its `id` (short hash) + `.gif` — never the original GIPHY name.
-- `index.json` is the only file a consumer should read for search.
+- `index.json` is the only file a consumer reads for search.
 
 ---
 
-## Classification (two axes)
+## 4. Classification (two axes)
 
 **Axis 1 — Function in the presentation** (= physical folder, stable taxonomy):
 `reactions`, `transitions`, `emphasis`, `collaboration`, `closing`.
 
-**Axis 2 — Tone / meaning** (= `tags`, `tone`, `primary_emotion`, free to grow):
-Grows organically per GIF, but `tags` are drawn from a **controlled vocabulary**
-(`schema/tags-controlled.json`) so you never get `success` vs `sucess` vs `exito`.
-Allowed `tone` values: `professional`, `casual`, `energetic`, `calm`, `playful`,
-`formal`, `minimalist`.
-
-This enables two search styles:
-- **By structure:** "give me a GIF in `transitions/intro`".
-- **By meaning:** "give me a GIF tagged `celebration` with tone `professional`".
+**Axis 2 — Tone / meaning** (= `tags`, `tone`, `primary_emotion`, grows freely):
+`tags` are drawn from a **controlled vocabulary** (`schema/tags-controlled.json`) to avoid
+variants (`success` vs `sucess` vs `exito`). Allowed `tone` values: `professional`,
+`casual`, `energetic`, `calm`, `playful`, `formal`, `minimalist`.
 
 ---
 
-## Getting a GIPHY API key
-
-1. Go to <https://developers.giphy.com/> and sign in / register (free).
-2. Create an app → choose the **API** (not SDK) option → copy the API key.
-3. Provide it to the script **via environment variable** (never hardcoded, never committed):
-
-   ```powershell
-   # Windows PowerShell
-   $env:GIPHY_API_KEY = "your_key_here"
-   ```
-   ```bash
-   # macOS / Linux
-   export GIPHY_API_KEY=your_key_here
-   ```
-
----
-
-## Install
+## 5. Adding new GIFs
 
 ```bash
-pip install -r requirements.txt   # just 'requests'
-```
-
----
-
-## Running the fetch script
-
-Copy the example config and edit it (real configs are git-ignored):
-
-```bash
-cp scripts/brand_tone.example.json scripts/brand_tone.json
-```
-
-`brand_tone.json`:
-```json
-{
-  "brand": "Acme Corp",
-  "tones": ["energetic", "friendly", "professional"],
-  "content_rating": "g",
-  "target_category": "reactions",
-  "target_subcategory": "celebration",
-  "per_query_limit": 5,
-  "selection": "trending"
-}
-```
-
-Run it:
-
-```bash
-# From a config file
+# 1. Search + download from GIPHY by tone (writes review_pending=true metadata)
 python scripts/fetch_by_brand_tone.py --config scripts/brand_tone.json
-
-# Or fully from CLI flags
-python scripts/fetch_by_brand_tone.py --brand "Acme" --tones energetic friendly \
+#    or with CLI flags:
+python scripts/fetch_by_brand_tone.py --brand "Acme" --tones energetic professional \
     --category reactions --subcategory celebration --rating g --limit 5
 
-# See what it would do without downloading anything
-python scripts/fetch_by_brand_tone.py --config scripts/brand_tone.json --dry-run
-```
+# 2. List what needs human review
+python scripts/validate_metadata.py
 
-What it does:
-1. Maps each tone → 2-3 English queries via `scripts/tone_to_query_map.json`.
-2. Searches GIPHY per query, filtered by `content_rating`.
-3. Selects the best N (`trending` order, or GIPHY relevance) — configurable.
-4. Downloads each GIF to `gifs/{category}/{subcategory}/{id}.gif`.
-5. Writes `metadata/{id}.json` with inferred fields (dimensions, size, source URL, date)
-   and **placeholders** for human fields (`tags`, `recommended_use`, `avoid_if`,
-   `primary_emotion`). Every new GIF gets **`review_pending: true`**.
-6. Runs `build_index.py` to regenerate `index.json`.
+# 3. For each pending metadata/*.json, a human fills:
+#    tags, primary_emotion, recommended_use, avoid_if, brand_compatible
+#    confirms category/subcategory (move the file if it changes)
+#    and sets  review_pending: false
 
-**Idempotent:** the script records each GIF's GIPHY `source_id`; running it again with the
-same tones will **not** re-download GIFs already present.
-
-**No auto-publishing:** the script never trusts its own category assignment. GIFs stay
-`review_pending: true` until a human confirms category, tags and tone.
-
----
-
-## Reviewing and publishing
-
-```bash
-python scripts/validate_metadata.py          # lists errors + the review queue
-python scripts/validate_metadata.py --strict # non-zero exit if any error (for CI)
-```
-
-For each pending GIF, a human edits `metadata/{id}.json`:
-- confirm/fix `category` + `subcategory` (move the file too if it changes),
-- fill `tags` (from `schema/tags-controlled.json`), `tone`, `primary_emotion`,
-  `recommended_use`, and optionally `avoid_if` / `brand_compatible`,
-- set `review_pending: false`.
-
-Then regenerate the index:
-```bash
+# 4. Regenerate the index — only now are the GIFs available to consumers
 python scripts/build_index.py
 ```
 
+**Idempotent:** re-running the fetch script never re-downloads a GIF already present (it
+checks the GIPHY `source_id`).
+
+**Review-gated:** the fetch script never trusts its own category guess — every new GIF is
+`review_pending: true` and is excluded from consumers until a human confirms it.
+
 ---
 
-## Read contract for Claude Design / Claude Code
+## 6. Read contract for Claude Design / Claude Code
 
 Any agent inserting a GIF into a presentation must:
-1. Read `index.json`.
-2. Filter by `tone` and/or `tags` (and/or `category`/`primary_emotion`) for the slide context.
+1. Read `index.json` — never crawl the folders by hand.
+2. Filter by `tone` / `tags` / `category` (and `primary_emotion`) for the slide context.
 3. **Exclude any GIF with `review_pending: true`.**
-4. Use `filename` for the asset path (relative to `gifs/`) and `recommended_use` as guidance
-   for where/when to place it. Respect `avoid_if`.
+4. Use `filename` for the asset path (relative to `gifs/`) and `recommended_use` as
+   placement guidance. Respect `avoid_if`.
 
-Example query intent: *"celebratory reaction for a positive metric, professional tone"* →
-filter `category == reactions`, `tone` contains `professional`, `tags` contains
-`celebration` or `success`, `review_pending == false`.
+`scripts/build_deck_with_gifs.py` implements this contract: given a brief (slides with
+optional `desired_tone` / `desired_category`), it returns a slide → GIF `filename` mapping
+and reports any slide with no match (it never invents one).
 
 ---
 
-## License & usage note
+## 7. Technical note — GIFs in PowerPoint
 
-Before automating bulk downloads, review GIPHY's API & Terms of Use
-(<https://developers.giphy.com/docs/api>) regarding:
-- **Rate limits** on the free API key (requests per hour/day).
-- **Attribution** and **local storage / caching** conditions for downloaded GIFs.
-- **Internal vs external use** — terms can differ between internal-only decks and content
-  that ships to external clients.
+Animated GIFs **play** in **PowerPoint Desktop** (during Slide Show). They do **not**
+animate in:
+- PowerPoint Online (web),
+- Keynote,
+- Google Slides,
+- any export to PDF or image (only the first frame is captured).
 
-Each GIF carries a `license_note` field; this file's summary does not replace a legal
-review for large-scale or public use. `brand_tone.json` and `.env` are git-ignored so keys
-and client configs never get committed.
+If the deck will be presented from PowerPoint Desktop, GIFs animate. For any other target,
+treat the GIF as a static first-frame image.
+
+---
+
+## 8. License & usage note
+
+Before automating bulk downloads or redistributing outside internal use, review GIPHY's
+API & Terms of Use (<https://developers.giphy.com/docs/api>) regarding rate limits (free
+key = 100 API calls/hour), attribution, local caching, and internal-vs-external
+distribution. Each GIF carries a `license_note`; this summary does not replace legal review
+for large-scale or public use. `.env` and `brand_tone.json` are git-ignored so keys and
+client configs are never committed.

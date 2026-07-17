@@ -1,0 +1,24 @@
+{
+  "deck": "Q2 Business Review (sample brief)",
+  "slides": [
+    {
+      "title": "Q2 Results",
+      "desired_tone": ["professional", "energetic"],
+      "desired_category": "emphasis/important-data"
+    },
+    {
+      "title": "We hit our target!",
+      "desired_tone": ["energetic"],
+      "desired_category": "reactions/celebration"
+    },
+    {
+      "title": "Meet the team",
+      "desired_category": "collaboration/team"
+    },
+    {
+      "title": "Welcome everyone",
+      "desired_tone": ["professional"],
+      "desired_category": "transitions/intro"
+    }
+  ]
+}

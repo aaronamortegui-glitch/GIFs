@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "last_updated": "2026-07-16T23:56:29.676917+00:00",
+  "last_updated": "2026-07-17T00:41:54.156316+00:00",
   "count_total": 27,
-  "count_published": 0,
-  "count_review_pending": 27,
+  "count_published": 5,
+  "count_review_pending": 22,
   "searchable_fields": [
     "tags",
     "category",
@@ -261,19 +261,21 @@
     },
     {
       "id": "523cc419f6",
-      "filename": "reactions/celebration/523cc419f6.gif",
+      "filename": "collaboration/team/523cc419f6.gif",
       "source": "giphy",
       "source_id": "3oKIPrePtiSL5s92CI",
       "source_url": "https://giphy.com/gifs/tech-business-chill-3oKIPrePtiSL5s92CI",
-      "category": "reactions",
-      "subcategory": "celebration",
-      "tags": [],
+      "category": "collaboration",
+      "subcategory": "team",
+      "tags": [
+        "teamwork",
+        "handshake"
+      ],
       "tone": [
-        "energetic",
         "professional"
       ],
-      "primary_emotion": "",
-      "recommended_use": "",
+      "primary_emotion": "trust",
+      "recommended_use": "when introducing a partnership or agreement",
       "avoid_if": null,
       "content_rating": "g",
       "duration_seconds": null,
@@ -288,7 +290,7 @@
       "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
       "date_added": "2026-07-16T23:49:09.921063+00:00",
       "added_by": "automatic-script",
-      "review_pending": true
+      "review_pending": false
     },
     {
       "id": "5eab1fdbd5",
@@ -385,19 +387,21 @@
     },
     {
       "id": "81c7b4293e",
-      "filename": "reactions/celebration/81c7b4293e.gif",
+      "filename": "collaboration/team/81c7b4293e.gif",
       "source": "giphy",
       "source_id": "j9UyuqYatYLohfHeMO",
       "source_url": "https://giphy.com/gifs/usfigureskating-figure-skating-team-usa-usfs-j9UyuqYatYLohfHeMO",
-      "category": "reactions",
-      "subcategory": "celebration",
-      "tags": [],
+      "category": "collaboration",
+      "subcategory": "team",
+      "tags": [
+        "teamwork",
+        "agreement"
+      ],
       "tone": [
-        "energetic",
         "professional"
       ],
-      "primary_emotion": "",
-      "recommended_use": "",
+      "primary_emotion": "confidence",
+      "recommended_use": "when closing a deal or sealing an agreement",
       "avoid_if": null,
       "content_rating": "g",
       "duration_seconds": null,
@@ -412,7 +416,7 @@
       "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
       "date_added": "2026-07-16T23:49:11.122944+00:00",
       "added_by": "automatic-script",
-      "review_pending": true
+      "review_pending": false
     },
     {
       "id": "88e1bb887d",
@@ -422,13 +426,15 @@
       "source_url": "https://giphy.com/gifs/party-birthday-celebration-s2qXK8wAvkHTO",
       "category": "reactions",
       "subcategory": "celebration",
-      "tags": [],
-      "tone": [
-        "energetic",
-        "professional"
+      "tags": [
+        "celebration",
+        "success"
       ],
-      "primary_emotion": "",
-      "recommended_use": "",
+      "tone": [
+        "energetic"
+      ],
+      "primary_emotion": "joy",
+      "recommended_use": "after announcing a positive result or a win",
       "avoid_if": null,
       "content_rating": "g",
       "duration_seconds": null,
@@ -443,7 +449,7 @@
       "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
       "date_added": "2026-07-16T23:48:48.491914+00:00",
       "added_by": "automatic-script",
-      "review_pending": true
+      "review_pending": false
     },
     {
       "id": "8f5c6f3f8a",
@@ -509,19 +515,22 @@
     },
     {
       "id": "9712072c40",
-      "filename": "reactions/celebration/9712072c40.gif",
+      "filename": "transitions/intro/9712072c40.gif",
       "source": "giphy",
       "source_id": "l0MYC0LajbaPoEADu",
       "source_url": "https://giphy.com/gifs/welcome-austin-powers-dr-evil-l0MYC0LajbaPoEADu",
-      "category": "reactions",
-      "subcategory": "celebration",
-      "tags": [],
+      "category": "transitions",
+      "subcategory": "intro",
+      "tags": [
+        "welcome",
+        "intro"
+      ],
       "tone": [
-        "energetic",
+        "casual",
         "professional"
       ],
-      "primary_emotion": "",
-      "recommended_use": "",
+      "primary_emotion": "warmth",
+      "recommended_use": "opening slide / welcoming the audience",
       "avoid_if": null,
       "content_rating": "g",
       "duration_seconds": null,
@@ -536,7 +545,7 @@
       "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
       "date_added": "2026-07-16T23:49:04.570680+00:00",
       "added_by": "automatic-script",
-      "review_pending": true
+      "review_pending": false
     },
     {
       "id": "9e1033afe1",
@@ -670,13 +679,16 @@
       "source_url": "https://giphy.com/gifs/justin-background-confetti-5jT0jaNDsM6Ik7X9yq",
       "category": "reactions",
       "subcategory": "celebration",
-      "tags": [],
+      "tags": [
+        "celebration",
+        "applause"
+      ],
       "tone": [
         "energetic",
-        "professional"
+        "playful"
       ],
-      "primary_emotion": "",
-      "recommended_use": "",
+      "primary_emotion": "excitement",
+      "recommended_use": "to celebrate a milestone reached",
       "avoid_if": null,
       "content_rating": "g",
       "duration_seconds": null,
@@ -691,7 +703,7 @@
       "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
       "date_added": "2026-07-16T23:48:50.242489+00:00",
       "added_by": "automatic-script",
-      "review_pending": true
+      "review_pending": false
     },
     {
       "id": "c72551fc9e",

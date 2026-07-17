@@ -1,18 +1,20 @@
 {
   "id": "81c7b4293e",
-  "filename": "reactions/celebration/81c7b4293e.gif",
+  "filename": "collaboration/team/81c7b4293e.gif",
   "source": "giphy",
   "source_id": "j9UyuqYatYLohfHeMO",
   "source_url": "https://giphy.com/gifs/usfigureskating-figure-skating-team-usa-usfs-j9UyuqYatYLohfHeMO",
-  "category": "reactions",
-  "subcategory": "celebration",
-  "tags": [],
+  "category": "collaboration",
+  "subcategory": "team",
+  "tags": [
+    "teamwork",
+    "agreement"
+  ],
   "tone": [
-    "energetic",
     "professional"
   ],
-  "primary_emotion": "",
-  "recommended_use": "",
+  "primary_emotion": "confidence",
+  "recommended_use": "when closing a deal or sealing an agreement",
   "avoid_if": null,
   "content_rating": "g",
   "duration_seconds": null,
@@ -27,5 +29,5 @@
   "license_note": "Sourced via GIPHY API. Review GIPHY API & Terms of Use (developers.giphy.com/docs/api) before external/client use. Attribution and caching terms may differ for external distribution.",
   "date_added": "2026-07-16T23:49:11.122944+00:00",
   "added_by": "automatic-script",
-  "review_pending": true
+  "review_pending": false
 }
