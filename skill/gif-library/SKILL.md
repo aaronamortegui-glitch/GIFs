@@ -32,8 +32,14 @@ any environment (claude.ai web or Claude Code), no local checkout required:
   `https://raw.githubusercontent.com/aaronamortegui-glitch/GIFs/main/gifs/<filename>`
 
 Both the catalog and the GIFs are plain files on `raw.githubusercontent.com` — fetch or
-download them directly. (This host is broadly reachable, including on claude.ai's network
-allowlist; there is no Git LFS indirection.)
+download them directly. (This host is reachable on claude.ai's network allowlist.)
+
+The raw GIF URL returns the **actual GIF bytes** (a `GIF89a` file, roughly 0.2–9 MB) — it
+is a normal file, NOT a Git LFS pointer, and there is no LFS anywhere in this repo anymore.
+So: download that **single** file from its raw URL and embed it. Do **not** download the
+whole repository archive (the repo ZIP is ~100 MB); you only need the one ~1 MB GIF. If a
+raw response ever looks like a tiny text file starting with `version https://git-lfs...`,
+that's a stale cache — just retry the same raw URL.
 
 **Optional local fast path (Claude Code only):** if a local clone exists (via
 `GIF_LIBRARY_PATH` env var, default `C:\Repos\gif-library`), you may read the files and
