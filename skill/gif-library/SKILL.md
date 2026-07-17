@@ -67,6 +67,28 @@ When choosing a GIF for a slide:
 This exists because the library mixes confirmed and unconfirmed assets; shipping a
 `review_pending` GIF, or jamming an off-tone GIF onto a slide, is worse than no GIF.
 
+## Trust the catalog — no re-vetting at build time
+
+A **published** GIF (`review_pending == false`) has already been vetted during curation:
+its category, tone, tags, and content-appropriateness (including copyright/brand safety)
+were confirmed by a human before it was published. So at build time, **trust it**:
+
+- If a GIF's `category`/`subcategory` matches what the slide asks for (and tone/tags if
+  specified), **use it — directly**. That match is the decision.
+- Do **not** re-evaluate the GIF at insertion time: don't preview its frames, don't
+  re-judge whether it "works", don't re-assess content or copyright. That vetting lives in
+  the curation step, not here — repeating it every build is exactly what makes this slow.
+- If several published GIFs match, just **pick one** (any is fine — e.g. random, or the
+  most recent by `date_added`). Don't agonize or compare candidates frame-by-frame.
+- The only build-time check is the read contract itself: exclude `review_pending == true`,
+  and if literally nothing matches the requested category/tone, say so (don't force a
+  mismatch).
+
+If a published GIF turns out to be inappropriate (e.g. copyright/brand risk), that's a
+**catalog** problem to fix at the source (unpublish/remove it), not something to re-check
+on every deck. Mention it to the user in one line so they can clean the catalog, but still
+proceed with the build.
+
 ## Response style — deliver first, don't over-explain
 
 Lead with the pick: the GIF and its media URL, plus a one-line "when to show it." Keep it
