@@ -8,3 +8,6 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+
+# Skill eval workspace (dev artifacts: run outputs, benchmark, viewer)
+skill/gif-library-workspace/

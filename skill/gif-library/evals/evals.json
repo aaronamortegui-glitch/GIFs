@@ -1,0 +1,50 @@
+{
+  "skill_name": "gif-library",
+  "evals": [
+    {
+      "id": 0,
+      "name": "deck-q2-review",
+      "prompt": "I'm putting together a Q2 business review deck. There's a slide for our revenue results (we beat target, feels energetic), a 'Meet the team' slide, and a closing 'Thank you' slide. Pick a GIF that fits each slide from my gif library and give me the file to use for each. Save your answer (the slide -> gif mapping) to a file called answer.json in your working directory.",
+      "expected_output": "A mapping of the 3 slides to GIF filenames pulled from index.json (celebration/emphasis for results, collaboration/team for team, closing/thank-you for thank you), all with review_pending=false. Should read index.json, not crawl folders.",
+      "files": [],
+      "assertions": [
+        "answer.json was produced with a mapping for all 3 slides",
+        "Every chosen GIF filename actually exists as an entry in index.json",
+        "No chosen GIF has review_pending == true",
+        "The 'Meet the team' slide maps to a collaboration/team GIF",
+        "The 'Thank you' slide maps to a closing/thank-you GIF",
+        "The revenue-results slide maps to a celebration or emphasis GIF",
+        "It read index.json rather than crawling the gifs/ folders directly"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "single-celebration-lookup",
+      "prompt": "I have a slide where we announce we just hit our annual sales target. Find me one celebration GIF with a professional tone from my gif library for that slide, and tell me the exact file path and when to show it. Write your answer to answer.md.",
+      "expected_output": "One GIF from reactions/celebration (or tagged celebration/success) whose tone includes professional, review_pending=false, with its filename under gifs/ and its recommended_use. Should not pick a review_pending GIF.",
+      "files": [],
+      "assertions": [
+        "answer.md was produced naming exactly one GIF",
+        "The chosen GIF exists in index.json",
+        "The chosen GIF's tone includes 'professional'",
+        "The chosen GIF is a celebration GIF (reactions/celebration or tagged celebration/success)",
+        "The chosen GIF has review_pending == false",
+        "A usable path under gifs/ and the recommended_use were given"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "gap-no-invent",
+      "prompt": "For a slide that shows an error/frustration moment, I want a GIF but it MUST feel strictly formal and minimalist in tone. Check my gif library and give me the file. Write your answer to answer.md.",
+      "expected_output": "The error-frustration subcategory has casual/playful tone GIFs, so a strictly formal+minimalist match does not exist. The correct behavior is to report that there is no match and NOT invent or force an off-tone GIF, ideally noting the coverage gap. Must not use a review_pending GIF.",
+      "files": [],
+      "assertions": [
+        "answer.md was produced",
+        "It correctly reports no strictly formal+minimalist error-frustration GIF exists (no confident match)",
+        "It does NOT invent or force an off-tone GIF as if it were a match",
+        "It does not present a review_pending GIF as an answer",
+        "It surfaces the coverage gap or suggests adding GIFs / relaxing the tone"
+      ]
+    }
+  ]
+}
