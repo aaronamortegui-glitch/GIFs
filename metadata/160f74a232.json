@@ -7,13 +7,17 @@
   "category": "transitions",
   "subcategory": "topic-change",
   "tags": [
-    "transition"
+    "vr-headset",
+    "goggles",
+    "icon",
+    "tech",
+    "next-scene"
   ],
   "tone": [
     "minimalist",
     "professional"
   ],
-  "primary_emotion": "momentum",
+  "primary_emotion": "anticipation",
   "recommended_use": "changing topic",
   "avoid_if": null,
   "content_rating": "g",

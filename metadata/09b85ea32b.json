@@ -7,14 +7,17 @@
   "category": "transitions",
   "subcategory": "intro",
   "tags": [
-    "intro",
-    "welcome"
+    "start-now",
+    "lets-go",
+    "sign",
+    "kickoff",
+    "motivation"
   ],
   "tone": [
     "energetic",
     "professional"
   ],
-  "primary_emotion": "anticipation",
+  "primary_emotion": "excitement",
   "recommended_use": "kicking off / intro slide",
   "avoid_if": null,
   "content_rating": "g",

@@ -7,13 +7,17 @@
   "category": "transitions",
   "subcategory": "outro",
   "tags": [
-    "outro",
-    "transition"
+    "homer-simpson",
+    "back-into-bushes",
+    "disappear",
+    "exit",
+    "retreat",
+    "vanish"
   ],
   "tone": [
     "casual"
   ],
-  "primary_emotion": "closure",
+  "primary_emotion": "retreat",
   "recommended_use": "end of a section",
   "avoid_if": null,
   "content_rating": "g",

@@ -7,13 +7,18 @@
   "category": "closing",
   "subcategory": "thank-you",
   "tags": [
-    "thank-you"
+    "envelope",
+    "mail",
+    "message",
+    "line-icon",
+    "closing",
+    "minimal"
   ],
   "tone": [
     "formal",
     "calm"
   ],
-  "primary_emotion": "gratitude",
+  "primary_emotion": "calm",
   "recommended_use": "thanking the audience",
   "avoid_if": null,
   "content_rating": "g",

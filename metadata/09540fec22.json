@@ -7,13 +7,16 @@
   "category": "emphasis",
   "subcategory": "key-point",
   "tags": [
-    "key-point",
-    "important"
+    "important",
+    "emphasis",
+    "very-important",
+    "serious",
+    "key-point"
   ],
   "tone": [
     "professional"
   ],
-  "primary_emotion": "focus",
+  "primary_emotion": "emphasis",
   "recommended_use": "to underline a key point",
   "avoid_if": null,
   "content_rating": "g",

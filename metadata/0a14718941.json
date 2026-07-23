@@ -7,13 +7,16 @@
   "category": "transitions",
   "subcategory": "outro",
   "tags": [
-    "outro",
-    "transition"
+    "goodbye",
+    "wave",
+    "leaving",
+    "bye",
+    "exit"
   ],
   "tone": [
     "casual"
   ],
-  "primary_emotion": "closure",
+  "primary_emotion": "warmth",
   "recommended_use": "wrap-up / end of a section",
   "avoid_if": null,
   "content_rating": "g",

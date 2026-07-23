@@ -7,14 +7,18 @@
   "category": "reactions",
   "subcategory": "celebration",
   "tags": [
+    "confetti",
     "celebration",
-    "applause"
+    "party",
+    "falling",
+    "colorful",
+    "festive"
   ],
   "tone": [
     "energetic",
     "playful"
   ],
-  "primary_emotion": "excitement",
+  "primary_emotion": "joy",
   "recommended_use": "to celebrate a milestone reached",
   "avoid_if": null,
   "content_rating": "g",

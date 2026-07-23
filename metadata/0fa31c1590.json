@@ -7,15 +7,17 @@
   "category": "collaboration",
   "subcategory": "brainstorm-ideas",
   "tags": [
-    "idea",
     "brainstorm",
-    "lightbulb"
+    "session",
+    "talking",
+    "explaining",
+    "sitcom"
   ],
   "tone": [
     "energetic",
     "playful"
   ],
-  "primary_emotion": "inspiration",
+  "primary_emotion": "enthusiasm",
   "recommended_use": "ideation / brainstorming",
   "avoid_if": null,
   "content_rating": "g",

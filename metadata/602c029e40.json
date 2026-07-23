@@ -7,14 +7,18 @@
   "category": "reactions",
   "subcategory": "surprise",
   "tags": [
-    "surprise",
-    "shock"
+    "intrigued",
+    "plot-thickens",
+    "popcorn",
+    "cartoon-cat",
+    "suspense",
+    "watching"
   ],
   "tone": [
     "energetic",
     "playful"
   ],
-  "primary_emotion": "surprise",
+  "primary_emotion": "intrigue",
   "recommended_use": "reacting to an unexpected result",
   "avoid_if": null,
   "content_rating": "g",

@@ -8,13 +8,16 @@
   "subcategory": "intro",
   "tags": [
     "welcome",
-    "intro"
+    "greeting",
+    "villain",
+    "movie",
+    "gesture"
   ],
   "tone": [
     "casual",
     "professional"
   ],
-  "primary_emotion": "warmth",
+  "primary_emotion": "welcome",
   "recommended_use": "opening slide / welcoming the audience",
   "avoid_if": null,
   "content_rating": "g",

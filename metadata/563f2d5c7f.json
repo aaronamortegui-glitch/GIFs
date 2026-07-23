@@ -7,14 +7,17 @@
   "category": "reactions",
   "subcategory": "waiting-loading",
   "tags": [
+    "loading",
+    "progress-bar",
+    "button",
     "waiting",
-    "loading"
+    "text"
   ],
   "tone": [
     "minimalist",
     "calm"
   ],
-  "primary_emotion": "patience",
+  "primary_emotion": "anticipation",
   "recommended_use": "while something loads",
   "avoid_if": null,
   "content_rating": "g",

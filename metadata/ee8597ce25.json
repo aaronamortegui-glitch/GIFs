@@ -8,12 +8,16 @@
   "subcategory": "call-to-action",
   "tags": [
     "call-to-action",
-    "motivation"
+    "attention",
+    "couch",
+    "watching",
+    "anticipation",
+    "cartoon"
   ],
   "tone": [
     "energetic"
   ],
-  "primary_emotion": "motivation",
+  "primary_emotion": "anticipation",
   "recommended_use": "final call-to-action slide",
   "avoid_if": null,
   "content_rating": "g",

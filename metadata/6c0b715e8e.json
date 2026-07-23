@@ -7,15 +7,16 @@
   "category": "emphasis",
   "subcategory": "important-data",
   "tags": [
-    "data",
-    "trending-up",
-    "metric"
+    "reveal",
+    "green",
+    "minimal",
+    "text-intro"
   ],
   "tone": [
     "professional",
     "energetic"
   ],
-  "primary_emotion": "confidence",
+  "primary_emotion": "anticipation",
   "recommended_use": "next to a metric or chart",
   "avoid_if": null,
   "content_rating": "g",

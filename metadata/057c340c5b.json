@@ -8,12 +8,16 @@
   "subcategory": "call-to-action",
   "tags": [
     "call-to-action",
-    "motivation"
+    "register-now",
+    "text",
+    "bold-type",
+    "orange",
+    "signup"
   ],
   "tone": [
     "energetic"
   ],
-  "primary_emotion": "motivation",
+  "primary_emotion": "urgency",
   "recommended_use": "final call-to-action slide",
   "avoid_if": null,
   "content_rating": "g",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-07-17T22:13:28.718165+00:00",
+  "last_updated": "2026-07-23T15:03:34.924362+00:00",
   "count_total": 218,
   "count_published": 116,
   "count_review_pending": 102,
@@ -20,14 +20,18 @@
       "category": "reactions",
       "subcategory": "approval",
       "tags": [
+        "smile",
+        "grin",
+        "satisfied",
         "approval",
-        "agreement"
+        "pleased",
+        "nod"
       ],
       "tone": [
         "professional",
         "casual"
       ],
-      "primary_emotion": "approval",
+      "primary_emotion": "satisfaction",
       "recommended_use": "when a point is approved or agreed on",
       "avoid_if": null,
       "content_rating": "g",
@@ -54,13 +58,17 @@
       "category": "transitions",
       "subcategory": "topic-change",
       "tags": [
+        "moving-on",
+        "lets-move-on",
+        "talk-show",
+        "host",
         "transition"
       ],
       "tone": [
         "professional",
         "minimalist"
       ],
-      "primary_emotion": "momentum",
+      "primary_emotion": "dismissal",
       "recommended_use": "to signal a change of topic",
       "avoid_if": null,
       "content_rating": "g",
@@ -88,12 +96,16 @@
       "subcategory": "call-to-action",
       "tags": [
         "call-to-action",
-        "motivation"
+        "lets-get-ready",
+        "announcer",
+        "microphone",
+        "hype",
+        "anticipation"
       ],
       "tone": [
         "energetic"
       ],
-      "primary_emotion": "motivation",
+      "primary_emotion": "excitement",
       "recommended_use": "final call-to-action slide",
       "avoid_if": null,
       "content_rating": "g",
@@ -120,14 +132,18 @@
       "category": "reactions",
       "subcategory": "celebration",
       "tags": [
-        "celebration",
-        "victory"
+        "handshake",
+        "business",
+        "deal",
+        "agreement",
+        "office",
+        "congratulations"
       ],
       "tone": [
         "energetic",
         "professional"
       ],
-      "primary_emotion": "joy",
+      "primary_emotion": "satisfaction",
       "recommended_use": "celebrating a win or milestone",
       "avoid_if": null,
       "content_rating": "g",
@@ -154,13 +170,17 @@
       "category": "transitions",
       "subcategory": "outro",
       "tags": [
-        "outro",
-        "transition"
+        "homer-simpson",
+        "back-into-bushes",
+        "disappear",
+        "exit",
+        "retreat",
+        "vanish"
       ],
       "tone": [
         "casual"
       ],
-      "primary_emotion": "closure",
+      "primary_emotion": "retreat",
       "recommended_use": "end of a section",
       "avoid_if": null,
       "content_rating": "g",
@@ -187,8 +207,11 @@
       "category": "transitions",
       "subcategory": "intro",
       "tags": [
-        "intro",
-        "welcome"
+        "ribbon-cutting",
+        "grand-opening",
+        "launch",
+        "celebration",
+        "red-ribbon"
       ],
       "tone": [
         "energetic",
@@ -222,12 +245,16 @@
       "subcategory": "call-to-action",
       "tags": [
         "call-to-action",
-        "motivation"
+        "register-now",
+        "text",
+        "bold-type",
+        "orange",
+        "signup"
       ],
       "tone": [
         "energetic"
       ],
-      "primary_emotion": "motivation",
+      "primary_emotion": "urgency",
       "recommended_use": "final call-to-action slide",
       "avoid_if": null,
       "content_rating": "g",
@@ -255,12 +282,16 @@
       "subcategory": "call-to-action",
       "tags": [
         "call-to-action",
-        "motivation"
+        "enroll-now",
+        "signup",
+        "mascot",
+        "cartoon-character",
+        "text"
       ],
       "tone": [
         "energetic"
       ],
-      "primary_emotion": "motivation",
+      "primary_emotion": "encouragement",
       "recommended_use": "final call-to-action slide",
       "avoid_if": null,
       "content_rating": "g",
@@ -287,13 +318,17 @@
       "category": "transitions",
       "subcategory": "topic-change",
       "tags": [
-        "transition"
+        "moving-forward",
+        "text",
+        "progress",
+        "momentum",
+        "bold-type"
       ],
       "tone": [
         "minimalist",
         "professional"
       ],
-      "primary_emotion": "momentum",
+      "primary_emotion": "progression",
       "recommended_use": "changing topic",
       "avoid_if": null,
       "content_rating": "g",
@@ -320,14 +355,18 @@
       "category": "reactions",
       "subcategory": "celebration",
       "tags": [
-        "celebration",
-        "victory"
+        "excited",
+        "tiara",
+        "smile",
+        "kid",
+        "delight",
+        "giddy"
       ],
       "tone": [
         "energetic",
         "professional"
       ],
-      "primary_emotion": "joy",
+      "primary_emotion": "excitement",
       "recommended_use": "celebrating a win or milestone",
       "avoid_if": null,
       "content_rating": "g",
@@ -354,13 +393,16 @@
       "category": "emphasis",
       "subcategory": "key-point",
       "tags": [
-        "key-point",
-        "important"
+        "important",
+        "emphasis",
+        "very-important",
+        "serious",
+        "key-point"
       ],
       "tone": [
         "professional"
       ],
-      "primary_emotion": "focus",
+      "primary_emotion": "emphasis",
       "recommended_use": "to underline a key point",
       "avoid_if": null,
       "content_rating": "g",
@@ -387,8 +429,12 @@
       "category": "reactions",
       "subcategory": "approval",
       "tags": [
+        "smile",
+        "nod",
         "approval",
-        "agreement"
+        "athlete",
+        "agreement",
+        "confident"
       ],
       "tone": [
         "professional",
@@ -421,14 +467,17 @@
       "category": "transitions",
       "subcategory": "intro",
       "tags": [
-        "intro",
-        "welcome"
+        "start-now",
+        "lets-go",
+        "sign",
+        "kickoff",
+        "motivation"
       ],
       "tone": [
         "energetic",
         "professional"
       ],
-      "primary_emotion": "anticipation",
+      "primary_emotion": "excitement",
       "recommended_use": "kicking off / intro slide",
       "avoid_if": null,
       "content_rating": "g",
@@ -455,8 +504,12 @@
       "category": "transitions",
       "subcategory": "outro",
       "tags": [
-        "outro",
-        "transition"
+        "fade-out",
+        "ripple",
+        "closing",
+        "radial",
+        "wrap-up",
+        "the-end"
       ],
       "tone": [
         "casual"
@@ -488,13 +541,16 @@
       "category": "transitions",
       "subcategory": "outro",
       "tags": [
-        "outro",
-        "transition"
+        "goodbye",
+        "wave",
+        "leaving",
+        "bye",
+        "exit"
       ],
       "tone": [
         "casual"
       ],
-      "primary_emotion": "closure",
+      "primary_emotion": "warmth",
       "recommended_use": "wrap-up / end of a section",
       "avoid_if": null,
       "content_rating": "g",
@@ -521,7 +577,12 @@
       "category": "closing",
       "subcategory": "thank-you",
       "tags": [
-        "thank-you"
+        "thank-you",
+        "thanks-a-bunch",
+        "bananas",
+        "pun",
+        "black-and-white",
+        "meme"
       ],
       "tone": [
         "formal",
@@ -554,8 +615,12 @@
       "category": "reactions",
       "subcategory": "approval",
       "tags": [
+        "nod",
         "approval",
-        "agreement"
+        "impressed",
+        "computer",
+        "kid",
+        "yes"
       ],
       "tone": [
         "professional",
@@ -589,7 +654,11 @@
       "subcategory": "intro",
       "tags": [
         "welcome",
-        "intro"
+        "gold",
+        "glitter",
+        "elegant",
+        "intro",
+        "sparkle"
       ],
       "tone": [
         "casual",
@@ -622,13 +691,17 @@
       "category": "transitions",
       "subcategory": "topic-change",
       "tags": [
-        "transition"
+        "dont-trip",
+        "move-on",
+        "hand-lettering",
+        "colorful",
+        "motivation"
       ],
       "tone": [
         "minimalist",
         "professional"
       ],
-      "primary_emotion": "momentum",
+      "primary_emotion": "encouragement",
       "recommended_use": "changing topic",
       "avoid_if": null,
       "content_rating": "g",
@@ -655,14 +728,18 @@
       "category": "reactions",
       "subcategory": "waiting-loading",
       "tags": [
-        "waiting",
-        "loading"
+        "loading",
+        "spinner",
+        "abstract",
+        "orange",
+        "spinning",
+        "dark"
       ],
       "tone": [
         "minimalist",
         "calm"
       ],
-      "primary_emotion": "patience",
+      "primary_emotion": "anticipation",
       "recommended_use": "while something loads or during a pause",
       "avoid_if": null,
       "content_rating": "g",
@@ -690,13 +767,17 @@
       "subcategory": "surprise",
       "tags": [
         "surprise",
-        "shock"
+        "shock",
+        "wide-eyed",
+        "jaw-drop",
+        "gasp",
+        "stunned"
       ],
       "tone": [
         "energetic",
         "playful"
       ],
-      "primary_emotion": "surprise",
+      "primary_emotion": "shock",
       "recommended_use": "reacting to an unexpected result",
       "avoid_if": null,
       "content_rating": "g",
@@ -723,15 +804,17 @@
       "category": "collaboration",
       "subcategory": "brainstorm-ideas",
       "tags": [
-        "idea",
         "brainstorm",
-        "lightbulb"
+        "session",
+        "talking",
+        "explaining",
+        "sitcom"
       ],
       "tone": [
         "energetic",
         "playful"
       ],
-      "primary_emotion": "inspiration",
+      "primary_emotion": "enthusiasm",
       "recommended_use": "ideation / brainstorming",
       "avoid_if": null,
       "content_rating": "g",
@@ -758,13 +841,17 @@
       "category": "transitions",
       "subcategory": "topic-change",
       "tags": [
+        "gear-shift",
+        "shifting-gears",
+        "car",
+        "change",
         "transition"
       ],
       "tone": [
         "minimalist",
         "professional"
       ],
-      "primary_emotion": "momentum",
+      "primary_emotion": "movement",
       "recommended_use": "changing topic",
       "avoid_if": null,
       "content_rating": "g",
@@ -791,8 +878,12 @@
       "category": "reactions",
       "subcategory": "error-frustration",
       "tags": [
-        "frustration",
-        "error"
+        "server-error",
+        "5xx",
+        "glitch",
+        "error",
+        "tech-fail",
+        "downtime"
       ],
       "tone": [
         "casual",
@@ -825,14 +916,18 @@
       "category": "reactions",
       "subcategory": "celebration",
       "tags": [
-        "celebration",
-        "victory"
+        "cheering",
+        "soccer",
+        "coach",
+        "victory",
+        "arms-out",
+        "sports"
       ],
       "tone": [
         "energetic",
         "professional"
       ],
-      "primary_emotion": "joy",
+      "primary_emotion": "triumph",
       "recommended_use": "celebrating a win or milestone",
       "avoid_if": null,
       "content_rating": "g",
@@ -859,14 +954,18 @@
       "category": "reactions",
       "subcategory": "celebration",
       "tags": [
-        "celebration",
-        "victory"
+        "cheering",
+        "hockey",
+        "fan",
+        "screaming",
+        "sports",
+        "hype"
       ],
       "tone": [
         "energetic",
         "professional"
       ],
-      "primary_emotion": "joy",
+      "primary_emotion": "excitement",
       "recommended_use": "celebrating a win or milestone",
       "avoid_if": null,
       "content_rating": "g",
@@ -893,13 +992,17 @@
       "category": "transitions",
       "subcategory": "topic-change",
       "tags": [
-        "transition"
+        "vr-headset",
+        "goggles",
+        "icon",
+        "tech",
+        "next-scene"
       ],
       "tone": [
         "minimalist",
         "professional"
       ],
-      "primary_emotion": "momentum",
+      "primary_emotion": "anticipation",
       "recommended_use": "changing topic",
       "avoid_if": null,
       "content_rating": "g",
@@ -926,13 +1029,16 @@
       "category": "emphasis",
       "subcategory": "key-point",
       "tags": [
-        "key-point",
-        "important"
+        "abstract",
+        "gradient",
+        "pastel",
+        "blob",
+        "shape"
       ],
       "tone": [
         "professional"
       ],
-      "primary_emotion": "focus",
+      "primary_emotion": "calm",
       "recommended_use": "underlining a key point",
       "avoid_if": null,
       "content_rating": "g",
@@ -959,14 +1065,17 @@
       "category": "reactions",
       "subcategory": "celebration",
       "tags": [
-        "celebration",
-        "victory"
+        "slow-clap",
+        "clapping",
+        "applause",
+        "sarcastic",
+        "villain"
       ],
       "tone": [
         "energetic",
         "professional"
       ],
-      "primary_emotion": "joy",
+      "primary_emotion": "approval",
       "recommended_use": "celebrating a win or milestone",
       "avoid_if": null,
       "content_rating": "g",
@@ -993,13 +1102,17 @@
       "category": "transitions",
       "subcategory": "topic-change",
       "tags": [
-        "transition"
+        "thank-u-next",
+        "moving-on",
+        "next",
+        "music-video",
+        "singer"
       ],
       "tone": [
         "professional",
         "minimalist"
       ],
-      "primary_emotion": "momentum",
+      "primary_emotion": "dismissal",
       "recommended_use": "to signal a change of topic",
       "avoid_if": null,
       "content_rating": "g",
@@ -1026,14 +1139,17 @@
       "category": "reactions",
       "subcategory": "approval",
       "tags": [
+        "nod",
         "approval",
+        "impressed",
         "agreement",
-        "confidence"
+        "confident",
+        "respect"
       ],
       "tone": [
         "professional"
       ],
-      "primary_emotion": "confidence",
+      "primary_emotion": "approval",
       "recommended_use": "when a stakeholder agrees or approves a point",
       "avoid_if": null,
       "content_rating": "g",
@@ -1060,14 +1176,18 @@
       "category": "reactions",
       "subcategory": "error-frustration",
       "tags": [
-        "frustration",
-        "error"
+        "this-is-fine",
+        "dog",
+        "fire",
+        "denial",
+        "coping",
+        "everything-broken"
       ],
       "tone": [
         "casual",
         "playful"
       ],
-      "primary_emotion": "frustration",
+      "primary_emotion": "resignation",
       "recommended_use": "acknowledging a problem lightly",
       "avoid_if": null,
       "content_rating": "g",
@@ -1094,8 +1214,12 @@
       "category": "reactions",
       "subcategory": "celebration",
       "tags": [
-        "celebration",
-        "victory"
+        "wave",
+        "smile",
+        "friendly",
+        "cafe",
+        "greeting",
+        "cheerful"
       ],
       "tone": [
         "energetic",
@@ -1128,13 +1252,16 @@
       "category": "transitions",
       "subcategory": "outro",
       "tags": [
-        "outro",
-        "transition"
+        "anime",
+        "walking-away",
+        "farewell",
+        "melancholy",
+        "exit"
       ],
       "tone": [
         "casual"
       ],
-      "primary_emotion": "closure",
+      "primary_emotion": "melancholy",
       "recommended_use": "end of a section",
       "avoid_if": null,
       "content_rating": "g",
@@ -1161,8 +1288,11 @@
       "category": "emphasis",
       "subcategory": "key-point",
       "tags": [
-        "key-point",
-        "important"
+        "writing",
+        "notebook",
+        "taking-notes",
+        "studying",
+        "focus"
       ],
       "tone": [
         "professional"
@@ -1194,14 +1324,17 @@
       "category": "reactions",
       "subcategory": "error-frustration",
       "tags": [
-        "frustration",
-        "error"
+        "oops",
+        "mistake",
+        "error",
+        "guilty",
+        "pointing"
       ],
       "tone": [
         "casual",
         "playful"
       ],
-      "primary_emotion": "frustration",
+      "primary_emotion": "embarrassment",
       "recommended_use": "acknowledging a problem lightly",
       "avoid_if": null,
       "content_rating": "g",
@@ -1228,14 +1361,18 @@
       "category": "reactions",
       "subcategory": "error-frustration",
       "tags": [
-        "frustration",
-        "error"
+        "is-it-weekend-yet",
+        "cat",
+        "tired",
+        "done",
+        "over-it",
+        "peeking"
       ],
       "tone": [
         "casual",
         "playful"
       ],
-      "primary_emotion": "frustration",
+      "primary_emotion": "exasperation",
       "recommended_use": "acknowledging a problem lightly",
       "avoid_if": null,
       "content_rating": "g",
@@ -1262,13 +1399,17 @@
       "category": "closing",
       "subcategory": "thank-you",
       "tags": [
-        "thank-you"
+        "thank-you",
+        "appreciation",
+        "i-appreciate-you",
+        "black-and-white",
+        "celebrity"
       ],
       "tone": [
         "formal",
         "calm"
       ],
-      "primary_emotion": "gratitude",
+      "primary_emotion": "appreciation",
       "recommended_use": "thanking the audience",
       "avoid_if": null,
       "content_rating": "g",
@@ -1295,13 +1436,16 @@
       "category": "emphasis",
       "subcategory": "key-point",
       "tags": [
-        "key-point",
-        "important"
+        "pointing",
+        "attention",
+        "look",
+        "muppet",
+        "key-point"
       ],
       "tone": [
         "professional"
       ],
-      "primary_emotion": "focus",
+      "primary_emotion": "emphasis",
       "recommended_use": "underlining a key point",
       "avoid_if": null,
       "content_rating": "g",
@@ -1328,8 +1472,7 @@
       "category": "reactions",
       "subcategory": "error-frustration",
       "tags": [
-        "frustration",
-        "error"
+        "unknown"
       ],
       "tone": [
         "casual",
@@ -1393,7 +1536,10 @@
       "subcategory": "surprise",
       "tags": [
         "surprise",
-        "shock"
+        "confused",
+        "bewildered",
+        "raised-eyebrow",
+        "wtf"
       ],
       "tone": [
         "energetic",
@@ -1426,14 +1572,17 @@
       "category": "reactions",
       "subcategory": "waiting-loading",
       "tags": [
+        "cookie-monster",
         "waiting",
-        "loading"
+        "no-reply",
+        "annoyed",
+        "muppet"
       ],
       "tone": [
         "minimalist",
         "calm"
       ],
-      "primary_emotion": "patience",
+      "primary_emotion": "impatience",
       "recommended_use": "while something loads or during a pause",
       "avoid_if": null,
       "content_rating": "g",
@@ -1460,15 +1609,17 @@
       "category": "emphasis",
       "subcategory": "important-data",
       "tags": [
-        "data",
-        "trending-up",
-        "metric"
+        "swipe-up",
+        "up-arrow",
+        "panda",
+        "blue",
+        "call-to-action"
       ],
       "tone": [
         "professional",
         "energetic"
       ],
-      "primary_emotion": "confidence",
+      "primary_emotion": "encouragement",
       "recommended_use": "next to a metric or chart",
       "avoid_if": null,
       "content_rating": "g",
@@ -1495,7 +1646,11 @@
       "category": "closing",
       "subcategory": "thank-you",
       "tags": [
-        "thank-you"
+        "thank-you",
+        "thank-you-so-much",
+        "text",
+        "handwritten",
+        "gratitude"
       ],
       "tone": [
         "formal",
@@ -1528,15 +1683,18 @@
       "category": "collaboration",
       "subcategory": "brainstorm-ideas",
       "tags": [
+        "lightbulb",
         "idea",
-        "brainstorm",
-        "lightbulb"
+        "thinking",
+        "cartoon",
+        "glasses",
+        "eureka"
       ],
       "tone": [
         "energetic",
         "playful"
       ],
-      "primary_emotion": "inspiration",
+      "primary_emotion": "curiosity",
       "recommended_use": "during ideation / brainstorming",
       "avoid_if": null,
       "content_rating": "g",
@@ -1563,14 +1721,17 @@
       "category": "transitions",
       "subcategory": "intro",
       "tags": [
-        "intro",
-        "welcome"
+        "joker",
+        "villain",
+        "grin",
+        "menacing",
+        "movie"
       ],
       "tone": [
         "energetic",
         "professional"
       ],
-      "primary_emotion": "anticipation",
+      "primary_emotion": "menace",
       "recommended_use": "kicking off / intro slide",
       "avoid_if": null,
       "content_rating": "g",
@@ -1598,12 +1759,16 @@
       "subcategory": "call-to-action",
       "tags": [
         "call-to-action",
-        "motivation"
+        "welcome",
+        "glad-you-could-join",
+        "host",
+        "greeting",
+        "friendly"
       ],
       "tone": [
         "energetic"
       ],
-      "primary_emotion": "motivation",
+      "primary_emotion": "warmth",
       "recommended_use": "final call-to-action slide",
       "avoid_if": null,
       "content_rating": "g",
@@ -1630,8 +1795,11 @@
       "category": "transitions",
       "subcategory": "outro",
       "tags": [
-        "outro",
-        "transition"
+        "catch-you-later",
+        "goodbye",
+        "bye",
+        "leaving",
+        "wrap-up"
       ],
       "tone": [
         "casual"
@@ -1663,13 +1831,17 @@
       "category": "closing",
       "subcategory": "thank-you",
       "tags": [
-        "thank-you"
+        "thanks-for-watching",
+        "cartoon",
+        "mascot",
+        "closing",
+        "heart-eyes"
       ],
       "tone": [
         "formal",
         "calm"
       ],
-      "primary_emotion": "gratitude",
+      "primary_emotion": "warmth",
       "recommended_use": "thanking the audience",
       "avoid_if": null,
       "content_rating": "g",
@@ -1696,8 +1868,11 @@
       "category": "emphasis",
       "subcategory": "key-point",
       "tags": [
-        "key-point",
-        "important"
+        "skeptical",
+        "attention",
+        "listening",
+        "serious",
+        "focus"
       ],
       "tone": [
         "professional"
@@ -1729,8 +1904,12 @@
       "category": "reactions",
       "subcategory": "approval",
       "tags": [
+        "thumbs-up",
+        "two-thumbs-up",
         "approval",
-        "agreement"
+        "smile",
+        "yes",
+        "great-job"
       ],
       "tone": [
         "professional",
@@ -1763,14 +1942,18 @@
       "category": "reactions",
       "subcategory": "approval",
       "tags": [
+        "nailed-it",
         "approval",
-        "agreement"
+        "confident",
+        "success",
+        "smug",
+        "caption"
       ],
       "tone": [
         "professional",
         "casual"
       ],
-      "primary_emotion": "approval",
+      "primary_emotion": "confidence",
       "recommended_use": "when something is approved",
       "avoid_if": null,
       "content_rating": "g",
@@ -1798,13 +1981,17 @@
       "subcategory": "surprise",
       "tags": [
         "surprise",
-        "shock"
+        "shock",
+        "gasp",
+        "clutch-pearls",
+        "disbelief",
+        "amazed"
       ],
       "tone": [
         "energetic",
         "playful"
       ],
-      "primary_emotion": "surprise",
+      "primary_emotion": "shock",
       "recommended_use": "reacting to an unexpected result",
       "avoid_if": null,
       "content_rating": "g",
@@ -1831,14 +2018,17 @@
       "category": "reactions",
       "subcategory": "waiting-loading",
       "tags": [
+        "tapping",
+        "drumming-fingers",
         "waiting",
-        "loading"
+        "impatient",
+        "hand"
       ],
       "tone": [
         "minimalist",
         "calm"
       ],
-      "primary_emotion": "patience",
+      "primary_emotion": "impatience",
       "recommended_use": "while something loads",
       "avoid_if": null,
       "content_rating": "g",
@@ -1866,7 +2056,11 @@
       "subcategory": "thank-you",
       "tags": [
         "thank-you",
-        "applause"
+        "dog",
+        "shiba",
+        "cute",
+        "animal",
+        "gratitude"
       ],
       "tone": [
         "formal",
@@ -1899,13 +2093,16 @@
       "category": "emphasis",
       "subcategory": "key-point",
       "tags": [
-        "key-point",
-        "important"
+        "pay-attention",
+        "attention",
+        "look",
+        "important",
+        "emphasis"
       ],
       "tone": [
         "professional"
       ],
-      "primary_emotion": "focus",
+      "primary_emotion": "emphasis",
       "recommended_use": "to underline a key point",
       "avoid_if": null,
       "content_rating": "g",
@@ -1933,14 +2130,17 @@
       "subcategory": "important-data",
       "tags": [
         "data",
-        "trending-up",
-        "metric"
+        "graph",
+        "roller-coaster",
+        "growth",
+        "chart",
+        "trending-up"
       ],
       "tone": [
         "professional",
         "energetic"
       ],
-      "primary_emotion": "confidence",
+      "primary_emotion": "excitement",
       "recommended_use": "next to a metric or chart",
       "avoid_if": null,
       "content_rating": "g",
@@ -1967,8 +2167,11 @@
       "category": "reactions",
       "subcategory": "waiting-loading",
       "tags": [
+        "loading",
+        "spinner",
+        "circular",
         "waiting",
-        "loading"
+        "progress"
       ],
       "tone": [
         "minimalist",
@@ -2001,14 +2204,17 @@
       "category": "reactions",
       "subcategory": "waiting-loading",
       "tags": [
+        "hourglass",
         "waiting",
-        "loading"
+        "cartoon",
+        "time",
+        "countdown"
       ],
       "tone": [
         "minimalist",
         "calm"
       ],
-      "primary_emotion": "patience",
+      "primary_emotion": "anticipation",
       "recommended_use": "while something loads",
       "avoid_if": null,
       "content_rating": "g",
@@ -2035,9 +2241,11 @@
       "category": "emphasis",
       "subcategory": "important-data",
       "tags": [
-        "data",
-        "trending-up",
-        "metric"
+        "statistics",
+        "fundraising",
+        "numbers",
+        "finance",
+        "data-reveal"
       ],
       "tone": [
         "professional",
@@ -2070,8 +2278,12 @@
       "category": "transitions",
       "subcategory": "intro",
       "tags": [
-        "intro",
-        "welcome"
+        "curtain",
+        "stage",
+        "reveal",
+        "doors-open",
+        "theater",
+        "red-curtain"
       ],
       "tone": [
         "energetic",
@@ -2104,14 +2316,18 @@
       "category": "reactions",
       "subcategory": "approval",
       "tags": [
-        "approval",
-        "agreement"
+        "hand",
+        "3d-render",
+        "chrome",
+        "abstract",
+        "rings",
+        "gesture"
       ],
       "tone": [
         "professional",
         "casual"
       ],
-      "primary_emotion": "approval",
+      "primary_emotion": "confidence",
       "recommended_use": "when something is approved",
       "avoid_if": null,
       "content_rating": "g",
@@ -2138,14 +2354,17 @@
       "category": "collaboration",
       "subcategory": "team",
       "tags": [
-        "teamwork",
-        "high-five"
+        "red-shirt",
+        "smile",
+        "confident",
+        "solo",
+        "arms-crossed"
       ],
       "tone": [
         "energetic",
         "professional"
       ],
-      "primary_emotion": "unity",
+      "primary_emotion": "confidence",
       "recommended_use": "to celebrate teamwork",
       "avoid_if": null,
       "content_rating": "g",
@@ -2172,14 +2391,18 @@
       "category": "collaboration",
       "subcategory": "team",
       "tags": [
-        "teamwork",
-        "collaboration"
+        "group",
+        "wave",
+        "colorful",
+        "friends",
+        "greeting",
+        "fun"
       ],
       "tone": [
         "energetic",
         "professional"
       ],
-      "primary_emotion": "unity",
+      "primary_emotion": "camaraderie",
       "recommended_use": "team moments",
       "avoid_if": null,
       "content_rating": "g",
@@ -2206,14 +2429,17 @@
       "category": "closing",
       "subcategory": "thank-you",
       "tags": [
+        "applause",
+        "clapping",
         "thank-you",
-        "applause"
+        "awards",
+        "celebrity"
       ],
       "tone": [
         "formal",
         "calm"
       ],
-      "primary_emotion": "gratitude",
+      "primary_emotion": "appreciation",
       "recommended_use": "closing / thanking the audience",
       "avoid_if": null,
       "content_rating": "g",
@@ -2240,13 +2466,17 @@
       "category": "transitions",
       "subcategory": "outro",
       "tags": [
-        "outro",
-        "transition"
+        "the-end",
+        "finale",
+        "closing",
+        "wrap-up",
+        "finish",
+        "outro"
       ],
       "tone": [
         "casual"
       ],
-      "primary_emotion": "closure",
+      "primary_emotion": "finality",
       "recommended_use": "end of a section",
       "avoid_if": null,
       "content_rating": "g",
@@ -2273,14 +2503,18 @@
       "category": "reactions",
       "subcategory": "error-frustration",
       "tags": [
-        "frustration",
-        "error"
+        "this-is-fine",
+        "dog",
+        "fire",
+        "denial",
+        "coping",
+        "everything-broken"
       ],
       "tone": [
         "casual",
         "playful"
       ],
-      "primary_emotion": "frustration",
+      "primary_emotion": "resignation",
       "recommended_use": "acknowledging a problem lightly",
       "avoid_if": null,
       "content_rating": "g",
@@ -2308,13 +2542,17 @@
       "subcategory": "surprise",
       "tags": [
         "surprise",
-        "shock"
+        "shock",
+        "screaming",
+        "hands-on-head",
+        "mind-blown",
+        "disbelief"
       ],
       "tone": [
         "energetic",
         "playful"
       ],
-      "primary_emotion": "surprise",
+      "primary_emotion": "shock",
       "recommended_use": "reacting to an unexpected result",
       "avoid_if": null,
       "content_rating": "g",
@@ -2404,12 +2642,16 @@
       "subcategory": "call-to-action",
       "tags": [
         "call-to-action",
-        "motivation"
+        "sign-up-now",
+        "colorful-text",
+        "signup",
+        "playful",
+        "pastel"
       ],
       "tone": [
         "energetic"
       ],
-      "primary_emotion": "motivation",
+      "primary_emotion": "excitement",
       "recommended_use": "final call-to-action slide",
       "avoid_if": null,
       "content_rating": "g",
@@ -2437,7 +2679,11 @@
       "subcategory": "call-to-action",
       "tags": [
         "call-to-action",
-        "motivation"
+        "today-is-the-day",
+        "motivation",
+        "bold-text",
+        "magenta",
+        "seize-the-day"
       ],
       "tone": [
         "energetic"
@@ -2469,8 +2715,12 @@
       "category": "reactions",
       "subcategory": "approval",
       "tags": [
+        "nod",
         "approval",
-        "agreement"
+        "impressed",
+        "respect",
+        "agreement",
+        "smirk"
       ],
       "tone": [
         "professional",
@@ -2504,14 +2754,17 @@
       "subcategory": "important-data",
       "tags": [
         "data",
-        "trending-up",
-        "metric"
+        "digital",
+        "grid",
+        "technology",
+        "blue",
+        "abstract"
       ],
       "tone": [
         "professional",
         "energetic"
       ],
-      "primary_emotion": "confidence",
+      "primary_emotion": "focus",
       "recommended_use": "next to a positive metric or chart",
       "avoid_if": null,
       "content_rating": "g",
@@ -2569,13 +2822,18 @@
       "category": "closing",
       "subcategory": "thank-you",
       "tags": [
-        "thank-you"
+        "envelope",
+        "mail",
+        "message",
+        "line-icon",
+        "closing",
+        "minimal"
       ],
       "tone": [
         "formal",
         "calm"
       ],
-      "primary_emotion": "gratitude",
+      "primary_emotion": "calm",
       "recommended_use": "thanking the audience",
       "avoid_if": null,
       "content_rating": "g",
@@ -2602,13 +2860,17 @@
       "category": "transitions",
       "subcategory": "outro",
       "tags": [
-        "outro",
-        "transition"
+        "iris-out",
+        "closing",
+        "the-end",
+        "wrap-up",
+        "cartoon-outro",
+        "fade"
       ],
       "tone": [
         "casual"
       ],
-      "primary_emotion": "closure",
+      "primary_emotion": "finality",
       "recommended_use": "end of a section",
       "avoid_if": null,
       "content_rating": "g",
@@ -2635,8 +2897,11 @@
       "category": "transitions",
       "subcategory": "outro",
       "tags": [
+        "goodbye",
         "outro",
-        "transition"
+        "closing",
+        "wrap-up",
+        "farewell"
       ],
       "tone": [
         "casual"
@@ -2668,14 +2933,17 @@
       "category": "reactions",
       "subcategory": "waiting-loading",
       "tags": [
+        "mr-bean",
         "waiting",
-        "loading"
+        "bored",
+        "field",
+        "looking-around"
       ],
       "tone": [
         "minimalist",
         "calm"
       ],
-      "primary_emotion": "patience",
+      "primary_emotion": "boredom",
       "recommended_use": "while something loads",
       "avoid_if": null,
       "content_rating": "g",
@@ -2702,8 +2970,11 @@
       "category": "collaboration",
       "subcategory": "team",
       "tags": [
-        "teamwork",
-        "handshake"
+        "handshake",
+        "business",
+        "deal",
+        "meeting",
+        "agreement"
       ],
       "tone": [
         "professional"
@@ -2765,8 +3036,11 @@
       "category": "emphasis",
       "subcategory": "key-point",
       "tags": [
-        "key-point",
-        "important"
+        "taking-notes",
+        "scoring",
+        "attention",
+        "observing",
+        "focus"
       ],
       "tone": [
         "professional"
@@ -2798,14 +3072,17 @@
       "category": "reactions",
       "subcategory": "waiting-loading",
       "tags": [
+        "loading",
+        "progress-bar",
+        "button",
         "waiting",
-        "loading"
+        "text"
       ],
       "tone": [
         "minimalist",
         "calm"
       ],
-      "primary_emotion": "patience",
+      "primary_emotion": "anticipation",
       "recommended_use": "while something loads",
       "avoid_if": null,
       "content_rating": "g",
@@ -2832,9 +3109,11 @@
       "category": "emphasis",
       "subcategory": "important-data",
       "tags": [
-        "data",
-        "trending-up",
-        "metric"
+        "data-driven",
+        "decisions",
+        "robot",
+        "mascot",
+        "text"
       ],
       "tone": [
         "professional",
@@ -2897,9 +3176,11 @@
       "category": "collaboration",
       "subcategory": "brainstorm-ideas",
       "tags": [
+        "lightbulb",
         "idea",
-        "brainstorm",
-        "lightbulb"
+        "glowing",
+        "eureka",
+        "bright"
       ],
       "tone": [
         "energetic",
@@ -2932,14 +3213,17 @@
       "category": "transitions",
       "subcategory": "intro",
       "tags": [
-        "intro",
-        "welcome"
+        "here-we-go",
+        "lets-go",
+        "reaction",
+        "excited",
+        "start"
       ],
       "tone": [
         "energetic",
         "professional"
       ],
-      "primary_emotion": "anticipation",
+      "primary_emotion": "excitement",
       "recommended_use": "kicking off / intro slide",
       "avoid_if": null,
       "content_rating": "g",
@@ -2998,12 +3282,16 @@
       "subcategory": "call-to-action",
       "tags": [
         "call-to-action",
-        "motivation"
+        "get-involved",
+        "speech",
+        "microphone",
+        "activism",
+        "black-and-white"
       ],
       "tone": [
         "energetic"
       ],
-      "primary_emotion": "motivation",
+      "primary_emotion": "determination",
       "recommended_use": "final call-to-action slide",
       "avoid_if": null,
       "content_rating": "g",
@@ -3060,14 +3348,18 @@
       "category": "reactions",
       "subcategory": "surprise",
       "tags": [
-        "surprise",
-        "shock"
+        "intrigued",
+        "plot-thickens",
+        "popcorn",
+        "cartoon-cat",
+        "suspense",
+        "watching"
       ],
       "tone": [
         "energetic",
         "playful"
       ],
-      "primary_emotion": "surprise",
+      "primary_emotion": "intrigue",
       "recommended_use": "reacting to an unexpected result",
       "avoid_if": null,
       "content_rating": "g",
@@ -3124,13 +3416,17 @@
       "category": "closing",
       "subcategory": "thank-you",
       "tags": [
-        "thank-you"
+        "cheering",
+        "applause",
+        "excited",
+        "audience",
+        "celebration"
       ],
       "tone": [
         "formal",
         "calm"
       ],
-      "primary_emotion": "gratitude",
+      "primary_emotion": "excitement",
       "recommended_use": "thanking the audience",
       "avoid_if": null,
       "content_rating": "g",
@@ -3249,8 +3545,10 @@
       "category": "reactions",
       "subcategory": "approval",
       "tags": [
-        "approval",
-        "agreement"
+        "blurry",
+        "unclear",
+        "person",
+        "low-quality"
       ],
       "tone": [
         "professional",
@@ -3283,13 +3581,16 @@
       "category": "emphasis",
       "subcategory": "key-point",
       "tags": [
-        "key-point",
-        "important"
+        "attention",
+        "look",
+        "serious",
+        "concern",
+        "emphasis"
       ],
       "tone": [
         "professional"
       ],
-      "primary_emotion": "focus",
+      "primary_emotion": "alertness",
       "recommended_use": "underlining a key point",
       "avoid_if": null,
       "content_rating": "g",
@@ -3316,15 +3617,16 @@
       "category": "emphasis",
       "subcategory": "important-data",
       "tags": [
-        "data",
-        "trending-up",
-        "metric"
+        "reveal",
+        "green",
+        "minimal",
+        "text-intro"
       ],
       "tone": [
         "professional",
         "energetic"
       ],
-      "primary_emotion": "confidence",
+      "primary_emotion": "anticipation",
       "recommended_use": "next to a metric or chart",
       "avoid_if": null,
       "content_rating": "g",
@@ -3351,13 +3653,17 @@
       "category": "transitions",
       "subcategory": "topic-change",
       "tags": [
-        "transition"
+        "robot",
+        "mech",
+        "walking-away",
+        "video-game",
+        "character"
       ],
       "tone": [
         "minimalist",
         "professional"
       ],
-      "primary_emotion": "momentum",
+      "primary_emotion": "movement",
       "recommended_use": "changing topic",
       "avoid_if": null,
       "content_rating": "g",
@@ -3414,14 +3720,17 @@
       "category": "transitions",
       "subcategory": "intro",
       "tags": [
-        "welcome",
-        "intro"
+        "bird",
+        "cartoon",
+        "curious",
+        "cute",
+        "animated"
       ],
       "tone": [
         "casual",
         "professional"
       ],
-      "primary_emotion": "warmth",
+      "primary_emotion": "curiosity",
       "recommended_use": "opening slide / welcoming the audience",
       "avoid_if": null,
       "content_rating": "g",
@@ -3448,8 +3757,12 @@
       "category": "collaboration",
       "subcategory": "team",
       "tags": [
-        "teamwork",
-        "collaboration"
+        "work-together",
+        "win-together",
+        "pennants",
+        "illustration",
+        "motivation",
+        "teamwork"
       ],
       "tone": [
         "energetic",
@@ -3544,13 +3857,17 @@
       "subcategory": "surprise",
       "tags": [
         "surprise",
-        "shock"
+        "shock",
+        "hands-on-head",
+        "jaw-drop",
+        "mind-blown",
+        "disbelief"
       ],
       "tone": [
         "energetic",
         "playful"
       ],
-      "primary_emotion": "surprise",
+      "primary_emotion": "shock",
       "recommended_use": "reacting to an unexpected result",
       "avoid_if": null,
       "content_rating": "g",
@@ -3700,13 +4017,16 @@
       "category": "collaboration",
       "subcategory": "team",
       "tags": [
-        "teamwork",
-        "agreement"
+        "hug",
+        "high-five",
+        "greeting",
+        "man-woman",
+        "friendly"
       ],
       "tone": [
         "professional"
       ],
-      "primary_emotion": "confidence",
+      "primary_emotion": "camaraderie",
       "recommended_use": "when closing a deal or sealing an agreement",
       "avoid_if": null,
       "content_rating": "g",
@@ -3733,14 +4053,17 @@
       "category": "collaboration",
       "subcategory": "team",
       "tags": [
-        "teamwork",
-        "collaboration"
+        "go-team",
+        "foam-finger",
+        "cheer",
+        "fan",
+        "enthusiasm"
       ],
       "tone": [
         "energetic",
         "professional"
       ],
-      "primary_emotion": "unity",
+      "primary_emotion": "enthusiasm",
       "recommended_use": "team moments",
       "avoid_if": null,
       "content_rating": "g",
@@ -3767,9 +4090,12 @@
       "category": "emphasis",
       "subcategory": "important-data",
       "tags": [
-        "data",
+        "arrow-up",
         "trending-up",
-        "metric"
+        "growth",
+        "grid",
+        "red",
+        "chart"
       ],
       "tone": [
         "professional",
@@ -3803,13 +4129,16 @@
       "subcategory": "surprise",
       "tags": [
         "surprise",
-        "shock"
+        "shock",
+        "stunned",
+        "wide-eyed",
+        "disbelief"
       ],
       "tone": [
         "energetic",
         "playful"
       ],
-      "primary_emotion": "surprise",
+      "primary_emotion": "shock",
       "recommended_use": "reacting to an unexpected result",
       "avoid_if": null,
       "content_rating": "g",
@@ -3836,14 +4165,17 @@
       "category": "reactions",
       "subcategory": "waiting-loading",
       "tags": [
-        "waiting",
-        "loading"
+        "cat",
+        "pretty-please",
+        "begging",
+        "pleading",
+        "waiting"
       ],
       "tone": [
         "minimalist",
         "calm"
       ],
-      "primary_emotion": "patience",
+      "primary_emotion": "pleading",
       "recommended_use": "while something loads",
       "avoid_if": null,
       "content_rating": "g",
@@ -3870,8 +4202,12 @@
       "category": "transitions",
       "subcategory": "intro",
       "tags": [
-        "intro",
-        "welcome"
+        "start-now",
+        "handwritten",
+        "minimal",
+        "kickoff",
+        "lets-go",
+        "intro"
       ],
       "tone": [
         "energetic",
@@ -3904,13 +4240,17 @@
       "category": "transitions",
       "subcategory": "topic-change",
       "tags": [
-        "transition"
+        "insurance-ad",
+        "explaining",
+        "commercial",
+        "moving-on",
+        "spokesperson"
       ],
       "tone": [
         "professional",
         "minimalist"
       ],
-      "primary_emotion": "momentum",
+      "primary_emotion": "neutrality",
       "recommended_use": "changing topic",
       "avoid_if": null,
       "content_rating": "g",
@@ -3998,13 +4338,16 @@
       "category": "reactions",
       "subcategory": "celebration",
       "tags": [
-        "celebration",
-        "success"
+        "clapping",
+        "applause",
+        "sarcastic",
+        "slow-clap",
+        "mustache"
       ],
       "tone": [
         "energetic"
       ],
-      "primary_emotion": "joy",
+      "primary_emotion": "approval",
       "recommended_use": "after announcing a positive result or a win",
       "avoid_if": null,
       "content_rating": "g",
@@ -4154,15 +4497,17 @@
       "category": "collaboration",
       "subcategory": "brainstorm-ideas",
       "tags": [
-        "idea",
-        "brainstorm",
-        "lightbulb"
+        "thinking",
+        "math",
+        "equations",
+        "confused",
+        "calculating"
       ],
       "tone": [
         "energetic",
         "playful"
       ],
-      "primary_emotion": "inspiration",
+      "primary_emotion": "confusion",
       "recommended_use": "ideation / brainstorming",
       "avoid_if": null,
       "content_rating": "g",
@@ -4281,14 +4626,17 @@
       "category": "reactions",
       "subcategory": "error-frustration",
       "tags": [
-        "frustration",
-        "error"
+        "awkward",
+        "nervous",
+        "head-scratch",
+        "unsure",
+        "confused"
       ],
       "tone": [
         "casual",
         "playful"
       ],
-      "primary_emotion": "frustration",
+      "primary_emotion": "awkwardness",
       "recommended_use": "to acknowledge a mistake or problem lightly",
       "avoid_if": null,
       "content_rating": "g",
@@ -4315,14 +4663,17 @@
       "category": "collaboration",
       "subcategory": "team",
       "tags": [
-        "teamwork",
-        "collaboration"
+        "huddle",
+        "get-hyped",
+        "soccer",
+        "team",
+        "pep-talk"
       ],
       "tone": [
         "energetic",
         "professional"
       ],
-      "primary_emotion": "unity",
+      "primary_emotion": "excitement",
       "recommended_use": "team moments",
       "avoid_if": null,
       "content_rating": "g",
@@ -4381,13 +4732,16 @@
       "subcategory": "intro",
       "tags": [
         "welcome",
-        "intro"
+        "greeting",
+        "villain",
+        "movie",
+        "gesture"
       ],
       "tone": [
         "casual",
         "professional"
       ],
-      "primary_emotion": "warmth",
+      "primary_emotion": "welcome",
       "recommended_use": "opening slide / welcoming the audience",
       "avoid_if": null,
       "content_rating": "g",
@@ -4631,14 +4985,17 @@
       "category": "collaboration",
       "subcategory": "team",
       "tags": [
-        "teamwork",
-        "collaboration"
+        "celebration",
+        "locker-room",
+        "football",
+        "cheer",
+        "victory"
       ],
       "tone": [
         "energetic",
         "professional"
       ],
-      "primary_emotion": "unity",
+      "primary_emotion": "jubilation",
       "recommended_use": "team moments",
       "avoid_if": null,
       "content_rating": "g",
@@ -4666,13 +5023,16 @@
       "subcategory": "surprise",
       "tags": [
         "surprise",
-        "shock"
+        "shock",
+        "mind-blown",
+        "disbelief",
+        "overwhelmed"
       ],
       "tone": [
         "energetic",
         "playful"
       ],
-      "primary_emotion": "surprise",
+      "primary_emotion": "shock",
       "recommended_use": "to react to an unexpected result",
       "avoid_if": null,
       "content_rating": "g",
@@ -4883,15 +5243,17 @@
       "category": "collaboration",
       "subcategory": "brainstorm-ideas",
       "tags": [
-        "idea",
-        "brainstorm",
-        "lightbulb"
+        "making-magic",
+        "text",
+        "creating",
+        "work-in-progress",
+        "handwritten"
       ],
       "tone": [
         "energetic",
         "playful"
       ],
-      "primary_emotion": "inspiration",
+      "primary_emotion": "excitement",
       "recommended_use": "ideation / brainstorming",
       "avoid_if": null,
       "content_rating": "g",
@@ -4949,9 +5311,11 @@
       "category": "emphasis",
       "subcategory": "important-data",
       "tags": [
+        "bar-chart",
+        "presenter",
+        "3d-chart",
         "data",
-        "trending-up",
-        "metric"
+        "growth"
       ],
       "tone": [
         "professional",
@@ -5169,14 +5533,17 @@
       "category": "collaboration",
       "subcategory": "team",
       "tags": [
-        "teamwork",
-        "collaboration"
+        "cheerleader",
+        "pom-poms",
+        "silhouette",
+        "cheer",
+        "spirit"
       ],
       "tone": [
         "energetic",
         "professional"
       ],
-      "primary_emotion": "unity",
+      "primary_emotion": "cheer",
       "recommended_use": "team moments",
       "avoid_if": null,
       "content_rating": "g",
@@ -5296,14 +5663,17 @@
       "category": "collaboration",
       "subcategory": "team",
       "tags": [
-        "teamwork",
-        "high-five"
+        "fist-bump",
+        "celebration",
+        "park",
+        "friends",
+        "victory"
       ],
       "tone": [
         "energetic",
         "professional"
       ],
-      "primary_emotion": "unity",
+      "primary_emotion": "camaraderie",
       "recommended_use": "to celebrate teamwork",
       "avoid_if": null,
       "content_rating": "g",
@@ -5360,14 +5730,17 @@
       "category": "reactions",
       "subcategory": "error-frustration",
       "tags": [
-        "frustration",
-        "error"
+        "unimpressed",
+        "annoyed",
+        "side-eye",
+        "disappointed",
+        "not-having-it"
       ],
       "tone": [
         "casual",
         "playful"
       ],
-      "primary_emotion": "frustration",
+      "primary_emotion": "annoyance",
       "recommended_use": "to acknowledge a mistake or problem lightly",
       "avoid_if": null,
       "content_rating": "g",
@@ -5425,14 +5798,18 @@
       "category": "reactions",
       "subcategory": "celebration",
       "tags": [
+        "confetti",
         "celebration",
-        "applause"
+        "party",
+        "falling",
+        "colorful",
+        "festive"
       ],
       "tone": [
         "energetic",
         "playful"
       ],
-      "primary_emotion": "excitement",
+      "primary_emotion": "joy",
       "recommended_use": "to celebrate a milestone reached",
       "avoid_if": null,
       "content_rating": "g",
@@ -6076,9 +6453,11 @@
       "category": "collaboration",
       "subcategory": "brainstorm-ideas",
       "tags": [
+        "lightbulb",
         "idea",
-        "brainstorm",
-        "lightbulb"
+        "eureka",
+        "minimal",
+        "illustration"
       ],
       "tone": [
         "energetic",
@@ -6727,12 +7106,16 @@
       "subcategory": "call-to-action",
       "tags": [
         "call-to-action",
-        "motivation"
+        "attention",
+        "couch",
+        "watching",
+        "anticipation",
+        "cartoon"
       ],
       "tone": [
         "energetic"
       ],
-      "primary_emotion": "motivation",
+      "primary_emotion": "anticipation",
       "recommended_use": "final call-to-action slide",
       "avoid_if": null,
       "content_rating": "g",
@@ -6851,15 +7234,17 @@
       "category": "collaboration",
       "subcategory": "brainstorm-ideas",
       "tags": [
-        "idea",
-        "brainstorm",
-        "lightbulb"
+        "thinking",
+        "brain",
+        "ideas",
+        "profile",
+        "pondering"
       ],
       "tone": [
         "energetic",
         "playful"
       ],
-      "primary_emotion": "inspiration",
+      "primary_emotion": "focus",
       "recommended_use": "ideation / brainstorming",
       "avoid_if": null,
       "content_rating": "g",
@@ -6916,9 +7301,11 @@
       "category": "collaboration",
       "subcategory": "brainstorm-ideas",
       "tags": [
-        "idea",
-        "brainstorm",
-        "lightbulb"
+        "brainstorming",
+        "brain",
+        "ideas",
+        "text",
+        "illustration"
       ],
       "tone": [
         "energetic",

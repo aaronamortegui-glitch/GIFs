@@ -7,13 +7,16 @@
   "category": "collaboration",
   "subcategory": "team",
   "tags": [
-    "teamwork",
-    "agreement"
+    "hug",
+    "high-five",
+    "greeting",
+    "man-woman",
+    "friendly"
   ],
   "tone": [
     "professional"
   ],
-  "primary_emotion": "confidence",
+  "primary_emotion": "camaraderie",
   "recommended_use": "when closing a deal or sealing an agreement",
   "avoid_if": null,
   "content_rating": "g",

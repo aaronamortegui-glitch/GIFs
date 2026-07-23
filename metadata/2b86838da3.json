@@ -7,14 +7,17 @@
   "category": "reactions",
   "subcategory": "waiting-loading",
   "tags": [
+    "cookie-monster",
     "waiting",
-    "loading"
+    "no-reply",
+    "annoyed",
+    "muppet"
   ],
   "tone": [
     "minimalist",
     "calm"
   ],
-  "primary_emotion": "patience",
+  "primary_emotion": "impatience",
   "recommended_use": "while something loads or during a pause",
   "avoid_if": null,
   "content_rating": "g",

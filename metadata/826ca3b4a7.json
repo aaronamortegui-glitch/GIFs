@@ -8,13 +8,16 @@
   "subcategory": "surprise",
   "tags": [
     "surprise",
-    "shock"
+    "shock",
+    "stunned",
+    "wide-eyed",
+    "disbelief"
   ],
   "tone": [
     "energetic",
     "playful"
   ],
-  "primary_emotion": "surprise",
+  "primary_emotion": "shock",
   "recommended_use": "reacting to an unexpected result",
   "avoid_if": null,
   "content_rating": "g",

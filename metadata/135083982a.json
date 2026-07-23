@@ -7,14 +7,18 @@
   "category": "reactions",
   "subcategory": "celebration",
   "tags": [
-    "celebration",
-    "victory"
+    "cheering",
+    "soccer",
+    "coach",
+    "victory",
+    "arms-out",
+    "sports"
   ],
   "tone": [
     "energetic",
     "professional"
   ],
-  "primary_emotion": "joy",
+  "primary_emotion": "triumph",
   "recommended_use": "celebrating a win or milestone",
   "avoid_if": null,
   "content_rating": "g",

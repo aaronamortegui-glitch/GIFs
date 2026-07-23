@@ -7,13 +7,17 @@
   "category": "closing",
   "subcategory": "thank-you",
   "tags": [
-    "thank-you"
+    "thanks-for-watching",
+    "cartoon",
+    "mascot",
+    "closing",
+    "heart-eyes"
   ],
   "tone": [
     "formal",
     "calm"
   ],
-  "primary_emotion": "gratitude",
+  "primary_emotion": "warmth",
   "recommended_use": "thanking the audience",
   "avoid_if": null,
   "content_rating": "g",

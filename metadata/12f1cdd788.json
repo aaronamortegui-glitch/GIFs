@@ -7,8 +7,12 @@
   "category": "reactions",
   "subcategory": "error-frustration",
   "tags": [
-    "frustration",
-    "error"
+    "server-error",
+    "5xx",
+    "glitch",
+    "error",
+    "tech-fail",
+    "downtime"
   ],
   "tone": [
     "casual",

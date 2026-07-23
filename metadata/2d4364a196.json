@@ -7,15 +7,17 @@
   "category": "emphasis",
   "subcategory": "important-data",
   "tags": [
-    "data",
-    "trending-up",
-    "metric"
+    "swipe-up",
+    "up-arrow",
+    "panda",
+    "blue",
+    "call-to-action"
   ],
   "tone": [
     "professional",
     "energetic"
   ],
-  "primary_emotion": "confidence",
+  "primary_emotion": "encouragement",
   "recommended_use": "next to a metric or chart",
   "avoid_if": null,
   "content_rating": "g",

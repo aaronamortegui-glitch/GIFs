@@ -7,14 +7,17 @@
   "category": "closing",
   "subcategory": "thank-you",
   "tags": [
+    "applause",
+    "clapping",
     "thank-you",
-    "applause"
+    "awards",
+    "celebrity"
   ],
   "tone": [
     "formal",
     "calm"
   ],
-  "primary_emotion": "gratitude",
+  "primary_emotion": "appreciation",
   "recommended_use": "closing / thanking the audience",
   "avoid_if": null,
   "content_rating": "g",

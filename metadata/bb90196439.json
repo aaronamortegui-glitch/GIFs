@@ -7,14 +7,17 @@
   "category": "reactions",
   "subcategory": "error-frustration",
   "tags": [
-    "frustration",
-    "error"
+    "unimpressed",
+    "annoyed",
+    "side-eye",
+    "disappointed",
+    "not-having-it"
   ],
   "tone": [
     "casual",
     "playful"
   ],
-  "primary_emotion": "frustration",
+  "primary_emotion": "annoyance",
   "recommended_use": "to acknowledge a mistake or problem lightly",
   "avoid_if": null,
   "content_rating": "g",

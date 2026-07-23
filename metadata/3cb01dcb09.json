@@ -7,14 +7,18 @@
   "category": "reactions",
   "subcategory": "approval",
   "tags": [
+    "nailed-it",
     "approval",
-    "agreement"
+    "confident",
+    "success",
+    "smug",
+    "caption"
   ],
   "tone": [
     "professional",
     "casual"
   ],
-  "primary_emotion": "approval",
+  "primary_emotion": "confidence",
   "recommended_use": "when something is approved",
   "avoid_if": null,
   "content_rating": "g",

@@ -7,13 +7,17 @@
   "category": "transitions",
   "subcategory": "outro",
   "tags": [
-    "outro",
-    "transition"
+    "the-end",
+    "finale",
+    "closing",
+    "wrap-up",
+    "finish",
+    "outro"
   ],
   "tone": [
     "casual"
   ],
-  "primary_emotion": "closure",
+  "primary_emotion": "finality",
   "recommended_use": "end of a section",
   "avoid_if": null,
   "content_rating": "g",

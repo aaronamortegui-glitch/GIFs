@@ -7,13 +7,16 @@
   "category": "emphasis",
   "subcategory": "key-point",
   "tags": [
-    "key-point",
-    "important"
+    "pointing",
+    "attention",
+    "look",
+    "muppet",
+    "key-point"
   ],
   "tone": [
     "professional"
   ],
-  "primary_emotion": "focus",
+  "primary_emotion": "emphasis",
   "recommended_use": "underlining a key point",
   "avoid_if": null,
   "content_rating": "g",

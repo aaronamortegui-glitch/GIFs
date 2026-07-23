@@ -7,8 +7,11 @@
   "category": "reactions",
   "subcategory": "waiting-loading",
   "tags": [
+    "loading",
+    "spinner",
+    "circular",
     "waiting",
-    "loading"
+    "progress"
   ],
   "tone": [
     "minimalist",

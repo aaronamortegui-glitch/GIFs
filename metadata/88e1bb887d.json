@@ -7,13 +7,16 @@
   "category": "reactions",
   "subcategory": "celebration",
   "tags": [
-    "celebration",
-    "success"
+    "clapping",
+    "applause",
+    "sarcastic",
+    "slow-clap",
+    "mustache"
   ],
   "tone": [
     "energetic"
   ],
-  "primary_emotion": "joy",
+  "primary_emotion": "approval",
   "recommended_use": "after announcing a positive result or a win",
   "avoid_if": null,
   "content_rating": "g",

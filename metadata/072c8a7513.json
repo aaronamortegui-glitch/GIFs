@@ -8,12 +8,16 @@
   "subcategory": "call-to-action",
   "tags": [
     "call-to-action",
-    "motivation"
+    "enroll-now",
+    "signup",
+    "mascot",
+    "cartoon-character",
+    "text"
   ],
   "tone": [
     "energetic"
   ],
-  "primary_emotion": "motivation",
+  "primary_emotion": "encouragement",
   "recommended_use": "final call-to-action slide",
   "avoid_if": null,
   "content_rating": "g",

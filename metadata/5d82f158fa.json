@@ -7,14 +7,17 @@
   "category": "transitions",
   "subcategory": "intro",
   "tags": [
-    "intro",
-    "welcome"
+    "here-we-go",
+    "lets-go",
+    "reaction",
+    "excited",
+    "start"
   ],
   "tone": [
     "energetic",
     "professional"
   ],
-  "primary_emotion": "anticipation",
+  "primary_emotion": "excitement",
   "recommended_use": "kicking off / intro slide",
   "avoid_if": null,
   "content_rating": "g",

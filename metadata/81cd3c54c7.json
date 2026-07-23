@@ -7,14 +7,17 @@
   "category": "collaboration",
   "subcategory": "team",
   "tags": [
-    "teamwork",
-    "collaboration"
+    "go-team",
+    "foam-finger",
+    "cheer",
+    "fan",
+    "enthusiasm"
   ],
   "tone": [
     "energetic",
     "professional"
   ],
-  "primary_emotion": "unity",
+  "primary_emotion": "enthusiasm",
   "recommended_use": "team moments",
   "avoid_if": null,
   "content_rating": "g",

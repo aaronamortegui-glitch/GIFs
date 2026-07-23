@@ -7,8 +7,10 @@
   "category": "reactions",
   "subcategory": "approval",
   "tags": [
-    "approval",
-    "agreement"
+    "blurry",
+    "unclear",
+    "person",
+    "low-quality"
   ],
   "tone": [
     "professional",

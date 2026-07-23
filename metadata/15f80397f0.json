@@ -7,14 +7,18 @@
   "category": "reactions",
   "subcategory": "celebration",
   "tags": [
-    "celebration",
-    "victory"
+    "cheering",
+    "hockey",
+    "fan",
+    "screaming",
+    "sports",
+    "hype"
   ],
   "tone": [
     "energetic",
     "professional"
   ],
-  "primary_emotion": "joy",
+  "primary_emotion": "excitement",
   "recommended_use": "celebrating a win or milestone",
   "avoid_if": null,
   "content_rating": "g",

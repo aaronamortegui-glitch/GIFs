@@ -8,12 +8,16 @@
   "subcategory": "call-to-action",
   "tags": [
     "call-to-action",
-    "motivation"
+    "welcome",
+    "glad-you-could-join",
+    "host",
+    "greeting",
+    "friendly"
   ],
   "tone": [
     "energetic"
   ],
-  "primary_emotion": "motivation",
+  "primary_emotion": "warmth",
   "recommended_use": "final call-to-action slide",
   "avoid_if": null,
   "content_rating": "g",

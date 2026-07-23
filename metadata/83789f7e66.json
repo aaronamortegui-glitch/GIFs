@@ -7,14 +7,17 @@
   "category": "reactions",
   "subcategory": "waiting-loading",
   "tags": [
-    "waiting",
-    "loading"
+    "cat",
+    "pretty-please",
+    "begging",
+    "pleading",
+    "waiting"
   ],
   "tone": [
     "minimalist",
     "calm"
   ],
-  "primary_emotion": "patience",
+  "primary_emotion": "pleading",
   "recommended_use": "while something loads",
   "avoid_if": null,
   "content_rating": "g",
